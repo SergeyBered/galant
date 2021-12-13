@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package branch="release" last-revision="91974" client-revision="0" generated="1638179703" domain_key="2B17FE50AF1-F528764D624-28D7E444A8C" ip="127.0.0.1" host="cm07819.tmweb.ru" edition="commerce_enc" support_time="2022-11-29 09:52:47" owner_fname="Zotov" owner_lname="Evgeniy" owner_mname="" owner_email="ze@german-web.ru">
+  <component name="core" label="Ядро" filesize="128716800" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="events" label="События" filesize="92160" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="menu" label="Меню" filesize="133120" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="news" label="Новости" filesize="153600" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="content" label="Структура" filesize="358400" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="blogs20" label="Блоги 2.0" filesize="235520" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="forum" label="Форум" filesize="225280" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="comments" label="Комментарии" filesize="174080" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="vote" label="Опросы" filesize="112640" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="webforms" label="Конструктор форм" filesize="194560" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="photoalbum" label="Фотогалереи" filesize="184320" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="faq" label="FAQ" filesize="194560" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="dispatches" label="Рассылки" filesize="256000" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="catalog" label="Каталог" filesize="1300480" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="emarket" label="Интернет-магазин" filesize="2129920" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="banners" label="Баннеры" filesize="153600" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="users" label="Пользователи" filesize="583680" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="stat" label="Статистика" filesize="737280" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="seo" label="SEO" filesize="215040" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="exchange" label="Обмен данными" filesize="204800" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="social_networks" label="Социальные сети" filesize="81920" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="tickets" label="Заметки" filesize="61440" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="config" label="Конфигурация" filesize="235520" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="data" label="Шаблоны данных" filesize="481280" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="autoupdate" label="Автообновления" filesize="122880" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="backup" label="Резервирование" filesize="71680" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="search" label="Поиск" filesize="143360" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="filemanager" label="Файловая система" filesize="143360" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="umiRedirects" label="Редиректы (umi)" filesize="81920" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="umiNotifications" label="Шаблоны писем" filesize="112640" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="umiSliders" label="Слайдеры" filesize="194560" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="umiSettings" label="Настройки сайта" filesize="71680" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="trash" label="Корзина" filesize="51200" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="umiStub" label="Доступ к сайту" filesize="92160" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="umiTemplates" label="Шаблоны сайта" filesize="112640" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="umiMarket" label="Маркет" filesize="143360" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+  <component name="appointment" label="Онлайн-запись" filesize="348160" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="22" date="1629113827" revision="91974"/>
+  </component>
+<component name="demomarket" manifest-executed="1"/></package>

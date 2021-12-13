@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use \iRegedit as iRegistry;use UmiCms\Utils\DomainKeyCode\iSaver;use UmiCms\Classes\System\Utils\DOM\Document\iFactory as iDOMDocumentFactory;interface iSaveDomainKeyCodeController extends iController {public function setRegistry(iRegistry $va9205dcfd4a6f7c2cbe8be01566ff84a);public function setSaver(iSaver $v21d8a920661b9c05b9959cbf0254d5fe);public function setDomDocumentFactory(iDOMDocumentFactory $vfc9e2d0d5c0256454b185d0788b6ca5a);}

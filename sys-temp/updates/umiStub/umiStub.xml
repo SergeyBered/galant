@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113686</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:46 +0300</rfc>
+      <utc>2021-08-16T14:34:46+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/umiStub" val="umiStub"/>
+    <key path="modules/umiStub/name" val="umiStub"/>
+    <key path="modules/umiStub/config" val="0" update="1"/>
+    <key path="modules/umiStub/default_method" val="empty" update="1"/>
+    <key path="modules/umiStub/default_method_admin" val="stub" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/umiStub" name="umiStub">/classes/components/umiStub</directory>
+    <directory path="./classes/components/umiStub/classes" name="classes">/classes/components/umiStub/classes</directory>
+    <directory path="./classes/components/umiStub/classes/Stub" name="Stub">/classes/components/umiStub/classes/Stub</directory>
+    <directory path="./styles/skins/modern/data/modules/umiStub" name="umiStub">/styles/skins/modern/data/modules/umiStub</directory>
+    <directory path="./styles/skins/modern/data/modules/umiStub/man" name="man">/styles/skins/modern/data/modules/umiStub/man</directory>
+    <directory path="./styles/skins/modern/data/modules/umiStub/man/ru" name="ru">/styles/skins/modern/data/modules/umiStub/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/umiStub/icon" name="icon">/styles/skins/modern/data/modules/umiStub/icon</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/umiStub/autoload.php" size="265" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvYXV0b2xvYWQucGhw" hash="76b3c847f330f562f588abb94bee889f" name="autoload.php">/classes/components/umiStub/autoload.php</file>
+    <file path="./classes/components/umiStub/permissions.php" size="787" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvcGVybWlzc2lvbnMucGhw" hash="224601835d3a80bbb4a198c267e46d6d" name="permissions.php">/classes/components/umiStub/permissions.php</file>
+    <file path="./classes/components/umiStub/customMacros.php" size="156" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvY3VzdG9tTWFjcm9zLnBocA" hash="c87161e06bcfbc17088f1ef6158d2675" name="customMacros.php" only_install="true">/classes/components/umiStub/customMacros.php</file>
+    <file path="./classes/components/umiStub/services.php" size="329" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvc2VydmljZXMucGhw" hash="43ce27ca77a69e19c2b03bcebbbc7314" name="services.php">/classes/components/umiStub/services.php</file>
+    <file path="./classes/components/umiStub/lang.php" size="240" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvbGFuZy5waHA" hash="d3cf7afa1e1b70577ba039d9459d7fbf" name="lang.php">/classes/components/umiStub/lang.php</file>
+    <file path="./classes/components/umiStub/customAdmin.php" size="200" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvY3VzdG9tQWRtaW4ucGhw" hash="bb8b6923f1e3f186c95c0b1479704679" name="customAdmin.php" only_install="true">/classes/components/umiStub/customAdmin.php</file>
+    <file path="./classes/components/umiStub/events.php" size="279" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvZXZlbnRzLnBocA" hash="1bdef876a1444e11bee794627d7eaf46" name="events.php">/classes/components/umiStub/events.php</file>
+    <file path="./classes/components/umiStub/classes/Stub/iAdminSettingsManager.php" size="1358" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvY2xhc3Nlcy9TdHVi" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvY2xhc3Nlcy9TdHViL2lBZG1pblNldHRpbmdzTWFuYWdlci5waHA" hash="6471037414af52375aff4530180c0fcd" name="iAdminSettingsManager.php">/classes/components/umiStub/classes/Stub/iAdminSettingsManager.php</file>
+    <file path="./classes/components/umiStub/classes/Stub/AdminSettingsManager.php" size="7079" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvY2xhc3Nlcy9TdHVi" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvY2xhc3Nlcy9TdHViL0FkbWluU2V0dGluZ3NNYW5hZ2VyLnBocA" hash="966fc16e30c7602ade5a3443ffa16343" name="AdminSettingsManager.php">/classes/components/umiStub/classes/Stub/AdminSettingsManager.php</file>
+    <file path="./classes/components/umiStub/handlers.php" size="1755" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvaGFuZGxlcnMucGhw" hash="f12fb83db48a152ee87a2e34d2a0695f" name="handlers.php">/classes/components/umiStub/handlers.php</file>
+    <file path="./classes/components/umiStub/admin.php" size="7062" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvYWRtaW4ucGhw" hash="ba97d47d1196c74a846d7e019e396378" name="admin.php">/classes/components/umiStub/admin.php</file>
+    <file path="./classes/components/umiStub/install.php" size="1225" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvaW5zdGFsbC5waHA" hash="89b4a79e1c593ad11e5eef23d45bb281" name="install.php">/classes/components/umiStub/install.php</file>
+    <file path="./classes/components/umiStub/includes.php" size="68" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvaW5jbHVkZXMucGhw" hash="3f012afef12ca288983559742530c574" name="includes.php">/classes/components/umiStub/includes.php</file>
+    <file path="./classes/components/umiStub/i18n.en.php" size="1548" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvaTE4bi5lbi5waHA" hash="09e4854afd3b217fa51f0b2f51886a35" name="i18n.en.php" only_install="true">/classes/components/umiStub/i18n.en.php</file>
+    <file path="./classes/components/umiStub/class.php" size="7330" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvY2xhc3MucGhw" hash="529bb00e930c554d56b2f43e8acc8e41" name="class.php">/classes/components/umiStub/class.php</file>
+    <file path="./classes/components/umiStub/i18n.php" size="2374" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvaTE4bi5waHA" hash="0a57fb325fae1dc339cc98ad9c2ab0f5" name="i18n.php">/classes/components/umiStub/i18n.php</file>
+    <file path="./classes/components/umiStub/lang.en.php" size="190" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVN0dWIvbGFuZy5lbi5waHA" hash="ac26135c501d73509e09f06eb1ab1ee0" name="lang.en.php">/classes/components/umiStub/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/umiStub/list.view.xsl" size="1845" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yg" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yi9saXN0LnZpZXcueHNs" hash="fc543444e8b37f7e718b8dc8ebe0a92f" name="list.view.xsl">/styles/skins/modern/data/modules/umiStub/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/umiStub/man/ru/stub.html" size="1248" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yi9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yi9tYW4vcnUvc3R1Yi5odG1s" hash="bb84d53d626875906263e14e2cf92ec4" name="stub.html">/styles/skins/modern/data/modules/umiStub/man/ru/stub.html</file>
+    <file path="./styles/skins/modern/data/modules/umiStub/man/ru/blackList.html" size="566" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yi9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yi9tYW4vcnUvYmxhY2tMaXN0Lmh0bWw" hash="3852d0bc7c8131c8d496d1aa1f29590f" name="blackList.html">/styles/skins/modern/data/modules/umiStub/man/ru/blackList.html</file>
+    <file path="./styles/skins/modern/data/modules/umiStub/man/ru/whiteList.html" size="625" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yi9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yi9tYW4vcnUvd2hpdGVMaXN0Lmh0bWw" hash="186182caf1390d2e976af924ebb30f0f" name="whiteList.html">/styles/skins/modern/data/modules/umiStub/man/ru/whiteList.html</file>
+    <file path="./styles/skins/modern/data/modules/umiStub/icon/umiStub.png" size="5584" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yi9pY29u" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yi9pY29uL3VtaVN0dWIucG5n" hash="e9976ffda4f3a9f8b3c6fc1024ed8dab" name="umiStub.png">/styles/skins/modern/data/modules/umiStub/icon/umiStub.png</file>
+    <file path="./styles/skins/modern/data/modules/umiStub/form.modify.xsl" size="805" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yg" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yi9mb3JtLm1vZGlmeS54c2w" hash="d197e681c68073069fe580479ffcac6f" name="form.modify.xsl">/styles/skins/modern/data/modules/umiStub/form.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/umiStub/settings.modify.xsl" size="4364" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yg" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU3R1Yi9zZXR0aW5ncy5tb2RpZnkueHNs" hash="84dd0ff9fc05f8da58b514705782a64c" name="settings.modify.xsl">/styles/skins/modern/data/modules/umiStub/settings.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="i18n::object-type-spravochniki" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="819" guid="ip-blacklist" title="i18n::object-type-ip_blacklist" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base module="umiStub" method="ip-blacklist" hide-pages="0">i18n::hierarchy-type-umiStub-ip-blacklist</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" visible="visible" locked="locked" active="active">
+          <field id="9556" name="domain_id" title="i18n::field_domain" visible="visible" locked="locked">
+            <type name="i18n::field-type-domain-id" data-type="domain_id"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="848" guid="ip-whitelist" title="i18n::object-type-ip_whitelist" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base module="umiStub" method="ip-whitelist" hide-pages="0">i18n::hierarchy-type-umiStub-ip-whitelist</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" visible="visible" locked="locked" active="active">
+          <field id="9556" name="domain_id" title="i18n::field_domain" visible="visible" locked="locked">
+            <type name="i18n::field-type-domain-id" data-type="domain_id"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <entities/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

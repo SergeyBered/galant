@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Response\Error\Entry;use UmiCms\System\Orm\Entity\Schema as AbstractSchema;class Schema extends AbstractSchema implements iSchema {protected function getNameSpaceRoot() {return 'UmiCms\System\\';}}

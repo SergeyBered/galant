@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Protection\Jwt\Token;use UmiCms\System\Protection\Jwt\iToken;use UmiCms\System\Protection\PrivateKeys\iBunch;interface iFactory {const SERVICE_NAME = 'JvmTokenFactory';public function __construct(iBunch $vfb8ea2e76eb63bf9272bcb1375e8ccd3);public function create(array $v736b91750e516139acc13c5eb6564f92 = []) : iToken;public function createByPrivateKey(string $vbd0c8e3bd998a500b0984584a7245ca0, array $v736b91750e516139acc13c5eb6564f92 = []) : iToken;}

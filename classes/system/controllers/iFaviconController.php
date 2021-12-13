@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use UmiCms\System\Events\iEventPointFactory as iEventFactory;use UmiCms\System\Hierarchy\Domain\iDetector as iDomainDetector;interface iFaviconController extends iController {public function setEventFactory(iEventFactory $v67c06be409275078f3a98d129b0123c8);public function setDomainDetector(iDomainDetector $v21aed3df2077b5d91ce46bf123446731);}

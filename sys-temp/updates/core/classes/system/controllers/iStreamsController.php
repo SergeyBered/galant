@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use UmiCms\Classes\System\MiddleWares;use UmiCms\System\Streams\iFacade as iStreamsFacade;use UmiCms\Classes\System\Translators\iFacade as iTranslator;interface iStreamsController extends MiddleWares\iAuth, MiddleWares\iUmiManager {public function setStreams(iStreamsFacade $v2f6f4768f1c2d7c8f1f54823723f1a70);public function setTranslator(iTranslator $v607f2f3099f2a347b327caa70e0be4b2);}

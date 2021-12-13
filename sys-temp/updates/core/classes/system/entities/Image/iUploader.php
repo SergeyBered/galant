@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Entities\Image;use UmiCms\Classes\System\Entities\File\iUploader as iFileUploader;interface iUploader extends iFileUploader {public function uploadByHttpLink($v2a304a1348456ccd2234cd71a81bd338, $v026442921e91920ee15601bc865a844e);}

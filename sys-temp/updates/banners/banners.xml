@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113682</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:42 +0300</rfc>
+      <utc>2021-08-16T14:34:42+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/banners" val="banners"/>
+    <key path="modules/banners/name" val="banners"/>
+    <key path="modules/banners/filename" val="banners/class.php"/>
+    <key path="modules/banners/config" val="1" update="1"/>
+    <key path="modules/banners/default_method" val="insert_banner" update="1"/>
+    <key path="modules/banners/default_method_admin" val="lists" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/banners" name="banners">/classes/components/banners</directory>
+    <directory path="./styles/skins/modern/data/modules/banners" name="banners">/styles/skins/modern/data/modules/banners</directory>
+    <directory path="./styles/skins/modern/data/modules/banners/man" name="man">/styles/skins/modern/data/modules/banners/man</directory>
+    <directory path="./styles/skins/modern/data/modules/banners/man/ru" name="ru">/styles/skins/modern/data/modules/banners/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/banners/icon" name="icon">/styles/skins/modern/data/modules/banners/icon</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/banners/macros.php" size="23940" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnMvbWFjcm9zLnBocA" hash="4ebbcc1a29d64c594edfcd55406f4884" name="macros.php">/classes/components/banners/macros.php</file>
+    <file path="./classes/components/banners/permissions.php" size="853" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnMvcGVybWlzc2lvbnMucGhw" hash="e56a87d3833ac2b6c21c2787ab331920" name="permissions.php">/classes/components/banners/permissions.php</file>
+    <file path="./classes/components/banners/customMacros.php" size="157" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnMvY3VzdG9tTWFjcm9zLnBocA" hash="3b97f6b83ef515376221798d29742213" name="customMacros.php" only_install="true">/classes/components/banners/customMacros.php</file>
+    <file path="./classes/components/banners/lang.php" size="1051" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnMvbGFuZy5waHA" hash="417190752a935aaeb916d989d74d0619" name="lang.php">/classes/components/banners/lang.php</file>
+    <file path="./classes/components/banners/customAdmin.php" size="208" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnMvY3VzdG9tQWRtaW4ucGhw" hash="cb658998f18fbd43cc5c8dd4c3738d98" name="customAdmin.php" only_install="true">/classes/components/banners/customAdmin.php</file>
+    <file path="./classes/components/banners/handlers.php" size="70" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnMvaGFuZGxlcnMucGhw" hash="43bd8b4ddc4564615fce3adee8c13105" name="handlers.php">/classes/components/banners/handlers.php</file>
+    <file path="./classes/components/banners/admin.php" size="8732" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnMvYWRtaW4ucGhw" hash="eeaa1d9d2bc99c3c32952098034cee71" name="admin.php">/classes/components/banners/admin.php</file>
+    <file path="./classes/components/banners/install.php" size="1143" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnMvaW5zdGFsbC5waHA" hash="3ccd0bba46a5abdcc6ad87f44ff139ef" name="install.php">/classes/components/banners/install.php</file>
+    <file path="./classes/components/banners/includes.php" size="69" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnMvaW5jbHVkZXMucGhw" hash="d8390332e5eab88068b5d9fd59999fb5" name="includes.php">/classes/components/banners/includes.php</file>
+    <file path="./classes/components/banners/i18n.en.php" size="2198" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnMvaTE4bi5lbi5waHA" hash="dfc37f7d1dfebb36ad44ee72220ff582" name="i18n.en.php" only_install="true">/classes/components/banners/i18n.en.php</file>
+    <file path="./classes/components/banners/class.php" size="15019" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnMvY2xhc3MucGhw" hash="864d4baf1269be8bd38c537608f4953d" name="class.php">/classes/components/banners/class.php</file>
+    <file path="./classes/components/banners/i18n.php" size="3005" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnMvaTE4bi5waHA" hash="27316cffea11f979bd743c68d3c931f8" name="i18n.php">/classes/components/banners/i18n.php</file>
+    <file path="./classes/components/banners/lang.en.php" size="745" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Jhbm5lcnMvbGFuZy5lbi5waHA" hash="ad7f112d3e12d70c98c142c58f7bfbd9" name="lang.en.php">/classes/components/banners/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/banners/list.view.xsl" size="1504" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9saXN0LnZpZXcueHNs" hash="ce3c285c5da60e2d6f286c667f98f708" name="list.view.xsl">/styles/skins/modern/data/modules/banners/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/banners/man/ru/add.html" size="4333" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9tYW4vcnUvYWRkLmh0bWw" hash="7a542811559806a7cc09774fb5863e91" name="add.html">/styles/skins/modern/data/modules/banners/man/ru/add.html</file>
+    <file path="./styles/skins/modern/data/modules/banners/man/ru/config.html" size="2564" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9tYW4vcnUvY29uZmlnLmh0bWw" hash="42ac162258b4ad8f6d22c1973022eafd" name="config.html">/styles/skins/modern/data/modules/banners/man/ru/config.html</file>
+    <file path="./styles/skins/modern/data/modules/banners/man/ru/places.html" size="1811" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9tYW4vcnUvcGxhY2VzLmh0bWw" hash="f72bf0785b22061a487ff2a14c14dfe9" name="places.html">/styles/skins/modern/data/modules/banners/man/ru/places.html</file>
+    <file path="./styles/skins/modern/data/modules/banners/man/ru/lists.html" size="2201" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9tYW4vcnUvbGlzdHMuaHRtbA" hash="b895f6865d3c9fde365050e9c6fcb455" name="lists.html">/styles/skins/modern/data/modules/banners/man/ru/lists.html</file>
+    <file path="./styles/skins/modern/data/modules/banners/man/ru/edit.html" size="4360" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9tYW4vcnUvZWRpdC5odG1s" hash="5bee7492f525cd67c0fd36b9274fa347" name="edit.html">/styles/skins/modern/data/modules/banners/man/ru/edit.html</file>
+    <file path="./styles/skins/modern/data/modules/banners/icon/banners.png" size="668" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9pY29u" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9pY29uL2Jhbm5lcnMucG5n" hash="54fd68addfe5cd886eb9b917bfb0796e" name="banners.png">/styles/skins/modern/data/modules/banners/icon/banners.png</file>
+    <file path="./styles/skins/modern/data/modules/banners/form.modify.xsl" size="3081" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9mb3JtLm1vZGlmeS54c2w" hash="2a29bc8536921e6f964391a78e5bf862" name="form.modify.xsl">/styles/skins/modern/data/modules/banners/form.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/banners/list.modify.xsl" size="2895" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9saXN0Lm1vZGlmeS54c2w" hash="bc41cae112ee03d96aa006314079199b" name="list.modify.xsl">/styles/skins/modern/data/modules/banners/list.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/banners/settings.modify.xsl" size="507" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFubmVycy9zZXR0aW5ncy5tb2RpZnkueHNs" hash="fedd473a8353125bbd31934890683ed5" name="settings.modify.xsl">/styles/skins/modern/data/modules/banners/settings.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="i18n::object-type-spravochniki" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="671" guid="banners-place" title="i18n::object-type-banners-place" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base module="banners" method="place" hide-pages="0">i18n::hierarchy-type-banners-place</base>
+      <fieldgroups>
+        <group name="common_props" title="i18n::fields-group-common_props" visible="visible" locked="locked" active="active">
+          <field id="8789" name="id" title="i18n::field-id" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8790" name="descr" title="i18n::field-descr" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="8839" name="is_show_rand_banner" title="i18n::field-is_show_rand_banner" visible="visible" locked="locked" filterable="filterable" important="important">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="739" guid="sytem-citylist" title="i18n::object-type-spisok_gorodov_dlya_geo" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="5" guid="banners-banner" title="i18n::object-type-banners-banner" parent-id="0" domain-id="0" locked="locked">
+      <base module="banners" method="banner" hide-pages="0">i18n::hierarchy-type-banners-banner</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="8796" name="is_active" title="i18n::field-is_active" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки баннера</tip>
+        </group>
+        <group name="redirect_props" title="i18n::fields-group-redirect_props" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="i18n::field-url" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="i18n::field-open_in_new_window" visible="visible" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки перехода с баннера</tip>
+        </group>
+        <group name="view_params" title="i18n::fields-group-view_params" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="i18n::field-views_count" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="i18n::field-clicks_count" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="i18n::field-max_views" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="i18n::field-show_start_date" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="i18n::field-show_till_date" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="i18n::field-user_tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Статистика и ограничения баннера</tip>
+        </group>
+        <group name="view_pages" title="i18n::fields-group-view_pages" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="i18n::field-view_pages" visible="visible" locked="locked">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="i18n::field-place" visible="visible" locked="locked" guide-id="671" important="important">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="i18n::field-not_view_pages" visible="visible" locked="locked">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+          </field>
+          <tip>Где будет отображаться баннер</tip>
+        </group>
+        <group name="time_targeting" title="i18n::fields-group-time_targeting" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="i18n::field-time_targeting_by_month_days" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="i18n::field-time_targeting_by_month" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="i18n::field-time_targeting_by_week_days" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="i18n::field-time_targeting_by_hours" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="i18n::field-time_targeting_is_active" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Таргетинг показов баннера по временным параметрам</tip>
+        </group>
+        <group name="city_targeting" title="i18n::fields-group-city_targeting" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="i18n::field-city_targeting_city" visible="visible" locked="locked" guide-id="739">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="i18n::field-city_targeting_is_active" visible="visible" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_settings" title="i18n::fields-group-privacy" visible="visible" active="active">
+          <field id="9454" name="priority" title="i18n::field-order-status-priority" visible="visible">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <tip>Настройки отображения баннера</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="672" guid="banners-banner-image" title="i18n::object-type-banners-banner-image" parent-id="5" domain-id="0" locked="locked">
+      <base module="banners" method="banner" hide-pages="0">i18n::hierarchy-type-banners-banner</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="8796" name="is_active" title="i18n::field-is_active" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки баннера</tip>
+        </group>
+        <group name="banner_custom_props" title="i18n::fields-group-banner_custom_props" visible="visible" locked="locked" active="active">
+          <field id="8799" name="image" title="i18n::field-image" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-img_file" data-type="img_file"/>
+          </field>
+          <field id="8802" name="width" title="i18n::field-width" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8803" name="height" title="i18n::field-height" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8804" name="alt" title="i18n::field-alt" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <tip>Графические настройки баннера</tip>
+        </group>
+        <group name="redirect_props" title="i18n::fields-group-redirect_props" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="i18n::field-url" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="i18n::field-open_in_new_window" visible="visible" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки перехода с баннера</tip>
+        </group>
+        <group name="view_params" title="i18n::fields-group-view_params" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="i18n::field-views_count" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="i18n::field-clicks_count" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="i18n::field-max_views" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="i18n::field-show_start_date" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="i18n::field-show_till_date" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="i18n::field-user_tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Статистика и ограничения баннера</tip>
+        </group>
+        <group name="view_pages" title="i18n::fields-group-view_pages" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="i18n::field-view_pages" visible="visible" locked="locked">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="i18n::field-place" visible="visible" locked="locked" guide-id="671" important="important">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="i18n::field-not_view_pages" visible="visible" locked="locked">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+          </field>
+          <tip>Где будет отображаться баннер</tip>
+        </group>
+        <group name="time_targeting" title="i18n::fields-group-time_targeting" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="i18n::field-time_targeting_by_month_days" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="i18n::field-time_targeting_by_month" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="i18n::field-time_targeting_by_week_days" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="i18n::field-time_targeting_by_hours" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="i18n::field-time_targeting_is_active" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Таргетинг показов баннера по временным параметрам</tip>
+        </group>
+        <group name="city_targeting" title="i18n::fields-group-city_targeting" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="i18n::field-city_targeting_city" visible="visible" locked="locked" guide-id="739">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="i18n::field-city_targeting_is_active" visible="visible" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_settings" title="i18n::fields-group-privacy" visible="visible" active="active">
+          <field id="9454" name="priority" title="i18n::field-order-status-priority" visible="visible">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <tip>Настройки отображения баннера</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="674" guid="banners-banner-swf-quality" title="i18n::object-type-kachestvo_fleshki" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="props" title="i18n::fields-group-props" visible="visible" active="active">
+          <field id="8808" name="quality_value" title="i18n::field-quality_value" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="673" guid="banners-banner-swf" title="i18n::object-type-banners-banner-swf" parent-id="5" domain-id="0" locked="locked">
+      <base module="banners" method="banner" hide-pages="0">i18n::hierarchy-type-banners-banner</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="8796" name="is_active" title="i18n::field-is_active" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="banner_custom_props" title="i18n::fields-group-banner_custom_props" visible="visible" locked="locked" active="active">
+          <field id="8805" name="swf" title="i18n::field-swf" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-swf_file" data-type="swf_file"/>
+          </field>
+          <field id="8806" name="width" title="i18n::field-width" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8807" name="height" title="i18n::field-height" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8809" name="swf_quality" title="i18n::field-swf_quality" visible="visible" locked="locked" guide-id="674">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Графические настройки баннера</tip>
+        </group>
+        <group name="redirect_props" title="i18n::fields-group-redirect_props" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="i18n::field-url" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="i18n::field-open_in_new_window" visible="visible" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки перехода с баннера</tip>
+        </group>
+        <group name="view_params" title="i18n::fields-group-view_params" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="i18n::field-views_count" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="i18n::field-clicks_count" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="i18n::field-max_views" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="i18n::field-show_start_date" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="i18n::field-show_till_date" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="i18n::field-user_tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Статистика и ограничения баннера</tip>
+        </group>
+        <group name="view_pages" title="i18n::fields-group-view_pages" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="i18n::field-view_pages" visible="visible" locked="locked">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="i18n::field-place" visible="visible" locked="locked" guide-id="671" important="important">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="i18n::field-not_view_pages" visible="visible" locked="locked">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+          </field>
+          <tip>Где будет отображаться баннер</tip>
+        </group>
+        <group name="time_targeting" title="i18n::fields-group-time_targeting" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="i18n::field-time_targeting_by_month_days" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="i18n::field-time_targeting_by_month" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="i18n::field-time_targeting_by_week_days" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="i18n::field-time_targeting_by_hours" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="i18n::field-time_targeting_is_active" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Таргетинг показов баннера по временным параметрам</tip>
+        </group>
+        <group name="city_targeting" title="i18n::fields-group-city_targeting" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="i18n::field-city_targeting_city" visible="visible" locked="locked" guide-id="739">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="i18n::field-city_targeting_is_active" visible="visible" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_settings" title="i18n::fields-group-privacy" visible="visible" active="active">
+          <field id="9454" name="priority" title="i18n::field-order-status-priority" visible="visible">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <tip>Настройки отображения баннера</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="675" guid="banners-banner-html" title="i18n::object-type-banners-banner-html" parent-id="5" domain-id="0" locked="locked">
+      <base module="banners" method="banner" hide-pages="0">i18n::hierarchy-type-banners-banner</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="8796" name="is_active" title="i18n::field-is_active" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки баннера</tip>
+        </group>
+        <group name="banner_custom_props" title="i18n::fields-group-banner_custom_props" visible="visible" locked="locked" active="active">
+          <field id="8810" name="html_content" title="i18n::field-html_content" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <tip>Содержимое баннера</tip>
+        </group>
+        <group name="redirect_props" title="i18n::fields-group-redirect_props" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="i18n::field-url" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="i18n::field-open_in_new_window" visible="visible" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки перехода с баннера</tip>
+        </group>
+        <group name="view_params" title="i18n::fields-group-view_params" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="i18n::field-views_count" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="i18n::field-clicks_count" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="i18n::field-max_views" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="i18n::field-show_start_date" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="i18n::field-show_till_date" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="i18n::field-user_tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Статистика и ограничения баннера</tip>
+        </group>
+        <group name="view_pages" title="i18n::fields-group-view_pages" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="i18n::field-view_pages" visible="visible" locked="locked">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="i18n::field-place" visible="visible" locked="locked" guide-id="671" important="important">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="i18n::field-not_view_pages" visible="visible" locked="locked">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+          </field>
+          <tip>Где будет отображаться баннер</tip>
+        </group>
+        <group name="time_targeting" title="i18n::fields-group-time_targeting" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="i18n::field-time_targeting_by_month_days" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="i18n::field-time_targeting_by_month" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="i18n::field-time_targeting_by_week_days" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="i18n::field-time_targeting_by_hours" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="i18n::field-time_targeting_is_active" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Таргетинг показов баннера по временным параметрам</tip>
+        </group>
+        <group name="city_targeting" title="i18n::fields-group-city_targeting" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="i18n::field-city_targeting_city" visible="visible" locked="locked" guide-id="739">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="i18n::field-city_targeting_is_active" visible="visible" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_settings" title="i18n::fields-group-privacy" visible="visible" active="active">
+          <field id="9454" name="priority" title="i18n::field-order-status-priority" visible="visible">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <tip>Настройки отображения баннера</tip>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <entities/>
+  <relations>
+    <relation type-id="5" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="5" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+    <relation type-id="672" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="672" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+    <relation type-id="673" field-name="swf_quality">
+      <guide id="674"/>
+    </relation>
+    <relation type-id="673" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="673" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+    <relation type-id="675" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="675" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

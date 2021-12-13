@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use \iCmsController as iModuleLoader;use UmiCms\Classes\System\Template\Engine\iFactory as iTemplateEngineFactory;interface iStaticBannerController extends iController {public function setModuleLoader(iModuleLoader $ve73640dc910137b64969c6b9234502ea);public function setPhpTemplateEngine(iTemplateEngineFactory $v9549dd6065d019211460c59a86dd6536);}

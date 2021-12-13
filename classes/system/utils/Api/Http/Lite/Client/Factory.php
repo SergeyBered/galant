@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Utils\Api\Http\Lite\Client;use UmiCms\Classes\System\Utils\Api\Http\Lite\Client;use UmiCms\Classes\System\Utils\Api\Http\Lite\iClient;class Factory implements iFactory {public function create(array $v2245023265ae4cf87d02c8b6ba991139 = []) : iClient {$v2245023265ae4cf87d02c8b6ba991139 = $v2245023265ae4cf87d02c8b6ba991139 ?: [    'http_errors' => false,    'decode_content' => false,    'verify' => false,    'allow_redirects' => false,   ];return new Client($v2245023265ae4cf87d02c8b6ba991139);}}

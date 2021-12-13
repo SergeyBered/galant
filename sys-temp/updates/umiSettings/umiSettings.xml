@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113686</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:46 +0300</rfc>
+      <utc>2021-08-16T14:34:46+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/umiSettings" val="umiSettings"/>
+    <key path="modules/umiSettings/default_method" val="empty" update="1"/>
+    <key path="modules/umiSettings/default_method_admin" val="read" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/umiSettings" name="umiSettings">/classes/components/umiSettings</directory>
+    <directory path="./classes/components/umiSettings/manifest" name="manifest">/classes/components/umiSettings/manifest</directory>
+    <directory path="./classes/components/umiSettings/manifest/actions" name="actions">/classes/components/umiSettings/manifest/actions</directory>
+    <directory path="./styles/skins/modern/data/modules/umiSettings" name="umiSettings">/styles/skins/modern/data/modules/umiSettings</directory>
+    <directory path="./styles/skins/modern/data/modules/umiSettings/man" name="man">/styles/skins/modern/data/modules/umiSettings/man</directory>
+    <directory path="./styles/skins/modern/data/modules/umiSettings/man/ru" name="ru">/styles/skins/modern/data/modules/umiSettings/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/umiSettings/icon" name="icon">/styles/skins/modern/data/modules/umiSettings/icon</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/umiSettings/macros.php" size="4511" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL21hY3Jvcy5waHA" hash="1f9c1b4f4eb1096e18fc42530a44cf02" name="macros.php">/classes/components/umiSettings/macros.php</file>
+    <file path="./classes/components/umiSettings/permissions.php" size="751" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL3Blcm1pc3Npb25zLnBocA" hash="5ea51ce8e91e5e06502256563f363b88" name="permissions.php">/classes/components/umiSettings/permissions.php</file>
+    <file path="./classes/components/umiSettings/customMacros.php" size="155" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL2N1c3RvbU1hY3Jvcy5waHA" hash="0ed9c152a363f5c50d6827f140456948" name="customMacros.php" only_install="true">/classes/components/umiSettings/customMacros.php</file>
+    <file path="./classes/components/umiSettings/lang.php" size="154" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL2xhbmcucGhw" hash="745ba0a9d6fa81d1b1f5554a847b222c" name="lang.php">/classes/components/umiSettings/lang.php</file>
+    <file path="./classes/components/umiSettings/manifest/install.xml" size="215" ext="xml" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL21hbmlmZXN0" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL21hbmlmZXN0L2luc3RhbGwueG1s" hash="234cb6cb4392e191c31af4fd3a826011" name="install.xml">/classes/components/umiSettings/manifest/install.xml</file>
+    <file path="./classes/components/umiSettings/manifest/actions/UpdateRelatedId.php" size="3568" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL21hbmlmZXN0L2FjdGlvbnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL21hbmlmZXN0L2FjdGlvbnMvVXBkYXRlUmVsYXRlZElkLnBocA" hash="5e78b263c3eee6b3f3e85d1fb00cdd03" name="UpdateRelatedId.php">/classes/components/umiSettings/manifest/actions/UpdateRelatedId.php</file>
+    <file path="./classes/components/umiSettings/customAdmin.php" size="198" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL2N1c3RvbUFkbWluLnBocA" hash="64f1dc112385f272064ccb4dad289778" name="customAdmin.php" only_install="true">/classes/components/umiSettings/customAdmin.php</file>
+    <file path="./classes/components/umiSettings/admin.php" size="4643" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL2FkbWluLnBocA" hash="f913d50ab9538504d3cc69e82dc8ca3c" name="admin.php">/classes/components/umiSettings/admin.php</file>
+    <file path="./classes/components/umiSettings/install.php" size="1153" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL2luc3RhbGwucGhw" hash="23fbddec6d02f044860ba3a6ee78cc0d" name="install.php">/classes/components/umiSettings/install.php</file>
+    <file path="./classes/components/umiSettings/i18n.en.php" size="1013" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL2kxOG4uZW4ucGhw" hash="c52729cd77764ddcb39b2ee101d502e1" name="i18n.en.php" only_install="true">/classes/components/umiSettings/i18n.en.php</file>
+    <file path="./classes/components/umiSettings/class.php" size="2977" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL2NsYXNzLnBocA" hash="c4882731028b6db85a15619cff776951" name="class.php">/classes/components/umiSettings/class.php</file>
+    <file path="./classes/components/umiSettings/i18n.php" size="1349" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL2kxOG4ucGhw" hash="e4c149548cc513a77a9b68109bfc6f0b" name="i18n.php">/classes/components/umiSettings/i18n.php</file>
+    <file path="./classes/components/umiSettings/lang.en.php" size="138" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3VtaVNldHRpbmdzL2xhbmcuZW4ucGhw" hash="0b0cc4b7c17eaf0e64dbc48440ecf05a" name="lang.en.php">/classes/components/umiSettings/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/umiSettings/list.view.xsl" size="3644" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU2V0dGluZ3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU2V0dGluZ3MvbGlzdC52aWV3LnhzbA" hash="940e803f55d3ac15d998c64316f1c696" name="list.view.xsl">/styles/skins/modern/data/modules/umiSettings/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/umiSettings/man/ru/read.html" size="1647" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU2V0dGluZ3MvbWFuL3J1" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU2V0dGluZ3MvbWFuL3J1L3JlYWQuaHRtbA" hash="34c75278db71ee35a6293dc33654eeb9" name="read.html">/styles/skins/modern/data/modules/umiSettings/man/ru/read.html</file>
+    <file path="./styles/skins/modern/data/modules/umiSettings/icon/umiSettings.png" size="5252" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU2V0dGluZ3MvaWNvbg" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU2V0dGluZ3MvaWNvbi91bWlTZXR0aW5ncy5wbmc" hash="dab7505e80df74de23bb4545b77d58e2" name="umiSettings.png">/styles/skins/modern/data/modules/umiSettings/icon/umiSettings.png</file>
+    <file path="./styles/skins/modern/data/modules/umiSettings/form.modify.xsl" size="5080" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU2V0dGluZ3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdW1pU2V0dGluZ3MvZm9ybS5tb2RpZnkueHNs" hash="f2fe7e2a49ba804fbcac28816893e938" name="form.modify.xsl">/styles/skins/modern/data/modules/umiSettings/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="843" guid="root-settings-type" title="i18n::object-type-root-settings-type" parent-id="0" domain-id="0" locked="locked">
+      <base module="umiSettings" method="settings" hide-pages="0">i18n::hierarchy-type-umiSettings-setting</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common_group" locked="locked" active="active" visible="0">
+          <field id="9514" name="custom_id" title="i18n::field-sid" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9509" name="lang_id" title="i18n::field-lang_id" locked="locked" required="required" important="important">
+            <type name="i18n::field-type-lang-id" data-type="lang_id"/>
+          </field>
+          <field id="9508" name="domain_id" title="i18n::field-domain_id" locked="locked" required="required" important="important">
+            <type name="i18n::field-type-domain-id" data-type="domain_id"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <entities/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

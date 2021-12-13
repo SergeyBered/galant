@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Hierarchy\Language\Detector;use UmiCms\System\Hierarchy\Language\iDetector;trait tInjector {private $vf24870e9df244bb77374445d936a6741;public function setLanguageDetector(iDetector $v21aed3df2077b5d91ce46bf123446731) {$this->languageDetector = $v21aed3df2077b5d91ce46bf123446731;return $this;}public function getLanguageDetector() {if (!$this->languageDetector instanceof iDetector) {throw new \DependencyNotInjectedException('You should inject language detector first');}return $this->languageDetector;}}

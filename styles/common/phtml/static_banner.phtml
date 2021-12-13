@@ -1,0 +1,15 @@
+<?php /** @var array $variables */ ?>
+var response = {
+	'place':	'<?= $variables['place'] ?>',
+	'data':		'<?= $variables['banner'] ?>'
+};
+
+if (typeof window.onBannerLoad == "function") {
+	window.onBannerLoad(response);
+} else {
+	var placer = document.getElementById('banner_place_<?= $variables['place'] ?>');
+
+	if (placer) {
+		placer.innerHTML = response['data'];
+	}
+}

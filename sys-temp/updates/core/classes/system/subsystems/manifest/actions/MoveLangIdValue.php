@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Manifest\Migrate\Field;use UmiCms\Service;use UmiCms\System\Data\Object\Property\iRepository;use UmiCms\System\Data\Object\Property\Value\iMigration;class MoveLangIdValueAction extends MoveValueAction {protected function getMigration() {return Service::get('ObjectPropertyValueLangIdMigration');}}

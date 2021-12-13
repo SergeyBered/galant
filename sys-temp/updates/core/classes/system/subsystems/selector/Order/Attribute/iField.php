@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Selector\Order\Attribute;use UmiCms\System\Selector\Order\iAttribute;interface iField extends iAttribute {public function __construct(array $ve491e7c03c219d563fe5073ad035bb25);public function getFieldIdList();}

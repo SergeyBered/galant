@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113685</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:45 +0300</rfc>
+      <utc>2021-08-16T14:34:45+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/appointment" val="appointment"/>
+    <key path="modules/appointment/config" val="1" update="1"/>
+    <key path="modules/appointment/name" val="appointment"/>
+    <key path="modules/appointment/work-time-0" val=""/>
+    <key path="modules/appointment/work-time-1" val=""/>
+    <key path="modules/appointment/work-time-2" val=""/>
+    <key path="modules/appointment/work-time-3" val=""/>
+    <key path="modules/appointment/work-time-4" val=""/>
+    <key path="modules/appointment/work-time-5" val=""/>
+    <key path="modules/appointment/work-time-6" val=""/>
+    <key path="modules/appointment/default_method" val="page" update="1"/>
+    <key path="modules/appointment/default_method_admin" val="orders" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/appointment" name="appointment">/classes/components/appointment</directory>
+    <directory path="./classes/components/appointment/classes" name="classes">/classes/components/appointment/classes</directory>
+    <directory path="./classes/components/appointment/classes/items" name="items">/classes/components/appointment/classes/items</directory>
+    <directory path="./classes/components/appointment/classes/interfaces" name="interfaces">/classes/components/appointment/classes/interfaces</directory>
+    <directory path="./classes/components/appointment/classes/collections" name="collections">/classes/components/appointment/classes/collections</directory>
+    <directory path="./classes/components/appointment/classes/constants" name="constants">/classes/components/appointment/classes/constants</directory>
+    <directory path="./styles/skins/modern/data/modules/appointment" name="appointment">/styles/skins/modern/data/modules/appointment</directory>
+    <directory path="./styles/skins/modern/data/modules/appointment/man" name="man">/styles/skins/modern/data/modules/appointment/man</directory>
+    <directory path="./styles/skins/modern/data/modules/appointment/man/ru" name="ru">/styles/skins/modern/data/modules/appointment/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/appointment/icon" name="icon">/styles/skins/modern/data/modules/appointment/icon</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/appointment/autoload.php" size="2665" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2F1dG9sb2FkLnBocA" hash="8c049b40b6d7189384253c18bb404c8e" name="autoload.php">/classes/components/appointment/autoload.php</file>
+    <file path="./classes/components/appointment/macros.php" size="25517" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L21hY3Jvcy5waHA" hash="35dd3f62c20c7c613f4d4c20ce62e1cf" name="macros.php">/classes/components/appointment/macros.php</file>
+    <file path="./classes/components/appointment/permissions.php" size="2130" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L3Blcm1pc3Npb25zLnBocA" hash="a26f4117c86dbe090c8e007af10b06f7" name="permissions.php">/classes/components/appointment/permissions.php</file>
+    <file path="./classes/components/appointment/customMacros.php" size="164" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2N1c3RvbU1hY3Jvcy5waHA" hash="303d42445c281d74fce3e65161aef427" name="customMacros.php" only_install="true">/classes/components/appointment/customMacros.php</file>
+    <file path="./classes/components/appointment/services.php" size="3782" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L3NlcnZpY2VzLnBocA" hash="a0afc3ab0077ba42a144ec41e8f040e9" name="services.php">/classes/components/appointment/services.php</file>
+    <file path="./classes/components/appointment/lang.php" size="150" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2xhbmcucGhw" hash="e4eeffeb7bf03a6012b66d5485dfd0ae" name="lang.php">/classes/components/appointment/lang.php</file>
+    <file path="./classes/components/appointment/notifier.php" size="10567" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L25vdGlmaWVyLnBocA" hash="83443771935f5f0074cb0cb974945593" name="notifier.php">/classes/components/appointment/notifier.php</file>
+    <file path="./classes/components/appointment/customAdmin.php" size="209" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2N1c3RvbUFkbWluLnBocA" hash="76ae9863e1175fd438df96b99b9ff196" name="customAdmin.php" only_install="true">/classes/components/appointment/customAdmin.php</file>
+    <file path="./classes/components/appointment/events.php" size="480" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2V2ZW50cy5waHA" hash="598b0675bcb8ba7ce387e0c177047dc6" name="events.php">/classes/components/appointment/events.php</file>
+    <file path="./classes/components/appointment/classes/items/AppointmentEmployee.php" size="4912" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaXRlbXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaXRlbXMvQXBwb2ludG1lbnRFbXBsb3llZS5waHA" hash="bccdf8b946d221c44d947d3916d4cd3b" name="AppointmentEmployee.php">/classes/components/appointment/classes/items/AppointmentEmployee.php</file>
+    <file path="./classes/components/appointment/classes/items/AppointmentEmployeeService.php" size="2721" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaXRlbXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaXRlbXMvQXBwb2ludG1lbnRFbXBsb3llZVNlcnZpY2UucGhw" hash="48ec1fdc79a4cdab5ef4221a03538504" name="AppointmentEmployeeService.php">/classes/components/appointment/classes/items/AppointmentEmployeeService.php</file>
+    <file path="./classes/components/appointment/classes/items/AppointmentEmployeeSchedule.php" size="4708" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaXRlbXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaXRlbXMvQXBwb2ludG1lbnRFbXBsb3llZVNjaGVkdWxlLnBocA" hash="6881508d0caff1fffa29039aab5eba31" name="AppointmentEmployeeSchedule.php">/classes/components/appointment/classes/items/AppointmentEmployeeSchedule.php</file>
+    <file path="./classes/components/appointment/classes/items/AppointmentOrder.php" size="11034" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaXRlbXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaXRlbXMvQXBwb2ludG1lbnRPcmRlci5waHA" hash="9e222056423b752a4cda9767ba60ea6c" name="AppointmentOrder.php">/classes/components/appointment/classes/items/AppointmentOrder.php</file>
+    <file path="./classes/components/appointment/classes/items/AppointmentServiceGroup.php" size="1906" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaXRlbXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaXRlbXMvQXBwb2ludG1lbnRTZXJ2aWNlR3JvdXAucGhw" hash="4aef9be99ad48f5723609c57b1058b70" name="AppointmentServiceGroup.php">/classes/components/appointment/classes/items/AppointmentServiceGroup.php</file>
+    <file path="./classes/components/appointment/classes/items/AppointmentService.php" size="4280" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaXRlbXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaXRlbXMvQXBwb2ludG1lbnRTZXJ2aWNlLnBocA" hash="f618ef7366cc1f089e4cc23e660dba13" name="AppointmentService.php">/classes/components/appointment/classes/items/AppointmentService.php</file>
+    <file path="./classes/components/appointment/classes/interfaces/iAppointmentEmployee.php" size="1121" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaW50ZXJmYWNlcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaW50ZXJmYWNlcy9pQXBwb2ludG1lbnRFbXBsb3llZS5waHA" hash="87e87dc9026a756a52da727ecf232ec2" name="iAppointmentEmployee.php">/classes/components/appointment/classes/interfaces/iAppointmentEmployee.php</file>
+    <file path="./classes/components/appointment/classes/interfaces/iAppointmentService.php" size="1429" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaW50ZXJmYWNlcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaW50ZXJmYWNlcy9pQXBwb2ludG1lbnRTZXJ2aWNlLnBocA" hash="bf1c08cc56ac07476a3a99a032e930a7" name="iAppointmentService.php">/classes/components/appointment/classes/interfaces/iAppointmentService.php</file>
+    <file path="./classes/components/appointment/classes/interfaces/iAppointmentOrder.php" size="3481" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaW50ZXJmYWNlcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaW50ZXJmYWNlcy9pQXBwb2ludG1lbnRPcmRlci5waHA" hash="165f0c327febbf435365498db765d332" name="iAppointmentOrder.php">/classes/components/appointment/classes/interfaces/iAppointmentOrder.php</file>
+    <file path="./classes/components/appointment/classes/interfaces/iAppointmentEmployeeService.php" size="867" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaW50ZXJmYWNlcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaW50ZXJmYWNlcy9pQXBwb2ludG1lbnRFbXBsb3llZVNlcnZpY2UucGhw" hash="4a1a7fbd5cc77406ac33835d1be70874" name="iAppointmentEmployeeService.php">/classes/components/appointment/classes/interfaces/iAppointmentEmployeeService.php</file>
+    <file path="./classes/components/appointment/classes/interfaces/iAppointmentServiceGroup.php" size="468" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaW50ZXJmYWNlcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaW50ZXJmYWNlcy9pQXBwb2ludG1lbnRTZXJ2aWNlR3JvdXAucGhw" hash="620ba5f1cbe6b5a1cca6dfbf314ad4b3" name="iAppointmentServiceGroup.php">/classes/components/appointment/classes/interfaces/iAppointmentServiceGroup.php</file>
+    <file path="./classes/components/appointment/classes/interfaces/iAppointmentEmployeeSchedule.php" size="1546" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaW50ZXJmYWNlcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvaW50ZXJmYWNlcy9pQXBwb2ludG1lbnRFbXBsb3llZVNjaGVkdWxlLnBocA" hash="89e27cd2758fa9447e466ee0a3f632b6" name="iAppointmentEmployeeSchedule.php">/classes/components/appointment/classes/interfaces/iAppointmentEmployeeSchedule.php</file>
+    <file path="./classes/components/appointment/classes/collections/AppointmentEmployeesCollection.php" size="1646" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29sbGVjdGlvbnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29sbGVjdGlvbnMvQXBwb2ludG1lbnRFbXBsb3llZXNDb2xsZWN0aW9uLnBocA" hash="e97847c20c0da892b5f725614ee22eab" name="AppointmentEmployeesCollection.php">/classes/components/appointment/classes/collections/AppointmentEmployeesCollection.php</file>
+    <file path="./classes/components/appointment/classes/collections/AppointmentEmployeesSchedulesCollection.php" size="2387" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29sbGVjdGlvbnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29sbGVjdGlvbnMvQXBwb2ludG1lbnRFbXBsb3llZXNTY2hlZHVsZXNDb2xsZWN0aW9uLnBocA" hash="e500df58744900bd0a9099e4d9ea4f82" name="AppointmentEmployeesSchedulesCollection.php">/classes/components/appointment/classes/collections/AppointmentEmployeesSchedulesCollection.php</file>
+    <file path="./classes/components/appointment/classes/collections/AppointmentServicesCollection.php" size="3164" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29sbGVjdGlvbnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29sbGVjdGlvbnMvQXBwb2ludG1lbnRTZXJ2aWNlc0NvbGxlY3Rpb24ucGhw" hash="0c8d0200f67507170fe599b663eb6840" name="AppointmentServicesCollection.php">/classes/components/appointment/classes/collections/AppointmentServicesCollection.php</file>
+    <file path="./classes/components/appointment/classes/collections/AppointmentEmployeesServicesCollection.php" size="2397" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29sbGVjdGlvbnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29sbGVjdGlvbnMvQXBwb2ludG1lbnRFbXBsb3llZXNTZXJ2aWNlc0NvbGxlY3Rpb24ucGhw" hash="4f87a40beefce64241344e8c750e7230" name="AppointmentEmployeesServicesCollection.php">/classes/components/appointment/classes/collections/AppointmentEmployeesServicesCollection.php</file>
+    <file path="./classes/components/appointment/classes/collections/AppointmentOrdersCollection.php" size="5559" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29sbGVjdGlvbnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29sbGVjdGlvbnMvQXBwb2ludG1lbnRPcmRlcnNDb2xsZWN0aW9uLnBocA" hash="cfac14bb9251ea12aa9bd36991e08d86" name="AppointmentOrdersCollection.php">/classes/components/appointment/classes/collections/AppointmentOrdersCollection.php</file>
+    <file path="./classes/components/appointment/classes/collections/AppointmentServiceGroupsCollection.php" size="2624" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29sbGVjdGlvbnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29sbGVjdGlvbnMvQXBwb2ludG1lbnRTZXJ2aWNlR3JvdXBzQ29sbGVjdGlvbi5waHA" hash="d76d106736f52bf445007ce8cc42ea67" name="AppointmentServiceGroupsCollection.php">/classes/components/appointment/classes/collections/AppointmentServiceGroupsCollection.php</file>
+    <file path="./classes/components/appointment/classes/constants/appointmentEmployeesConstantMap.php" size="536" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29uc3RhbnRz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29uc3RhbnRzL2FwcG9pbnRtZW50RW1wbG95ZWVzQ29uc3RhbnRNYXAucGhw" hash="2c171eb594ce9aec152b294afb7eaca5" name="appointmentEmployeesConstantMap.php">/classes/components/appointment/classes/constants/appointmentEmployeesConstantMap.php</file>
+    <file path="./classes/components/appointment/classes/constants/appointmentOrdersConstantMap.php" size="1064" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29uc3RhbnRz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29uc3RhbnRzL2FwcG9pbnRtZW50T3JkZXJzQ29uc3RhbnRNYXAucGhw" hash="4e706b3da1ff9a12153fa95ba03f4767" name="appointmentOrdersConstantMap.php">/classes/components/appointment/classes/constants/appointmentOrdersConstantMap.php</file>
+    <file path="./classes/components/appointment/classes/constants/appointmentEmployeesServicesConstantMap.php" size="629" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29uc3RhbnRz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29uc3RhbnRzL2FwcG9pbnRtZW50RW1wbG95ZWVzU2VydmljZXNDb25zdGFudE1hcC5waHA" hash="7778bda03ba5a5efd7819744e73ec495" name="appointmentEmployeesServicesConstantMap.php">/classes/components/appointment/classes/constants/appointmentEmployeesServicesConstantMap.php</file>
+    <file path="./classes/components/appointment/classes/constants/appointmentServiceGroupsConstantMap.php" size="551" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29uc3RhbnRz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29uc3RhbnRzL2FwcG9pbnRtZW50U2VydmljZUdyb3Vwc0NvbnN0YW50TWFwLnBocA" hash="7a16bea797ad243b793aa1ce3a5ac4b6" name="appointmentServiceGroupsConstantMap.php">/classes/components/appointment/classes/constants/appointmentServiceGroupsConstantMap.php</file>
+    <file path="./classes/components/appointment/classes/constants/appointmentServicesConstantMap.php" size="512" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29uc3RhbnRz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29uc3RhbnRzL2FwcG9pbnRtZW50U2VydmljZXNDb25zdGFudE1hcC5waHA" hash="bab62bac7d09c7fc769f7082cb1e505e" name="appointmentServicesConstantMap.php">/classes/components/appointment/classes/constants/appointmentServicesConstantMap.php</file>
+    <file path="./classes/components/appointment/classes/constants/appointmentEmployeesSchedulesConstantMap.php" size="739" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29uc3RhbnRz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzZXMvY29uc3RhbnRzL2FwcG9pbnRtZW50RW1wbG95ZWVzU2NoZWR1bGVzQ29uc3RhbnRNYXAucGhw" hash="1df252d3d9bcf629d40b5045a678f7e4" name="appointmentEmployeesSchedulesConstantMap.php">/classes/components/appointment/classes/constants/appointmentEmployeesSchedulesConstantMap.php</file>
+    <file path="./classes/components/appointment/handlers.php" size="1941" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2hhbmRsZXJzLnBocA" hash="51bf3fa6a4d102bfe2a987a062bd8d65" name="handlers.php">/classes/components/appointment/handlers.php</file>
+    <file path="./classes/components/appointment/admin.php" size="56540" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2FkbWluLnBocA" hash="9a124a09350311538cd88fcb853b79e4" name="admin.php">/classes/components/appointment/admin.php</file>
+    <file path="./classes/components/appointment/install.php" size="3445" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2luc3RhbGwucGhw" hash="ebdcaeea3cb720d1f3a36cd60fa2a87a" name="install.php">/classes/components/appointment/install.php</file>
+    <file path="./classes/components/appointment/includes.php" size="69" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2luY2x1ZGVzLnBocA" hash="d8390332e5eab88068b5d9fd59999fb5" name="includes.php">/classes/components/appointment/includes.php</file>
+    <file path="./classes/components/appointment/i18n.en.php" size="6025" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2kxOG4uZW4ucGhw" hash="d92f90e308797a7b2479dd9bcd9742c4" name="i18n.en.php" only_install="true">/classes/components/appointment/i18n.en.php</file>
+    <file path="./classes/components/appointment/class.php" size="12942" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2NsYXNzLnBocA" hash="67a741c173a3fbca392ee8e0cb8bf365" name="class.php">/classes/components/appointment/class.php</file>
+    <file path="./classes/components/appointment/i18n.php" size="7803" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2kxOG4ucGhw" hash="994ee4a1e942331fd8398e562af3d407" name="i18n.php">/classes/components/appointment/i18n.php</file>
+    <file path="./classes/components/appointment/lang.en.php" size="142" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2FwcG9pbnRtZW50L2xhbmcuZW4ucGhw" hash="d8c242056a672a2a93825968b54c8bf2" name="lang.en.php">/classes/components/appointment/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/appointment/list.view.xsl" size="6798" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvbGlzdC52aWV3LnhzbA" hash="c3323b995305a60beeb32963d3c0e1ec" name="list.view.xsl">/styles/skins/modern/data/modules/appointment/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/appointment/man/ru/pages.html" size="2402" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvbWFuL3J1" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvbWFuL3J1L3BhZ2VzLmh0bWw" hash="2c0a3a360d07bb10a5aabe1fe733729a" name="pages.html">/styles/skins/modern/data/modules/appointment/man/ru/pages.html</file>
+    <file path="./styles/skins/modern/data/modules/appointment/man/ru/orders.html" size="1706" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvbWFuL3J1" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvbWFuL3J1L29yZGVycy5odG1s" hash="47d18e238b592c4b9ff35e63363f1b91" name="orders.html">/styles/skins/modern/data/modules/appointment/man/ru/orders.html</file>
+    <file path="./styles/skins/modern/data/modules/appointment/man/ru/config.html" size="1732" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvbWFuL3J1" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvbWFuL3J1L2NvbmZpZy5odG1s" hash="9f7adb4db156237b312be3300f6b572d" name="config.html">/styles/skins/modern/data/modules/appointment/man/ru/config.html</file>
+    <file path="./styles/skins/modern/data/modules/appointment/man/ru/services.html" size="1591" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvbWFuL3J1" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvbWFuL3J1L3NlcnZpY2VzLmh0bWw" hash="9125b871ac0ad9faff390ee4772fbf53" name="services.html">/styles/skins/modern/data/modules/appointment/man/ru/services.html</file>
+    <file path="./styles/skins/modern/data/modules/appointment/man/ru/employees.html" size="1862" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvbWFuL3J1" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvbWFuL3J1L2VtcGxveWVlcy5odG1s" hash="07fae477b86bf0e5e5fc134b7ae655f3" name="employees.html">/styles/skins/modern/data/modules/appointment/man/ru/employees.html</file>
+    <file path="./styles/skins/modern/data/modules/appointment/icon/appointment.png" size="2010" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvaWNvbg" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvaWNvbi9hcHBvaW50bWVudC5wbmc" hash="9f2216cafa49fa1738bda31bf5f9ba17" name="appointment.png">/styles/skins/modern/data/modules/appointment/icon/appointment.png</file>
+    <file path="./styles/skins/modern/data/modules/appointment/form.modify.xsl" size="30280" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvZm9ybS5tb2RpZnkueHNs" hash="c329b657590982aa1b03d717630a797c" name="form.modify.xsl">/styles/skins/modern/data/modules/appointment/form.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/appointment/time.ranges.selections.js" size="3055" ext="js" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvdGltZS5yYW5nZXMuc2VsZWN0aW9ucy5qcw" hash="6f0efa1ca4ff0880222711525d5e8a10" name="time.ranges.selections.js">/styles/skins/modern/data/modules/appointment/time.ranges.selections.js</file>
+    <file path="./styles/skins/modern/data/modules/appointment/settings.modify.xsl" size="3487" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXBwb2ludG1lbnQvc2V0dGluZ3MubW9kaWZ5LnhzbA" hash="a947c594dcbd193b27003965a77a1078" name="settings.modify.xsl">/styles/skins/modern/data/modules/appointment/settings.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="i18n::object-type-spravochniki" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="745" guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" title="i18n::object-type-status_stranicy" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="svojstva_statusa_stranicy" title="i18n::fields-group-svojstva_statusa_stranicy" visible="visible" active="active">
+          <field id="9027" name="publish_status_id" title="i18n::field-publish_status_id" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="{root-pages-type}" guid="root-pages-type" title="i18n::object-type-razdel_sajta" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="i18n::field-title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="i18n::field-h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="i18n::field-content" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="i18n::field-meta_descriptions" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="i18n::field-meta_keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки страницы</tip>
+        </group>
+        <group name="more_params" title="i18n::fields-group-more_params" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="i18n::field-robots_deny" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="i18n::field-show_submenu" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="i18n::field-is_expanded" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="i18n::field-is_unindexed" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="rate_props" title="i18n::fields-group-rate_props" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="i18n::field-rate_voters" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="i18n::field-rate_sum" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="i18n::fields-group-svojstva_publikacii" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="i18n::field-expiration_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="i18n::field-notification_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="i18n::field-publish_comments" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="i18n::field-publish_status" visible="visible" locked="locked" guide-id="745">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="i18n::fields-group-locks" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="i18n::field-locktime" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="i18n::field-lockuser" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="841" guid="appointment-page" title="i18n::hierarchy-type-appointment-page" parent-id="{root-pages-type}" domain-id="0" locked="locked">
+      <base module="appointment" method="page" hide-pages="0">i18n::hierarchy-type-appointment-page</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="i18n::field-title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="i18n::field-h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="i18n::field-content" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="i18n::field-meta_descriptions" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="i18n::field-meta_keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="more_params" title="i18n::fields-group-more_params" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="i18n::field-robots_deny" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="i18n::field-show_submenu" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="i18n::field-is_expanded" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="i18n::field-is_unindexed" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="rate_props" title="i18n::fields-group-rate_props" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="i18n::field-rate_voters" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="i18n::field-rate_sum" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="i18n::fields-group-svojstva_publikacii" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="i18n::field-expiration_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="i18n::field-notification_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="i18n::field-publish_comments" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="i18n::field-publish_status" visible="visible" locked="locked" guide-id="745">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+        </group>
+        <group name="locks" title="i18n::fields-group-locks" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="i18n::field-locktime" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="i18n::field-lockuser" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="appointment" title="i18n::fields-group-appointment" visible="visible" locked="locked" active="active">
+          <field id="9470" name="appoint_service_choice_title" title="i18n::field-appoint-service-choice-title" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9471" name="appoint_hint_step_text" title="i18n::field-appoint-hint-step-text" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9472" name="appoint_personal_step_title" title="i18n::field-appoint-personal-step-title" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9473" name="appoint_personal_choice_title" title="i18n::field-appoint-personal-choice-title" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9474" name="appoint_dont_care_button" title="i18n::field-appoint-dont-care-button" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9475" name="appoint_dont_care_hint" title="i18n::field-appoint-dont-care-hint" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9476" name="appoint_date_step_title" title="i18n::field-appoint-date-step-title" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9477" name="appoint_date_choice_title" title="i18n::field-appoint-date-choice-title" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9478" name="appoint_confirm_step_title" title="i18n::field-appoint-confirm-step-title" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9479" name="appoint_book_time_button" title="i18n::field-appoint-book-time-button" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9480" name="appoint_book_time_hint" title="i18n::field-appoint-book-time-hint" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <entities/>
+  <relations>
+    <relation type-id="{root-pages-type}" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="841" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

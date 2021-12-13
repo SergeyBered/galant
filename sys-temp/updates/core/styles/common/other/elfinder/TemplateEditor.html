@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+	<title>elFinder 2.1.x source version with PHP connector</title>
+	<script data-main="./main.js" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.min.js"></script>
+	<script type="text/javascript" src="/styles/common/js/utilities.js"></script>
+	<script>
+		define('elFinderConfig', {
+			defaultOpts: {
+				url: '/admin/umiTemplates/getTemplateEditorConfig/',
+				lang: getArgumentList().lang || 'ru',
+				showFiles: 1000,
+				height: 600,
+				requestType: 'post',
+				uploadMaxChunkSize: getMaxFileSize(),
+				getFileCallback: function(file, fm) {
+					fm.exec((file.write && file.mime.indexOf('text') === 0)? 'edit' : 'open', file.hash);
+				},
+				rememberLastDir: true,
+				uiOptions : {
+					toolbar : [
+						['back', 'forward', 'up', 'reload'],
+						['mkdir', 'mkfile', 'upload'],
+						['search']
+					],
+					tree : {
+						openRootOnLoad : true,
+						syncTree : true
+					}
+				},
+				sound : false,
+				resizable: false,
+				contextmenu : {
+					navbar : [
+						'open', 'opennew', 'download', '|',
+						'upload', 'mkdir', '|',
+						'copy', 'cut', 'paste', 'duplicate', '|',
+						'rm', 'empty', '|',
+						'rename', '|',
+						'archive', '|',
+						'places', 'info', 'chmod'
+					],
+					cwd    : [
+						'undo', 'redo', '|',
+						'back', 'up', 'reload', '|',
+						'upload', 'mkdir', 'mkfile', 'paste', '|',
+						'empty', '|',
+						'view', 'sort', 'selectall', 'colwidth', '|',
+						'places', 'info', 'chmod'
+					],
+					files  : [
+						'getfile', '|' ,
+						'open', 'opennew', 'download', 'opendir', 'quicklook', '|',
+						'upload', 'mkdir', '|',
+						'copy', 'cut', 'paste', 'duplicate', '|',
+						'rm', 'empty', '|',
+						'rename', 'edit','resize', '|',
+						'archive', 'extract', '|',
+						'selectall', 'selectinvert', '|',
+						'places', 'info', 'chmod'
+					]
+				},
+				handlers : {
+					init : function(e, self) {
+						self.startDir();
+					}
+				},
+				customData : {
+					csrf: getCsrfToken()
+				},
+				cssAutoLoad: [
+					'/styles/common/other/elfinder/css/theme.css'
+				]
+			},
+			managers: {
+				'elfinder': {}
+			}
+		});
+	</script>
+</head>
+<body>
+	<div id="elfinder"></div>
+</body>
+</html>

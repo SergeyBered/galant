@@ -1,0 +1,2 @@
+<?php
+ use UmiCms\System\Events\iHandler;interface iUmiEventsController {const SERVICE_NAME = 'EventController';public static function getInstance($v6f66e878c62db60568a3487869695820 = null);public function callEvent(iUmiEventPoint $v4119639092e62c55ea8be348e4d9260d, array $va40ba79f71dfdb9032426845f587e833 = [], array $v7c24c2df3affd61a699fa63ef4e40b3d = []);public static function registerEventListener(iHandler $vc1cbfe271a40788a00e8bf8574d94d4b);}

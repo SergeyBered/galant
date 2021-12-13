@@ -1,0 +1,32 @@
+<tr class="table-row">
+    {% if fieldList|length > 0 %}
+        {% for field in fieldList %}
+            <td style="width:{{ field.size ? field.size : 'auto' }};" class="pages-bar table-cell panel-sorting td_{{ field.field }}">
+                {% if firstField.field == field.field %}
+                    <span class="pagesLabel">{{ trans('js-pages-label') }}</span>
+                    {% for page in pageList %}
+                        {% if page == current %}
+                            <a class="current">{{ page }}</a>
+                        {% else %}
+                            <a>{{ page }}</a>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </td>
+        {% endfor %}
+        <td class="table-cell empty">
+            <div class="cell-item">&nbsp;</div>
+        </td>
+    {% else %}
+        <td class="pages-bar table-cell" colspan="{{ (fieldList|length) + 1}}">
+            <span class="pagesLabel">{{ trans('js-pages-label') }}</span>
+            {% for page in pageList %}
+                {% if page == current %}
+                    <a class="current">{{ page }}</a>
+                {% else %}
+                    <a>{{ page }}</a>
+                {% endif %}
+            {% endfor %}
+        </td>
+    {% endif %}
+</tr>

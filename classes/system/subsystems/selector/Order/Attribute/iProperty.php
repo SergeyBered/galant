@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Selector\Order\Attribute;use UmiCms\System\Selector\Order\iAttribute;interface iProperty extends iAttribute {public function __construct($vb068931cc450442b63f5b3d276ea4297);}

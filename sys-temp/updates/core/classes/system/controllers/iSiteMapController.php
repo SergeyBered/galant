@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use UmiCms\Classes\System\Utils\SiteMap\iGenerator;use UmiCms\System\Hierarchy\Domain\iDetector as iDomainDetector;interface iSiteMapController extends iController {const PAGE_NUMBER_LIMIT = 16;public function setGenerator(iGenerator $vdac9630aec642a428cd73f4be0a03569);public function setDomainDetector(iDomainDetector $v21aed3df2077b5d91ce46bf123446731);}

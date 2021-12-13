@@ -1,0 +1,71 @@
+<?php
+/**
+ * Подвал сайта.
+ *
+ * @var umiTemplaterPHP|ViewPhpExtension|DemomarketPhpExtension $this
+ * @var array $variables
+ */
+
+ $objectsCollection = umiObjectsCollection::getInstance();
+ $settingsContainer = $objectsCollection->getObject(1680);
+
+?>
+
+
+
+<footer class="footer">
+<div class="footer_content">
+	<div class="foot_logotype">
+		<img src="<?= $settingsContainer->getValue('logotip_v_futere'); ?>" alt="">
+
+	</div>
+	<div class="foot_menu">
+		<?php
+
+		$footerMenu = $this->getMenu(1688);
+
+		?>
+
+
+		<?php if(isset($footerMenu['item'])): ?>
+
+		    <?php foreach ($footerMenu['item'] as $key => $value): ?>
+		        <?php $supportClass = isset($value['sub_menu']) ? " menu_support" : "";  ?>
+
+		        <div class="item_footer_menu <?= $supportClass ?>">
+		            <a href="<?= $value['link']; ?> " class="<?= $supportClass; ?>" > <?= $value['name']; ?> </a>
+
+
+		        </div>
+
+		    <?php endforeach; ?>
+		<?php endif; ?>
+
+	</div>
+	<div class="foot_contacts">
+		<div class="right_main_line">
+
+				<?php if($settingsContainer->getValue('nomer_frontendfooter')) : ?>
+						<div class="main_line_tel animSvg_main_line">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M20.484 3.51344C15.797 -1.17214 8.19901 -1.17101 3.51344 3.51602C-1.17214 8.20304 -1.17101 15.801 3.51602 20.4866C8.20304 25.1722 15.801 25.171 20.4866 20.484C22.7369 18.233 24.0007 15.1803 24 11.9974C23.9993 8.81509 22.7346 5.76334 20.484 3.51344ZM18.1736 16.7159C18.1731 16.7164 18.1726 16.7169 18.172 16.7175V16.7135L17.564 17.3175C16.7776 18.1137 15.6324 18.4413 14.544 18.1815C13.4473 17.8879 12.4048 17.4207 11.456 16.7975C10.5744 16.2341 9.75751 15.5755 9.01998 14.8335C8.34137 14.1598 7.73172 13.4201 7.19997 12.6255C6.61834 11.7704 6.15798 10.8389 5.83197 9.85745C5.45823 8.70451 5.76794 7.4394 6.63198 6.58947L7.34397 5.87748C7.54192 5.67864 7.86357 5.67794 8.06237 5.87589C8.06289 5.8764 8.06345 5.87692 8.06397 5.87748L10.3119 8.12547C10.5108 8.32342 10.5115 8.64507 10.3135 8.84387C10.313 8.84439 10.3125 8.8449 10.3119 8.84546L8.99195 10.1655C8.6132 10.5401 8.56557 11.1354 8.87996 11.5655C9.35739 12.2207 9.88571 12.8372 10.46 13.4095C11.1002 14.0525 11.7963 14.6375 12.54 15.1575C12.9697 15.4572 13.5522 15.4067 13.9239 15.0375L15.1999 13.7415C15.3979 13.5427 15.7195 13.542 15.9183 13.7399C15.9188 13.7404 15.9194 13.7409 15.9199 13.7415L18.1719 15.9975C18.3708 16.1954 18.3715 16.517 18.1736 16.7159Z" fill="#164194"/>
+								</svg>
+
+								<a href="tel:<?= $settingsContainer->getValue('nomer_bekendfooter'); ?>"><?= $settingsContainer->getValue('nomer_frontendfooter'); ?></a>
+						</div>
+				<?php endif; ?>
+				<div class="main_line_mail animSvg_main_line">
+				<?php if($settingsContainer->getValue('email_footer')) : ?>
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M11.9998 0C5.37257 0 0 5.37273 0 12C0 18.627 5.37257 24.0002 11.9998 24.0002C18.627 24.0002 24 18.627 24 12C24 5.37273 18.627 0 11.9998 0ZM12 4.21495L19.1012 8.64303H4.89888L12 4.21495ZM19.1897 15.7141H19.189C19.189 16.4244 18.6133 16.9999 17.9032 16.9999H6.0969C5.38665 16.9999 4.81112 16.4243 4.81112 15.7141V8.92479C4.81112 8.84967 4.8188 8.77663 4.83128 8.70487L11.616 12.9356C11.6244 12.9408 11.6332 12.9443 11.6418 12.9491C11.6508 12.9541 11.6599 12.9589 11.669 12.9634C11.7169 12.9881 11.7663 13.0081 11.8168 13.0211C11.822 13.0225 11.8272 13.0232 11.8324 13.0244C11.8877 13.0374 11.9438 13.0456 11.9998 13.0456H12.0002C12.0006 13.0456 12.001 13.0456 12.001 13.0456C12.057 13.0456 12.1131 13.0377 12.1684 13.0244C12.1736 13.0231 12.1788 13.0225 12.184 13.0211C12.2344 13.0081 12.2836 12.9881 12.3318 12.9634C12.3409 12.9589 12.35 12.9541 12.359 12.9491C12.3675 12.9443 12.3764 12.9408 12.3848 12.9356L19.1695 8.70487C19.182 8.77663 19.1897 8.84951 19.1897 8.92479V15.7141Z" fill="#164194"/>
+						</svg>
+
+						<a href="mailto:info@galant-cometic.ru"><?= $settingsContainer->getValue('email_footer'); ?></a>
+				<?php endif; ?>
+				</div>
+		</div>
+	</div>
+
+</div>
+
+</footer>

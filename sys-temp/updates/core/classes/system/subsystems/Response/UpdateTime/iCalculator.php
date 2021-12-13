@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Response\UpdateTime;use UmiCms\System\Cache\Statical\iFacade as iStaticCache;interface iCalculator {public function __construct(   \iUmiHierarchy $vf8aea31a0fd948447674cb859137e6e7, \iUmiObjectsCollection $vfa5a883455df69e98c0f154ad0e5d47b, iStaticCache $v805e6b8e623f5dd06f99f55e55230cca  );public function calculate();}

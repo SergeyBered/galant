@@ -1,0 +1,65 @@
+{% if fields|length > 0 %}
+    {% for item in used_fields %}
+        <td style="width:{{ item.size ? item.size : 'auto' }};"  class="table-cell td_{{ item.field }}" >
+            {% if item.editable != "false"  %}
+                {% if isDefined(fields,item.field) %}
+                        <i class="small-ico i-change editable" title="{{ trans('js-table-control-fast-edit') }}" umi-field="{{ item.field }}"></i>
+                {% endif %}
+
+            {% endif %}
+            <div class="cell-item">
+                {% if loop.index0 == 0 %}
+                    {% if fields.__children > 0 %}
+                        <span class="catalog-toggle-wrapper ex_{{ cid }}"><span class="catalog-toggle"></span></span>
+                    {% else %}
+                        <span class="catalog-toggle-off ndc"></span>
+                    {% endif %}
+                    {% if item.selectable != "false" %}
+                        <div class="checkbox"><input type="checkbox" class="row_selector"></div>
+                    {% endif %}
+                {% endif %}
+				{% if item.type == 'multiple_image'%}
+					<span class="item" title="{{ item.title }}">
+						{{ multipleImageField(fields[item.field]) }}
+				{% elseif  item.type  == 'multiple_file'%}
+					<span class="item" title="{{ item.title }}">
+						{{ multipleFileField(fields[item.field]) }}
+				{% elseif  item.type == 'wysiwyg'%}
+					<span class="item" title="{{ item.title }}">
+						{{ textWysiwygField(fields[item.field]) }}
+				{% elseif  item.type == 'symlink'%}
+					<span class="item" title="{{ item.title }}">
+						{{ textSymlinkField(fields[item.field]) }}
+				{% elseif  item.type == 'relation'%}
+					<span class="item" title="{{ item.title }}">
+						{{ relationField(fields[item.field]) }}
+				{% else %}
+					<span class="item" title="{{ fields[item.field] }}">
+					{% if item.type == 'bool' %}
+						{% if fields[item.field] == 1  %}
+							<img src="/styles/skins/modern/design/img/tree/checked.png" style="width:13px;height:13px;" alt="">
+						{% endif %}
+					{% elseif item.type in ['image','photo']  %}
+						{{ imageField(fields[item.field]) }}
+					{% elseif item.type in ['file']  %}
+						{{ fileField(fields[item.field]) }}
+					{% else %}
+						{{ fields[item.field] }}
+					{% endif %}
+                {% endif %}
+				</span>
+				{% if loop.first and item.show_edit_page_link != "false" %}
+					<a class="small-ico i-edit editable stucktotext" title="{{ trans('js-goto-edit-page') }}" href="{{ editLink }}"></a>
+				{% endif %}
+            </div>
+
+        </td>
+    {% endfor %}
+    <td class="table-cell empty">
+        <div class="cell-item">&nbsp;</div>
+    </td>
+{% else %}
+    <td class="table-cell" style="height: 100px; vertical-align: middle;" colspan="{{ (used_fields|length)+1}}">
+        <div class="cell-item" style="text-align: center;">{{ trans('js-table-control-nodata') }}</div>
+    </td>
+{% endif %}

@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Cookies;use UmiCms\System\Session\iSession;use UmiCms\System\Hierarchy\Domain\iDetector;interface iOptions {const SERVICE_NAME = 'CookieOptions';public function __construct(iDetector $v45651ec82e45766b3d707ee33df1a61a);public function getCustom(iCookie $v2dccd1ab3e03990aea77359831c85ca2) : array;public function getDefault(iSession $v21d6f40cfb511982e4424e0e250a9557) : array;}

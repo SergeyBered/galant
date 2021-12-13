@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Selector\Order;use UmiCms\System\Selector\Order\Attribute\iField;use UmiCms\System\Selector\Order\Attribute\iProperty;interface iFactory {const SERVICE_NAME = 'SelectorOrderFactory';public function __construct(\iServiceContainer $v06d419f75cbecf6df5a44ea9471105ba);public function createForField(array $ve491e7c03c219d563fe5073ad035bb25) : iField;public function createForProperty(string $v972bf3f05d14ffbdb817bef60638ff00) : iProperty;}

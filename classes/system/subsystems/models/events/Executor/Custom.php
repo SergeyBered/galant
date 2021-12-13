@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Events\Executor;use \iUmiEventPoint as iEvent;use UmiCms\System\Events\Executor;use UmiCms\System\Events\Handler\iCustom as iCustomHandler;class Custom extends Executor implements iCustom {public function execute(iEvent $v4119639092e62c55ea8be348e4d9260d) : void {$vc1cbfe271a40788a00e8bf8574d94d4b = $this->handler;call_user_func($vc1cbfe271a40788a00e8bf8574d94d4b->getCallback(), $v4119639092e62c55ea8be348e4d9260d);}}

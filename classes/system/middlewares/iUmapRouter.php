@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\MiddleWares;use UmiCms\System\Streams\Umap\iFacade as iUmapFacade;interface iUmapRouter {public function setUmapFacade(iUmapFacade $vc31c5c2821827fc72f05ca3bfd30c446);public function executeUmap();}

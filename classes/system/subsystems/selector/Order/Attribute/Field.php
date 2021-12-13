@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Selector\Order\Attribute;use UmiCms\System\Selector\Order\Attribute;class Field extends Attribute implements iField {protected $fieldIdList;public function __construct(array $ve491e7c03c219d563fe5073ad035bb25) {$this->fieldIdList = $ve491e7c03c219d563fe5073ad035bb25;}public function getFieldIdList() {return $this->fieldIdList;}}

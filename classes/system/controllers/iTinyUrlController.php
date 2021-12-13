@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use \iUmiHierarchy as iPageFacade;interface iTinyUrlController extends iController {public function setPageFacade(iPageFacade $v065296baefcbbdb9fe05bbfd2387d8bc);}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113681</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:41 +0300</rfc>
+      <utc>2021-08-16T14:34:41+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/backup" val="backup"/>
+    <key path="modules/backup/name" val="backup"/>
+    <key path="modules/backup/title" val="Backups"/>
+    <key path="modules/backup/filename" val="modules/backup/class.php"/>
+    <key path="modules/backup/config" val="1" update="1"/>
+    <key path="modules/backup/default_method" val="temp_method" update="1"/>
+    <key path="modules/backup/default_method_admin" val="snapshots" update="1"/>
+    <key path="modules/backup/max_timelimit" val="30"/>
+    <key path="modules/backup/max_save_actions" val="50"/>
+    <key path="modules/backup/enabled" val="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/backup" name="backup">/classes/components/backup</directory>
+    <directory path="./styles/skins/modern/data/modules/backup" name="backup">/styles/skins/modern/data/modules/backup</directory>
+    <directory path="./styles/skins/modern/data/modules/backup/man" name="man">/styles/skins/modern/data/modules/backup/man</directory>
+    <directory path="./styles/skins/modern/data/modules/backup/man/ru" name="ru">/styles/skins/modern/data/modules/backup/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/backup/icon" name="icon">/styles/skins/modern/data/modules/backup/icon</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/backup/permissions.php" size="929" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cC9wZXJtaXNzaW9ucy5waHA" hash="285f43126c89c1a65f3de9a384766da9" name="permissions.php">/classes/components/backup/permissions.php</file>
+    <file path="./classes/components/backup/customMacros.php" size="155" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cC9jdXN0b21NYWNyb3MucGhw" hash="e52ad9df4855a73fc6bbe226eeb6e7ea" name="customMacros.php" only_install="true">/classes/components/backup/customMacros.php</file>
+    <file path="./classes/components/backup/lang.php" size="570" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cC9sYW5nLnBocA" hash="a0a3fb81c6692b7eeeebde8486c1e03b" name="lang.php">/classes/components/backup/lang.php</file>
+    <file path="./classes/components/backup/customAdmin.php" size="208" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cC9jdXN0b21BZG1pbi5waHA" hash="d080e0ceee0d36447c664bf22e6705ca" name="customAdmin.php" only_install="true">/classes/components/backup/customAdmin.php</file>
+    <file path="./classes/components/backup/events.php" size="235" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cC9ldmVudHMucGhw" hash="8dd74ed5a1300d7ce9d85b4e70db5db1" name="events.php">/classes/components/backup/events.php</file>
+    <file path="./classes/components/backup/handlers.php" size="1062" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cC9oYW5kbGVycy5waHA" hash="044ada012003d592d4ff76ab9d0f2328" name="handlers.php">/classes/components/backup/handlers.php</file>
+    <file path="./classes/components/backup/admin.php" size="2274" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cC9hZG1pbi5waHA" hash="5b75e3193b13c0e121757a52c523a0c2" name="admin.php">/classes/components/backup/admin.php</file>
+    <file path="./classes/components/backup/install.php" size="1224" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cC9pbnN0YWxsLnBocA" hash="7f388ecd0613550549c82fd2de51c0c6" name="install.php">/classes/components/backup/install.php</file>
+    <file path="./classes/components/backup/includes.php" size="69" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cC9pbmNsdWRlcy5waHA" hash="d8390332e5eab88068b5d9fd59999fb5" name="includes.php">/classes/components/backup/includes.php</file>
+    <file path="./classes/components/backup/i18n.en.php" size="1932" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cC9pMThuLmVuLnBocA" hash="e8fd2632bebaff125134fcbfd6467d7d" name="i18n.en.php" only_install="true">/classes/components/backup/i18n.en.php</file>
+    <file path="./classes/components/backup/class.php" size="7108" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cC9jbGFzcy5waHA" hash="034807d7125bab1acb367ab2925e9187" name="class.php">/classes/components/backup/class.php</file>
+    <file path="./classes/components/backup/i18n.php" size="3165" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cC9pMThuLnBocA" hash="da4c6906e49817f5d829222c6cd4bb10" name="i18n.php">/classes/components/backup/i18n.php</file>
+    <file path="./classes/components/backup/lang.en.php" size="454" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2JhY2t1cC9sYW5nLmVuLnBocA" hash="e091811230cc5f6535f269d1028c5305" name="lang.en.php">/classes/components/backup/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/backup/list.view.xsl" size="4650" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFja3Vw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFja3VwL2xpc3Qudmlldy54c2w" hash="44d612d071346236fbab3fe6c88af275" name="list.view.xsl">/styles/skins/modern/data/modules/backup/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/backup/man/ru/backup_copies.html" size="825" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFja3VwL21hbi9ydQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFja3VwL21hbi9ydS9iYWNrdXBfY29waWVzLmh0bWw" hash="dd3e5429f3b4d49ac9e32573bd1c1fc2" name="backup_copies.html">/styles/skins/modern/data/modules/backup/man/ru/backup_copies.html</file>
+    <file path="./styles/skins/modern/data/modules/backup/man/ru/config.html" size="2458" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFja3VwL21hbi9ydQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFja3VwL21hbi9ydS9jb25maWcuaHRtbA" hash="d533cab63a1579d64e53813a6479afac" name="config.html">/styles/skins/modern/data/modules/backup/man/ru/config.html</file>
+    <file path="./styles/skins/modern/data/modules/backup/man/ru/snapshots.html" size="1416" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFja3VwL21hbi9ydQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFja3VwL21hbi9ydS9zbmFwc2hvdHMuaHRtbA" hash="2d075d517014bbf64b94ca1af45f5cb9" name="snapshots.html">/styles/skins/modern/data/modules/backup/man/ru/snapshots.html</file>
+    <file path="./styles/skins/modern/data/modules/backup/icon/backup.png" size="1830" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFja3VwL2ljb24" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFja3VwL2ljb24vYmFja3VwLnBuZw" hash="f9c8f226683259bfef74feb3a378c6e0" name="backup.png">/styles/skins/modern/data/modules/backup/icon/backup.png</file>
+    <file path="./styles/skins/modern/data/modules/backup/settings.modify.xsl" size="5422" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFja3Vw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYmFja3VwL3NldHRpbmdzLm1vZGlmeS54c2w" hash="3a3b61db0b474208ade3f55d64fae543" name="settings.modify.xsl">/styles/skins/modern/data/modules/backup/settings.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <entities/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

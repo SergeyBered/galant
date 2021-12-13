@@ -1,0 +1,4 @@
+<?php
+ namespace UmiCms\Classes\System\Utils\SiteMap\Image;use UmiCms\Classes\System\Utils\SiteMap\iImage;use UmiCms\System\Orm\Entity\Repository as AbstractRepository;class Repository extends AbstractRepository implements iRepository {public function deleteByDomain(int $vb80bb7740288fda1f201890375a60c8f) : iRepository {$vaab9e1de16f38176f86d7a92ba337a8d = $this->getTable();$v92ffbe893ff334f604ddbb4b8179f80c = iMapper::DOMAIN_ID;$v72ee76c5c29383b7c9f9225c1fa4d10b = (int) $vb80bb7740288fda1f201890375a60c8f;$vac5c74b64b4b8352ef2f181affb5ac2a = <<<SQL
+DELETE FROM `$vaab9e1de16f38176f86d7a92ba337a8d` WHERE `$v92ffbe893ff334f604ddbb4b8179f80c` = $v72ee76c5c29383b7c9f9225c1fa4d10b;
+SQL;   $this->getConnection()    ->query($vac5c74b64b4b8352ef2f181affb5ac2a);return $this;}protected function isValidEntity($vf5e638cc78dd325906c1298a0c21fb6b) {return $vf5e638cc78dd325906c1298a0c21fb6b instanceof iImage;}}

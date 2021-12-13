@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113681</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:41 +0300</rfc>
+      <utc>2021-08-16T14:34:41+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/data" val="data"/>
+    <key path="modules/data/name" val="data"/>
+    <key path="modules/data/filename" val="modules/data/class.php"/>
+    <key path="modules/data/config" val="1" update="1"/>
+    <key path="modules/data/default_method" val="test" update="1"/>
+    <key path="modules/data/default_method_admin" val="types" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/data" name="data">/classes/components/data</directory>
+    <directory path="./classes/components/data/Classes" name="Classes">/classes/components/data/Classes</directory>
+    <directory path="./styles/skins/modern/data/modules/data" name="data">/styles/skins/modern/data/modules/data</directory>
+    <directory path="./styles/skins/modern/data/modules/data/man" name="man">/styles/skins/modern/data/modules/data/man</directory>
+    <directory path="./styles/skins/modern/data/modules/data/man/ru" name="ru">/styles/skins/modern/data/modules/data/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/data/icon" name="icon">/styles/skins/modern/data/modules/data/icon</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/data/autoload.php" size="213" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvYXV0b2xvYWQucGhw" hash="372d112ff500b1aec99f924a25944a12" name="autoload.php">/classes/components/data/autoload.php</file>
+    <file path="./classes/components/data/macros.php" size="50035" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvbWFjcm9zLnBocA" hash="00bf8b3597817be4537444df894aee45" name="macros.php">/classes/components/data/macros.php</file>
+    <file path="./classes/components/data/permissions.php" size="1809" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvcGVybWlzc2lvbnMucGhw" hash="0d2f3112a88a823643bd205a179cb107" name="permissions.php">/classes/components/data/permissions.php</file>
+    <file path="./classes/components/data/customMacros.php" size="152" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvY3VzdG9tTWFjcm9zLnBocA" hash="7fe6db9c456d95b18c0baae83aaef191" name="customMacros.php" only_install="true">/classes/components/data/customMacros.php</file>
+    <file path="./classes/components/data/lang.php" size="1879" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvbGFuZy5waHA" hash="22f63d3e1ae6d46304f453b55a8f7519" name="lang.php">/classes/components/data/lang.php</file>
+    <file path="./classes/components/data/Classes/iFormSaver.php" size="3664" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvQ2xhc3Nlcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvQ2xhc3Nlcy9pRm9ybVNhdmVyLnBocA" hash="4811cded8e0f87022b125f7bbe1a2cc4" name="iFormSaver.php">/classes/components/data/Classes/iFormSaver.php</file>
+    <file path="./classes/components/data/Classes/FormSaver.php" size="18126" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvQ2xhc3Nlcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvQ2xhc3Nlcy9Gb3JtU2F2ZXIucGhw" hash="184aca77e4fa671936cce504132fb394" name="FormSaver.php">/classes/components/data/Classes/FormSaver.php</file>
+    <file path="./classes/components/data/customAdmin.php" size="204" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvY3VzdG9tQWRtaW4ucGhw" hash="f97778badb26b7a09092357cc39a90d7" name="customAdmin.php" only_install="true">/classes/components/data/customAdmin.php</file>
+    <file path="./classes/components/data/forms.php" size="63344" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvZm9ybXMucGhw" hash="32d84607b83d8440a869af919404d0c5" name="forms.php">/classes/components/data/forms.php</file>
+    <file path="./classes/components/data/handlers.php" size="70" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvaGFuZGxlcnMucGhw" hash="43bd8b4ddc4564615fce3adee8c13105" name="handlers.php">/classes/components/data/handlers.php</file>
+    <file path="./classes/components/data/admin.php" size="41759" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvYWRtaW4ucGhw" hash="f86d56222ade47785f3c28e04fe837b0" name="admin.php">/classes/components/data/admin.php</file>
+    <file path="./classes/components/data/install.php" size="1198" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvaW5zdGFsbC5waHA" hash="cc1c3fed646d80c5b5be4d825b5edea3" name="install.php">/classes/components/data/install.php</file>
+    <file path="./classes/components/data/fileManager.php" size="2519" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvZmlsZU1hbmFnZXIucGhw" hash="003bb8622f746076b7f29fb5eb02a146" name="fileManager.php">/classes/components/data/fileManager.php</file>
+    <file path="./classes/components/data/feeds.php" size="5166" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvZmVlZHMucGhw" hash="d2bb14c1fc78ee082c92739b57cbec21" name="feeds.php">/classes/components/data/feeds.php</file>
+    <file path="./classes/components/data/includes.php" size="69" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvaW5jbHVkZXMucGhw" hash="d8390332e5eab88068b5d9fd59999fb5" name="includes.php">/classes/components/data/includes.php</file>
+    <file path="./classes/components/data/i18n.en.php" size="81540" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvaTE4bi5lbi5waHA" hash="e2937bc90218c4e887cf641db6929964" name="i18n.en.php" only_install="true">/classes/components/data/i18n.en.php</file>
+    <file path="./classes/components/data/class.php" size="9036" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvY2xhc3MucGhw" hash="cb7d8506e78bcdd8cc48a64c5d6e2391" name="class.php">/classes/components/data/class.php</file>
+    <file path="./classes/components/data/i18n.php" size="110545" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvaTE4bi5waHA" hash="ce882215ba4e227936243eb19aff08fc" name="i18n.php">/classes/components/data/i18n.php</file>
+    <file path="./classes/components/data/lang.en.php" size="1365" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGE" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2RhdGEvbGFuZy5lbi5waHA" hash="c878ec137f08432231d3e67dc976b940" name="lang.en.php">/classes/components/data/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/data/list.view.xsl" size="3991" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9saXN0LnZpZXcueHNs" hash="611c95d7afba8c494c2bc36572c271d4" name="list.view.xsl">/styles/skins/modern/data/modules/data/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/data/man/ru/config.html" size="806" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnUvY29uZmlnLmh0bWw" hash="230a5ca775e77ed0c57d8ae1da6fa754" name="config.html">/styles/skins/modern/data/modules/data/man/ru/config.html</file>
+    <file path="./styles/skins/modern/data/modules/data/man/ru/types.html" size="2136" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnUvdHlwZXMuaHRtbA" hash="e0a0c586d5027335c95e634cba4e19d0" name="types.html">/styles/skins/modern/data/modules/data/man/ru/types.html</file>
+    <file path="./styles/skins/modern/data/modules/data/man/ru/guide_item_edit.html" size="416" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnUvZ3VpZGVfaXRlbV9lZGl0Lmh0bWw" hash="963d7cedfebb3c80b4679971d1156680" name="guide_item_edit.html">/styles/skins/modern/data/modules/data/man/ru/guide_item_edit.html</file>
+    <file path="./styles/skins/modern/data/modules/data/man/ru/guides_context.png" size="3267" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnUvZ3VpZGVzX2NvbnRleHQucG5n" hash="8250065aafd581cbcc0efd87aa70e117" name="guides_context.png">/styles/skins/modern/data/modules/data/man/ru/guides_context.png</file>
+    <file path="./styles/skins/modern/data/modules/data/man/ru/guides.html" size="2505" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnUvZ3VpZGVzLmh0bWw" hash="fd6598a74699a97497d69e669525d65a" name="guides.html">/styles/skins/modern/data/modules/data/man/ru/guides.html</file>
+    <file path="./styles/skins/modern/data/modules/data/man/ru/type_edit.html" size="8906" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnUvdHlwZV9lZGl0Lmh0bWw" hash="6b85b361bd6298b18afe7ba98cc4d4b3" name="type_edit.html">/styles/skins/modern/data/modules/data/man/ru/type_edit.html</file>
+    <file path="./styles/skins/modern/data/modules/data/man/ru/view.png" size="913" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnUvdmlldy5wbmc" hash="1929dae0730442df2d5c6c14d01eb4e2" name="view.png">/styles/skins/modern/data/modules/data/man/ru/view.png</file>
+    <file path="./styles/skins/modern/data/modules/data/man/ru/guide_items.html" size="1475" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9tYW4vcnUvZ3VpZGVfaXRlbXMuaHRtbA" hash="38fe8797ba4fa5dc3c7fbc61146095dc" name="guide_items.html">/styles/skins/modern/data/modules/data/man/ru/guide_items.html</file>
+    <file path="./styles/skins/modern/data/modules/data/icon/data.png" size="1687" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9pY29u" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9pY29uL2RhdGEucG5n" hash="90ebab8296e51aa5a304b2d7998964fb" name="data.png">/styles/skins/modern/data/modules/data/icon/data.png</file>
+    <file path="./styles/skins/modern/data/modules/data/form.modify.xsl" size="6522" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9mb3JtLm1vZGlmeS54c2w" hash="bbdbeb43c006480f0c23dea097dcac67" name="form.modify.xsl">/styles/skins/modern/data/modules/data/form.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/data/list.modify.xsl" size="3093" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGF0YS9saXN0Lm1vZGlmeS54c2w" hash="5fe6746e9916491b00183bfd8585e0b0" name="list.modify.xsl">/styles/skins/modern/data/modules/data/list.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <entities/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

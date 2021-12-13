@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;interface iFactory {public function __construct(\iServiceContainer $v06d419f75cbecf6df5a44ea9471105ba);public function create(array $v166e64f6c3677d0c513901242a3e702d);}

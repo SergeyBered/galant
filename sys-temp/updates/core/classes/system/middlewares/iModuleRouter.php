@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\MiddleWares;use \iCmsController as iRouter;use UmiCms\System\Events\iEventPointFactory;interface iModuleRouter {public function setModuleRouter(iRouter $v448af5bebea5d4df87d754d5776a02a7);public function setEventPointFactory(iEventPointFactory $vccbabbfe82d8150e1d48822d2ff28264);public function analyzeModuleRequest();public function executeModuleRequest($v568e4df6b72662047d3c5db25163f9ad = true);}

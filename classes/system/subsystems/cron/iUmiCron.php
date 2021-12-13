@@ -1,0 +1,2 @@
+<?php
+ use \UmiCms\System\Events\iEventPointFactory as iEventFactory;interface iUmiCron {public function __construct(\iConfiguration $v2245023265ae4cf87d02c8b6ba991139 = null, iEventFactory $v67c06be409275078f3a98d129b0123c8 = null);public function run();public function getBuffer();public function setModules(array $v0eb9b3af2e4a00837a1b1a854c9ea18c = []) : iUmiCron;public function setMethods(array $va9ac5a6cc3cbe84f9c18323af2b9007f = []) : iUmiCron;public function getLogs();public function getParsedLogs();public function __destruct();}

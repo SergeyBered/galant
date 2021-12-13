@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\MiddleWares;use UmiCms\Classes\System\Utils\Stub\iFacade as iStubFacade;interface iStub {public function setStubFacade(iStubFacade $v0780890c93895aa9718a5bebb698d606);public function showStubPageIfRequired();}

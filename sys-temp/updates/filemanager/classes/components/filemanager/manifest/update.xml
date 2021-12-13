@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<route>
+		<transaction name="update_permissions_filemanager">
+			<action name="\UmiCms\Manifest\Filemanager\UpdatePermissionsFilemanager" />
+		</transaction>
+	</route>
+</manifest>

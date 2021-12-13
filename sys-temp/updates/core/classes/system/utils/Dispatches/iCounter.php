@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Utils\Dispatches;interface iCounter {public function __construct(\IConnection $v4717d53ebfdfea8477f780ec66151dcb, \iConfiguration $v2245023265ae4cf87d02c8b6ba991139);public function countEntry($vd6fe1d0be6347b8ef2427fa629c04485);public function generateImage();}

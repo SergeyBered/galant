@@ -1,0 +1,30 @@
+{% if conf.type == 'bool'%}
+    <input type="checkbox" {{ val ? 'checked="checked"' : '' }} />
+{% elseif conf.type == 'relation' %}
+    <div class="layout-col-control quick selectize-container">
+        <select {{ conf.multiple == true ? 'multiple="multiple" style="height: 62px;"' : '' }}>
+            {% for option in conf.options  %}
+                <option value="{{ option|escape}}" {{ val == option ? ' selected="selected" ' : '' }}>{{ option }}</option>
+            {% endfor %}
+        </select>
+    </div>
+{% elseif conf.type in ['image', 'file'] %}
+    <div class="layout-row-icon">
+        <div class="layout-col-control">
+            <input type="text" class="default" value="{{ val|escape }}"  id="inline_edit_{{ id }}" umi-type="{{ conf.type }}"/>
+        </div>
+        <div class="layout-col-icon">
+            <a class="icon-action"><i class="small-ico i-choose"></i></a>
+        </div>
+    </div>
+{% elseif  conf.type  == 'date'%}
+    <input type="text" class="default" value="{{ val|escape }}" placeholder="dd.mm.yyyy" id="inline_edit_{{ id }}" umi-type="{{ conf.type }}"/>
+{% elseif  conf.type  == 'time'%}
+    <input type="text" class="default" value="{{ val|escape }}" placeholder="hh:mm" id="inline_edit_{{ id }}" umi-type="{{ conf.type }}"/>
+{% elseif  conf.type  == 'datetime'%}
+    <input type="text" class="default" value="{{ val|escape }}" placeholder="dd.mm.yyyy hh:mm" id="inline_edit_{{ id }}" umi-type="{{ conf.type }}"/>
+{% elseif  conf.type in ['multiple_image', 'multiple_file', 'text', 'wysiwyg', 'symlink']%}
+    <input type="text" class="default hide" value="" id="inline_edit_{{ id }}"/>
+{% else %}
+    <input type="text" class="default" value="{{ val|escape }}" id="inline_edit_{{ id }}" umi-type="{{ conf.type }}"/>
+{% endif %}

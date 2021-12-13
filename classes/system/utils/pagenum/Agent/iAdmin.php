@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\PageNum\Agent;use UmiCms\System\Session\iSession;interface iAdmin extends iCommon {public function setSessionContainer(iSession $v4a72a61c1fca4e6ff7f22f13fccfb053) : iAdmin;}

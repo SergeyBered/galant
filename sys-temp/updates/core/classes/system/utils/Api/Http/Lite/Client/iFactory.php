@@ -1,0 +1,2 @@
+<?php
+    namespace UmiCms\Classes\System\Utils\Api\Http\Lite\Client;use UmiCms\Classes\System\Utils\Api\Http\Lite\iClient;interface iFactory {public function create(array $v2245023265ae4cf87d02c8b6ba991139 = []) : iClient;}

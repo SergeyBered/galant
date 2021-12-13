@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<body>
+		<script id="select-version" type="text/template">
+			<div class="title-edit"><%= header %></div>
+			<ul class="version-list">
+				<% _.each(versionList, function(version) { %>
+				<li>
+					<input id="<%= version.id %>" type="radio" name="version" value="<%= version.id %>">
+					<label for="<%= version.id %>">
+						<%= version.date %> — UMI.CMS <a href="https://www.umi-cms.ru/product/changelog/#change_<%= version.id %>" target="_blank" title="Журнал изменений <%= version.id %>">
+						версия <%= version.major %> сборка <%= version.minor %>
+					</a>
+					</label>
+				</li>
+				<% }); %>
+			</ul>
+			<div class="to-right">
+				<a class="btn color-blue btn-small close-dialog" title="Остановить обновление">Закрыть</a>
+				<a class="btn color-blue btn-small" id="select_version" disabled="disabled" title="Выбрать версию">Выбрать</a>
+			</div>
+		</script>
+	</body>
+</html>

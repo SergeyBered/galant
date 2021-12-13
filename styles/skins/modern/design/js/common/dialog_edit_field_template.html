@@ -1,0 +1,102 @@
+<div>
+	<div id="field_template_images">
+		<form id="optionedFieldForm">
+			<div class="col-md-12 multiimage" id="${elemId}" data-prefix="${inputName}">
+				<div class="title-edit">
+					<acronym>
+						${title}
+					</acronym>
+				</div>
+				<div class="mimage_wrapper ui-sortable">
+					<input type="hidden" name="${inputName}" value="" />
+					{%html valuesHtml %}
+					<div class="emptyfield"></div>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<div id="value_template_image">
+		<div class="multi_image"
+					umi:file="${path}"
+					umi:alt="${alt}"
+					umi:title="${title}"
+					umi:order="${order}"
+					umi:id="${path}"
+					umi:name="${name}"
+					umi:folder-hash="${folderHash}"
+					umi:file-hash="${fileHash}"
+					id="mifile_${id}">
+		</div>
+	</div>
+
+	<div id="field_template_files">
+		<form id="optionedFieldForm">
+			<div class="col-md-12 multifile" id="${elemId}" data-prefix="${inputName}">
+				<div class="title-edit">
+					<acronym>
+						${title}
+					</acronym>
+				</div>
+				<div class="mfile_wrapper ui-sortable">
+					<input type="hidden" name="${inputName}" value="" />
+					{%html valuesHtml %}
+					<div class="emptyfield"></div>
+				</div>
+			</div>
+		</form>
+	</div>
+			
+	<div id="value_template_file">
+		<div class="multi_file"
+			umi:file="${path}"
+			umi:title="${title}"
+			umi:order="${order}"
+			umi:id="${path}"
+			umi:name="${name}"
+			umi:folder-hash="${folderHash}"
+			umi:file-hash="${fileHash}"
+			id="mfile_${id}">
+		</div>
+	</div>
+
+	<div id="field_template_wysiwyg_text">
+		<form id="optionedFieldForm">
+			<div class="col-md-12 wysiwyg-field default-empty-validation">
+				<div class="title-edit">
+					<acronym>
+						${title}
+					</acronym>
+				</div>
+
+				<span>
+					<textarea name="${inputName}" class="${type}" id="${elemId}">${value}</textarea>
+				</span>
+			</div>
+		</form>
+	</div>
+
+	<div id="field_template_symlink">
+		<form id="optionedFieldForm">
+			<div class="col-md-6 symlink" id="${elemId}" name="${inputName}">
+				<div class="title-edit">
+					<acronym>
+						${title}
+					</acronym>
+				</div>
+
+				<span id="symlinkInput${elemId}">
+					<ul>
+						{%html valuesHtml %}
+					</ul>
+				</span>
+			</div>
+		</form>
+	</div>
+
+	<div id="value_template_symlink">
+		<li umi:id="${id}" umi:module="${basetype.module}" umi:method="${basetype.method}" umi:href="${link}">
+			${title}
+		</li>
+	</div>
+</div>

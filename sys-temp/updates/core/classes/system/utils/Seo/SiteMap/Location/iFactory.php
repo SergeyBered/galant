@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Utils\SiteMap\Location;use UmiCms\Classes\System\Utils\SiteMap\iLocation;use UmiCms\System\Orm\Entity\iFactory as iAbstractFactory;interface iFactory extends iAbstractFactory {public function create();}

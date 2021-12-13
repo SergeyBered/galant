@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\PageNum\Agent;use \iConfiguration as iConfig;use UmiCms\Classes\System\PageNum\iAgent;use UmiCms\System\Utils\Url\iFactory as iUrlFactory;interface iCommon extends iAgent {const DEFAULT_KEY = 'p';public function __construct(iConfig $v2245023265ae4cf87d02c8b6ba991139, iUrlFactory $v44febe2beadd1d4b691811c127575d70);}

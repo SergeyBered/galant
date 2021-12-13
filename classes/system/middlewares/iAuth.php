@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\MiddleWares;use UmiCms\System\Auth\iAuth as iFacade;interface iAuth {public function setAuth(iFacade $vfa53b91ccc1b78668d5af58e1ed3a485);public function loginByEnvironment();}

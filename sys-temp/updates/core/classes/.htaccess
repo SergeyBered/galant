@@ -1,0 +1,13 @@
+<IfModule mod_version.c>
+    <IfVersion >= 2.4>
+        Require all denied
+    </IfVersion>
+
+    <IfVersion < 2.4>
+        Deny from all
+    </IfVersion>
+</IfModule>
+
+<IfModule !mod_version.c>
+    Deny from all
+</IfModule>

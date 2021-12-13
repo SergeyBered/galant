@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use UmiCms\System\Request\iFacade as iRequest;use UmiCms\System\Response\iFacade as iResponse;interface iController {public function __construct(iRequest $v10573b873d2fa5a365d558a45e328e47, iResponse $vd1fc8eaf36937be0c3ba8cfe0a2c1bfe);public function setRouterParameters(array $v166e64f6c3677d0c513901242a3e702d);public function execute();}

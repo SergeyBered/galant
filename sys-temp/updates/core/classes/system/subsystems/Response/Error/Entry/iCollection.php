@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Response\Error\Entry;use UmiCms\System\Orm\Entity\iCollection as iAbstractCollection;interface iCollection extends iAbstractCollection {public function slice($v7a86c157ee9713c34fbd7a1ee40f0c5a, $vaa9f73eea60a006820d0f8768bc8a3fc = null);}

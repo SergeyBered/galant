@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Utils\SiteMap\Image;use UmiCms\System\Orm\Entity\iRepository as iAbstractRepository;interface iRepository extends iAbstractRepository {public function deleteByDomain(int $vb80bb7740288fda1f201890375a60c8f) : iRepository;}

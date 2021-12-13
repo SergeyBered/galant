@@ -1,0 +1,30 @@
+<?php
+
+$mainMenu = $this->getMenu(1681);
+
+// echo "<pre>";
+//     print_r($mainMenu['item']);
+// echo "</pre>";
+?>
+
+
+<?php if(isset($mainMenu['item'])): ?>
+
+    <?php foreach ($mainMenu['item'] as $key => $value): ?>
+        <?php $supportClass = isset($value['sub_menu']) ? " menu_support" : "";  ?>
+
+        <div class="item_header_menu <?= $supportClass ?>">
+            <a href="<?= $value['link']; ?> " class="<?= $supportClass; ?>" > <?= $value['name']; ?> </a>
+
+            <?php if(isset($value['sub_menu'])) { ?>
+                <div class="child_elements" data-parents="<?= $value['id']; ?> ">
+
+                    <?php foreach ($value['sub_menu']['item'] as $key => $childValue) { ?>
+                        <a href=" <?= $childValue['link']; ?> "> <?= $childValue['name']; ?> </a>
+                    <?php } ?>
+                </div>
+            <?php } ?>
+        </div>
+
+    <?php endforeach; ?>
+<?php endif; ?>

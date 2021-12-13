@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Translators;interface iTranslatorFactory {const JSON = 'jsonTranslator';const XML = 'xmlTranslator';const PHP = 'UmiCms\Classes\System\Translators\PhpTranslator';public static function create($va2f2ed4f8ebc2cbb4c21a29dc40ab61d);}

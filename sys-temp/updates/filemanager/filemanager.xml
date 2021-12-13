@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113684</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:44 +0300</rfc>
+      <utc>2021-08-16T14:34:44+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/filemanager" val="filemanager"/>
+    <key path="modules/filemanager/name" val="filemanager"/>
+    <key path="modules/filemanager/description" val="Управление файловой системой."/>
+    <key path="modules/filemanager/filename" val="modules/filemanager/class.php"/>
+    <key path="modules/filemanager/config" val="0" update="1"/>
+    <key path="modules/filemanager/default_method" val="list_files" update="1"/>
+    <key path="modules/filemanager/default_method_admin" val="shared_files" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/filemanager" name="filemanager">/classes/components/filemanager</directory>
+    <directory path="./classes/components/filemanager/manifest" name="manifest">/classes/components/filemanager/manifest</directory>
+    <directory path="./classes/components/filemanager/manifest/actions" name="actions">/classes/components/filemanager/manifest/actions</directory>
+    <directory path="./classes/components/filemanager/Classes" name="Classes">/classes/components/filemanager/Classes</directory>
+    <directory path="./classes/components/filemanager/Classes/Watermark" name="Watermark">/classes/components/filemanager/Classes/Watermark</directory>
+    <directory path="./classes/components/filemanager/Classes/elfinder" name="elfinder">/classes/components/filemanager/Classes/elfinder</directory>
+    <directory path="./styles/skins/modern/data/modules/filemanager" name="filemanager">/styles/skins/modern/data/modules/filemanager</directory>
+    <directory path="./styles/skins/modern/data/modules/filemanager/man" name="man">/styles/skins/modern/data/modules/filemanager/man</directory>
+    <directory path="./styles/skins/modern/data/modules/filemanager/man/ru" name="ru">/styles/skins/modern/data/modules/filemanager/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/filemanager/icon" name="icon">/styles/skins/modern/data/modules/filemanager/icon</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/filemanager/autoload.php" size="556" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL2F1dG9sb2FkLnBocA" hash="df17bc7baa4e28356e2249f5b201bcf2" name="autoload.php">/classes/components/filemanager/autoload.php</file>
+    <file path="./classes/components/filemanager/macros.php" size="6654" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL21hY3Jvcy5waHA" hash="0e90b8ed6b5dbb1e56a0b5341f6a3ba4" name="macros.php">/classes/components/filemanager/macros.php</file>
+    <file path="./classes/components/filemanager/permissions.php" size="1338" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL3Blcm1pc3Npb25zLnBocA" hash="a6c98e84de91376674ed00ce8976f506" name="permissions.php">/classes/components/filemanager/permissions.php</file>
+    <file path="./classes/components/filemanager/customMacros.php" size="173" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL2N1c3RvbU1hY3Jvcy5waHA" hash="23b8472e9b69fc992e25d4f24fe22572" name="customMacros.php" only_install="true">/classes/components/filemanager/customMacros.php</file>
+    <file path="./classes/components/filemanager/services.php" size="354" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL3NlcnZpY2VzLnBocA" hash="79aa2a8890416d764119f0ac2640b914" name="services.php">/classes/components/filemanager/services.php</file>
+    <file path="./classes/components/filemanager/lang.php" size="801" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL2xhbmcucGhw" hash="f302fd7773284e1a128371c239a5e824" name="lang.php">/classes/components/filemanager/lang.php</file>
+    <file path="./classes/components/filemanager/manifest/actions/UpdatePermissionsFilemanager.php" size="1166" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL21hbmlmZXN0L2FjdGlvbnM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL21hbmlmZXN0L2FjdGlvbnMvVXBkYXRlUGVybWlzc2lvbnNGaWxlbWFuYWdlci5waHA" hash="d8edc7f504a0d0c045eb234578a429ea" name="UpdatePermissionsFilemanager.php">/classes/components/filemanager/manifest/actions/UpdatePermissionsFilemanager.php</file>
+    <file path="./classes/components/filemanager/manifest/update.xml" size="231" ext="xml" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL21hbmlmZXN0" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL21hbmlmZXN0L3VwZGF0ZS54bWw" hash="2ce7eefd4d8c7fff3226ace277164d85" name="update.xml">/classes/components/filemanager/manifest/update.xml</file>
+    <file path="./classes/components/filemanager/Classes/Watermark/iAdminSettingsManager.php" size="910" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL0NsYXNzZXMvV2F0ZXJtYXJr" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL0NsYXNzZXMvV2F0ZXJtYXJrL2lBZG1pblNldHRpbmdzTWFuYWdlci5waHA" hash="899e28896b399f3e70d17656b49a6fb5" name="iAdminSettingsManager.php">/classes/components/filemanager/Classes/Watermark/iAdminSettingsManager.php</file>
+    <file path="./classes/components/filemanager/Classes/Watermark/AdminSettingsManager.php" size="6536" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL0NsYXNzZXMvV2F0ZXJtYXJr" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL0NsYXNzZXMvV2F0ZXJtYXJrL0FkbWluU2V0dGluZ3NNYW5hZ2VyLnBocA" hash="a4c5e531d49943778e1aa9a0a1b1e515" name="AdminSettingsManager.php">/classes/components/filemanager/Classes/Watermark/AdminSettingsManager.php</file>
+    <file path="./classes/components/filemanager/Classes/elfinder/fileManager.php" size="15916" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL0NsYXNzZXMvZWxmaW5kZXI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL0NsYXNzZXMvZWxmaW5kZXIvZmlsZU1hbmFnZXIucGhw" hash="27468b11e04710af447068cdc43ba24b" name="fileManager.php">/classes/components/filemanager/Classes/elfinder/fileManager.php</file>
+    <file path="./classes/components/filemanager/Classes/elfinder/elFinderVolumeUmiLocalFileSystem.class.php" size="4232" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL0NsYXNzZXMvZWxmaW5kZXI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL0NsYXNzZXMvZWxmaW5kZXIvZWxGaW5kZXJWb2x1bWVVbWlMb2NhbEZpbGVTeXN0ZW0uY2xhc3MucGhw" hash="748f8f930790e68e327cacfe34936010" name="elFinderVolumeUmiLocalFileSystem.class.php">/classes/components/filemanager/Classes/elfinder/elFinderVolumeUmiLocalFileSystem.class.php</file>
+    <file path="./classes/components/filemanager/customAdmin.php" size="216" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL2N1c3RvbUFkbWluLnBocA" hash="78c1c206cdd7cff1591cb9aa1bdd205c" name="customAdmin.php" only_install="true">/classes/components/filemanager/customAdmin.php</file>
+    <file path="./classes/components/filemanager/events.php" size="281" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL2V2ZW50cy5waHA" hash="724a2cbc7d5fc0731c412f8dd04ea018" name="events.php">/classes/components/filemanager/events.php</file>
+    <file path="./classes/components/filemanager/handlers.php" size="1386" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL2hhbmRsZXJzLnBocA" hash="e2158ff77110bd132010ed3e6257c257" name="handlers.php">/classes/components/filemanager/handlers.php</file>
+    <file path="./classes/components/filemanager/admin.php" size="7398" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL2FkbWluLnBocA" hash="e0a0c2cc69f40ae72197b610a0d4c2e0" name="admin.php">/classes/components/filemanager/admin.php</file>
+    <file path="./classes/components/filemanager/install.php" size="1782" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL2luc3RhbGwucGhw" hash="6485a9db4e7bc4af49813db006f9b3ec" name="install.php">/classes/components/filemanager/install.php</file>
+    <file path="./classes/components/filemanager/includes.php" size="69" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL2luY2x1ZGVzLnBocA" hash="d8390332e5eab88068b5d9fd59999fb5" name="includes.php">/classes/components/filemanager/includes.php</file>
+    <file path="./classes/components/filemanager/i18n.en.php" size="2294" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL2kxOG4uZW4ucGhw" hash="7bb1d6f837487489da99c5826ffe17b6" name="i18n.en.php" only_install="true">/classes/components/filemanager/i18n.en.php</file>
+    <file path="./classes/components/filemanager/class.php" size="2938" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL2NsYXNzLnBocA" hash="53ab58d2aa17c94ed830507801e36ff2" name="class.php">/classes/components/filemanager/class.php</file>
+    <file path="./classes/components/filemanager/i18n.php" size="3464" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL2kxOG4ucGhw" hash="47eb752752f0dc5bcfe50df521fa5e84" name="i18n.php">/classes/components/filemanager/i18n.php</file>
+    <file path="./classes/components/filemanager/lang.en.php" size="565" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2Vy" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2ZpbGVtYW5hZ2VyL2xhbmcuZW4ucGhw" hash="cb77e755256b047178da158015581ed6" name="lang.en.php">/classes/components/filemanager/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/filemanager/list.view.xsl" size="2023" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXIvbGlzdC52aWV3LnhzbA" hash="f114c6841b1592f9fa2a0483e3c281c7" name="list.view.xsl">/styles/skins/modern/data/modules/filemanager/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/filemanager/watermark.js" size="696" ext="js" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXIvd2F0ZXJtYXJrLmpz" hash="1171d61dca32ae79442567f2fa9cb260" name="watermark.js">/styles/skins/modern/data/modules/filemanager/watermark.js</file>
+    <file path="./styles/skins/modern/data/modules/filemanager/man/ru/add_shared_file.html" size="761" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXIvbWFuL3J1" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXIvbWFuL3J1L2FkZF9zaGFyZWRfZmlsZS5odG1s" hash="8de2e935977100a3dacb4e09575a554d" name="add_shared_file.html">/styles/skins/modern/data/modules/filemanager/man/ru/add_shared_file.html</file>
+    <file path="./styles/skins/modern/data/modules/filemanager/man/ru/watermark.html" size="2533" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXIvbWFuL3J1" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXIvbWFuL3J1L3dhdGVybWFyay5odG1s" hash="f6955c3ff2564b3a02e71d9034de1ddc" name="watermark.html">/styles/skins/modern/data/modules/filemanager/man/ru/watermark.html</file>
+    <file path="./styles/skins/modern/data/modules/filemanager/man/ru/edit_shared_file.html" size="962" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXIvbWFuL3J1" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXIvbWFuL3J1L2VkaXRfc2hhcmVkX2ZpbGUuaHRtbA" hash="5e2faf844c72a915133416eb5d72cb6a" name="edit_shared_file.html">/styles/skins/modern/data/modules/filemanager/man/ru/edit_shared_file.html</file>
+    <file path="./styles/skins/modern/data/modules/filemanager/man/ru/shared_files.html" size="2046" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXIvbWFuL3J1" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXIvbWFuL3J1L3NoYXJlZF9maWxlcy5odG1s" hash="ae51e49c8751e64e4ce14969779f3780" name="shared_files.html">/styles/skins/modern/data/modules/filemanager/man/ru/shared_files.html</file>
+    <file path="./styles/skins/modern/data/modules/filemanager/icon/filemanager.png" size="1788" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXIvaWNvbg" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXIvaWNvbi9maWxlbWFuYWdlci5wbmc" hash="853bf0ae940ee9939dc6c6c2b1110f53" name="filemanager.png">/styles/skins/modern/data/modules/filemanager/icon/filemanager.png</file>
+    <file path="./styles/skins/modern/data/modules/filemanager/settings.modify.xsl" size="5229" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZmlsZW1hbmFnZXIvc2V0dGluZ3MubW9kaWZ5LnhzbA" hash="0356e94b1849486861a58d4143bf60a5" name="settings.modify.xsl">/styles/skins/modern/data/modules/filemanager/settings.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="i18n::object-type-spravochniki" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="745" guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" title="i18n::object-type-status_stranicy" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="svojstva_statusa_stranicy" title="i18n::fields-group-svojstva_statusa_stranicy" visible="visible" active="active">
+          <field id="9027" name="publish_status_id" title="i18n::field-publish_status_id" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="{root-pages-type}" guid="root-pages-type" title="i18n::object-type-razdel_sajta" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="i18n::field-title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="i18n::field-h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="i18n::field-content" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="i18n::field-meta_descriptions" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="i18n::field-meta_keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки страницы</tip>
+        </group>
+        <group name="more_params" title="i18n::fields-group-more_params" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="i18n::field-robots_deny" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="i18n::field-show_submenu" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="i18n::field-is_expanded" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="i18n::field-is_unindexed" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="rate_props" title="i18n::fields-group-rate_props" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="i18n::field-rate_voters" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="i18n::field-rate_sum" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="i18n::fields-group-svojstva_publikacii" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="i18n::field-expiration_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="i18n::field-notification_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="i18n::field-publish_comments" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="i18n::field-publish_status" visible="visible" locked="locked" guide-id="745">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="i18n::fields-group-locks" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="i18n::field-locktime" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="i18n::field-lockuser" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="702" guid="filemanager-sharedfile" title="i18n::object-type-filemanager-shared_file" parent-id="{root-pages-type}" domain-id="0" locked="locked">
+      <base module="filemanager" method="shared_file" hide-pages="0">i18n::hierarchy-type-filemanager-shared_file</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="i18n::field-title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="i18n::field-h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="i18n::field-meta_descriptions" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="i18n::field-meta_keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <field id="26" name="content" title="i18n::field-content" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <tip>Основные настройки страницы скачиваемого файла</tip>
+        </group>
+        <group name="more_params" title="i18n::fields-group-more_params" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="i18n::field-robots_deny" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="i18n::field-show_submenu" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="i18n::field-is_expanded" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="i18n::field-is_unindexed" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="fs_file_props" title="i18n::fields-group-fs_file_props" locked="locked" active="active" visible="0">
+          <field id="8898" name="fs_file" title="i18n::field-fs_file" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-file" data-type="file"/>
+          </field>
+          <field id="8899" name="downloads_counter" title="i18n::field-downloads_counter" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <tip>Свойства скачиваемого файла</tip>
+        </group>
+        <group name="rate_voters" title="i18n::fields-group-rate_voters" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="i18n::field-rate_voters" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="i18n::field-rate_sum" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="i18n::fields-group-svojstva_publikacii" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="i18n::field-expiration_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="i18n::field-notification_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="i18n::field-publish_comments" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="i18n::field-publish_status" visible="visible" locked="locked" guide-id="745">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="i18n::fields-group-locks" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="i18n::field-locktime" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="i18n::field-lockuser" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <entities/>
+  <relations>
+    <relation type-id="{root-pages-type}" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="702" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

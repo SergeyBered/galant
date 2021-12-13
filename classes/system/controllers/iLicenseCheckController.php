@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use \iRegedit as iRegistry;use \iDomainsCollection as iDomainFacade;use UmiCms\Classes\System\Template\Engine\iFactory as iTemplateEngineFactory;interface iLicenseCheckController extends iController {public function setRegistry(iRegistry $va9205dcfd4a6f7c2cbe8be01566ff84a);public function setDomainFacade(iDomainFacade $v85bd6c4afa6ae9cb56d38b1e4a8595c8);public function setPhpTemplateEngine(iTemplateEngineFactory $v9549dd6065d019211460c59a86dd6536);}

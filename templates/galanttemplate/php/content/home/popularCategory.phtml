@@ -1,0 +1,29 @@
+
+
+<div class="popular_category_homepage">
+    <div class="popular_content_wrapper">
+    <span class="popular_heading">Популярные категории</span>
+        <div class="popular_category_items">
+<?php
+
+    $thisPage = $variables['page'];
+    $popularCategoryMass = $thisPage->getValue('populyarnye_kategorii');
+
+    foreach ($popularCategoryMass as $key => $value) : ?>
+        <?php $objectsCollection = umiObjectsCollection::getInstance();
+              $item = $objectsCollection->getObject($value); ?>
+
+              <a href="<?= $item->getValue('link_url'); ?>" class="popular_one_item">
+                  <div class="one_item_imageWrapper">
+                      <img src="<?= $item->getValue('izobrazhenie'); ?>" alt="image category">
+                  </div>
+                  <div class="one_item_text">
+                      <?= $item->getValue('name_item'); ?>
+                  </div>
+              </a>
+
+    <? endforeach;?>
+
+        </div>
+    </div>
+</div>

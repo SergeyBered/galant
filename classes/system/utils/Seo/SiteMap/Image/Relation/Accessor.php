@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Utils\SiteMap\Image\Relation;use UmiCms\System\Orm\Entity\iAccessor;use UmiCms\System\Orm\Entity\Relation\Accessor as AbstractAccessor;class Accessor extends AbstractAccessor implements iAccessor {}

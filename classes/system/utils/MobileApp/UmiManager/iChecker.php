@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\MobileApp\UmiManager;use \iRegedit as iRegistry;use UmiCms\System\Request\iFacade as iRequest;use UmiCms\System\Response\iFacade as iResponse;use UmiCms\Classes\System\Translators\iFacade as iTranslator;interface iChecker {public function __construct(iRequest $v10573b873d2fa5a365d558a45e328e47, iRegistry $va9205dcfd4a6f7c2cbe8be01566ff84a, iResponse $vd1fc8eaf36937be0c3ba8cfe0a2c1bfe, iTranslator $v607f2f3099f2a347b327caa70e0be4b2);public function checkRequiredModules();}

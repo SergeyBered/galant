@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Events\Executor;use \iServiceContainer;use UmiCms\System\Events\iHandler;use UmiCms\System\Events\iExecutor;use UmiCms\System\Events\Executor\iModule as iModuleExecutor;interface iFactory {const SERVICE_NAME = 'EventHandlerExecutor';public function __construct(iServiceContainer $v06d419f75cbecf6df5a44ea9471105ba);public function createForHandler(iHandler $vc1cbfe271a40788a00e8bf8574d94d4b) : iExecutor;}

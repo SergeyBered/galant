@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\MiddleWares;use \iDomainsCollection as iDomains;use UmiCms\System\Hierarchy\Domain\iDetector as iDomainDetector;interface iMirrorHandler {const MODE_REDIRECT = 1;const MODE_CRASH = 2;const MODE_ADD_MIRROR = 3;const MODE_IGNORE = 4;public function setDomains(iDomains $ve4e46deb7f9cc58c7abfb32e5570b6f3);public function setDomainDetector(iDomainDetector $v45651ec82e45766b3d707ee33df1a61a);public function checkMirror($v15d61712450a686a7f365adf4fef581f = self::MODE_REDIRECT);}

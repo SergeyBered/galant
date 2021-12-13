@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Utils\AutoThumb;use \iConfiguration as iConfig;use \iImageProcessor as iImageProcessor;use UmiCms\Classes\System\Entities\Image\iFactory as iImageFactory;interface iGenerator {public function __construct(iConfig $v2245023265ae4cf87d02c8b6ba991139, iImageFactory $vc76618e39a97c7e3d6d7ab8973932e05, iImageProcessor $v41fce2005fa27bdf619a257961c4f9c4);public function execute($vd6fe1d0be6347b8ef2427fa629c04485);}

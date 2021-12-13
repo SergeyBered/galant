@@ -1,0 +1,33 @@
+<div class="location" style="position: static !important;">
+    <div class="row" id="udcToolbar"> </div>
+    <div class="save_size"> </div>
+    <div class="loc-right">
+        {% if domainsList %}
+            <div class="domains_selector">
+                <select class="default newselect">
+                    {% for domain in domainsList %}
+                        <option value="{{ domain.id }}">{{ domain.host }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        {% endif %}
+    </div>
+</div>
+<div style="width: 100%;" class="tableItemContainer location" >
+    <div class="overflow overflow-block">
+        <table id="udcControl" class="table allowContextMenu notextselect" style="table-layout: fixed; position: relative;">
+            <thead id="udcControlHeader"></thead>
+            <tbody id="udcControlBody"></tbody>
+        </table>
+    </div>
+</div>
+{% if limits %}
+    <div class="location">
+        <div id="udcConfigBar" class="paging panel-sorting loc-right">
+            <span>{{ trans('js-label-elements-per-page') }}</span>
+            {% for limit in limits %}
+                <a class="per_page_limit {{ (limit == current ? 'current' : '') }}">{{ limit }}</a>
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}

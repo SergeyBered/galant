@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use UmiCms\Utils\AutoThumb\iGenerator;interface iAutoThumbController extends iController {public function setGenerator(iGenerator $vdac9630aec642a428cd73f4be0a03569);}

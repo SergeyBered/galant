@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Utils\SiteMap\Image\Relation;use UmiCms\System\Orm\Entity\iMutator;use UmiCms\System\Orm\Entity\Relation\Mutator as AbstractMutator;class Mutator extends AbstractMutator implements iMutator {}

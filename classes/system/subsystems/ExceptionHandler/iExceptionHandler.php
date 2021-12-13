@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Exception\Handler;interface iExceptionHandler {public function report($v42552b1f133f9f8eb406d4f306ea9fd1);public function handler($v42552b1f133f9f8eb406d4f306ea9fd1);public function createCrashReport($v78e731027d8fd50ed642340b7c9a63b3, $v04a75036e9d520bb983c5ed03b8d0182);public function setExceptionTemplate($v8c7dd922ad47494fc02c388e12c00eac);public function getErrorContent($vcb5e100e5a9a3e7f6d1fd97512215282);}

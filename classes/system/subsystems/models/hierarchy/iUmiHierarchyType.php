@@ -1,0 +1,2 @@
+<?php
+ interface iUmiHierarchyType extends iUmiEntinty {public function getName();public function getExt();public function getTitle($v06ce91230184ce59c2eb3ef5a4ad4d3b = false);public function setName($vb068931cc450442b63f5b3d276ea4297);public function setTitle($vd5d3db1765287eef77d7927cc956f50a);public function setExt($vabf77184f55403d75b9d51d79162a7ca);public function hidePages() : bool;public function setHidePages(bool $v9acb44549b41563697bb490144ec6258 = true) : iUmiHierarchyType;public function getModule();public function getMethod();}

@@ -1,0 +1,76 @@
+<?php
+
+/**
+ * Главная страница:
+ *   - Блок со слайдером
+ *   - Блок акции с таймером
+ *   - Блок "Наши преимущества"
+ *   - Блок с новостями и опросом
+ *
+ * @var umiTemplaterPHP|ViewPhpExtension|DemomarketPhpExtension $this
+ * @var array $variables
+ */
+ //
+ // $objectsCollection = umiObjectsCollection::getInstance();
+ //
+ $thisPage = $variables['page'];
+
+
+?>
+
+    <div class="main_page_wrapper">
+        <div class="first_info_block">
+            <div class="left_image_container">
+                <img src="<?= $thisPage->getValue('first_block_image'); ?>" alt="">
+            </div>
+            <div class="right_text_container">
+                <div class="text_container_content">
+                    <span class="heading"><?= $thisPage->getValue('zagolovok_bloka') ?></span>
+                    <span class="pos_text"><?= $thisPage->getValue('pos_text') ?></span>
+                    <div class="btn_wrapper_see_more">
+                        <div class="support_see_more">
+                            <a class="see_more" href="<?= $thisPage->getValue('see_more') ?>">Узнать больше</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                  <img class="abs_img" src="<?= $thisPage->getValue('vtoroe_izobrazhenie') ?>" alt="">
+
+            </div>
+        </div>
+    </div>
+    <?= $this->render($variables, 'content/home/popularCategory') ?>
+    <div class="wrapper_about_company">
+        <div class="support_block_company"></div>
+        <img class="img_comp" src="<?= $thisPage->getValue('company_banner') ?>" alt="">
+        <div class="about_content_block">
+            <span class="about_heading"><?= $thisPage->getValue('company_heading') ?></span>
+            <?= $thisPage->getValue('company_text') ?>
+            <div class="btn_wrapper_see_more">
+                <div class="support_see_more">
+                    <a class="see_more" href="<?= $thisPage->getValue('see_more_company') ?>">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="partners_wrapper">
+        <span class="part_heading"><?= $thisPage->getValue('partnery_zagolovok') ?></span>
+        <div class="supp_logo_bloks">
+          <div class="logo_blocks">
+
+            <?php
+            $images = $thisPage->getValue('nabor_kartinok_partnery');
+
+            foreach ((array)$images as $key => $value) : ?>
+
+                <div class="oneitem">
+                  <img src="/<?= $value->getFilePath() ?>" alt="">
+                </div>
+            <?php endforeach; ?>
+              </div>
+        </div>
+
+
+    </div>

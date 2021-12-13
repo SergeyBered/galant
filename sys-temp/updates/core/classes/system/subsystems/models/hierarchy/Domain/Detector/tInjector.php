@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Hierarchy\Domain\Detector;use UmiCms\System\Hierarchy\Domain\iDetector;trait tInjector {private $v45651ec82e45766b3d707ee33df1a61a;public function setDomainDetector(iDetector $v21aed3df2077b5d91ce46bf123446731) {$this->domainDetector = $v21aed3df2077b5d91ce46bf123446731;return $this;}public function getDomainDetector() {if (!$this->domainDetector instanceof iDetector) {throw new \DependencyNotInjectedException('You should inject domain detector first');}return $this->domainDetector;}}

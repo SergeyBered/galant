@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Events;use \iUmiEventPoint as iEvent;abstract class Executor implements iExecutor {protected $handler;public function __construct(iHandler $vc1cbfe271a40788a00e8bf8574d94d4b) {$this->handler = $vc1cbfe271a40788a00e8bf8574d94d4b;}abstract public function execute(iEvent $v4119639092e62c55ea8be348e4d9260d) : void;}

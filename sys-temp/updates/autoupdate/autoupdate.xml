@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113683</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:43 +0300</rfc>
+      <utc>2021-08-16T14:34:43+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/autoupdate" val="autoupdate"/>
+    <key path="modules/autoupdate/name" val="autoupdate"/>
+    <key path="modules/autoupdate/filename" val="modules/autoupdate/class.php"/>
+    <key path="modules/autoupdate/config" val="1" update="1"/>
+    <key path="modules/autoupdate/default_method" val="updateall" update="1"/>
+    <key path="modules/autoupdate/default_method_admin" val="versions" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/autoupdate" name="autoupdate">/classes/components/autoupdate</directory>
+    <directory path="./classes/components/autoupdate/Classes" name="Classes">/classes/components/autoupdate/Classes</directory>
+    <directory path="./classes/components/autoupdate/Classes/UpdateServer" name="UpdateServer">/classes/components/autoupdate/Classes/UpdateServer</directory>
+    <directory path="./styles/skins/modern/data/modules/autoupdate" name="autoupdate">/styles/skins/modern/data/modules/autoupdate</directory>
+    <directory path="./styles/skins/modern/data/modules/autoupdate/man" name="man">/styles/skins/modern/data/modules/autoupdate/man</directory>
+    <directory path="./styles/skins/modern/data/modules/autoupdate/man/ru" name="ru">/styles/skins/modern/data/modules/autoupdate/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/autoupdate/icon" name="icon">/styles/skins/modern/data/modules/autoupdate/icon</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/autoupdate/autoload.php" size="617" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvYXV0b2xvYWQucGhw" hash="ae5b05688cefe41a0128d6f7782afbc5" name="autoload.php">/classes/components/autoupdate/autoload.php</file>
+    <file path="./classes/components/autoupdate/service.php" size="5769" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvc2VydmljZS5waHA" hash="9a39c521e60738c7a8195802c556317b" name="service.php">/classes/components/autoupdate/service.php</file>
+    <file path="./classes/components/autoupdate/permissions.php" size="96" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvcGVybWlzc2lvbnMucGhw" hash="550fb6735c884cbb7ab6f44f2b8077ad" name="permissions.php">/classes/components/autoupdate/permissions.php</file>
+    <file path="./classes/components/autoupdate/customMacros.php" size="163" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvY3VzdG9tTWFjcm9zLnBocA" hash="9321c53443ebddce2459e3794e2579a8" name="customMacros.php" only_install="true">/classes/components/autoupdate/customMacros.php</file>
+    <file path="./classes/components/autoupdate/services.php" size="903" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvc2VydmljZXMucGhw" hash="b8f2db675612a173ad185ba83db5d3ba" name="services.php">/classes/components/autoupdate/services.php</file>
+    <file path="./classes/components/autoupdate/lang.php" size="1770" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvbGFuZy5waHA" hash="486ed55f67103a07ea803f151200cb94" name="lang.php">/classes/components/autoupdate/lang.php</file>
+    <file path="./classes/components/autoupdate/Classes/Registry.php" size="1658" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvQ2xhc3Nlcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvQ2xhc3Nlcy9SZWdpc3RyeS5waHA" hash="0807ee2c355ab6e938f04fd934159b1b" name="Registry.php">/classes/components/autoupdate/Classes/Registry.php</file>
+    <file path="./classes/components/autoupdate/Classes/UpdateServer/Client.php" size="16583" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvQ2xhc3Nlcy9VcGRhdGVTZXJ2ZXI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvQ2xhc3Nlcy9VcGRhdGVTZXJ2ZXIvQ2xpZW50LnBocA" hash="584edfc6404945bd20ff6d3e4711c31a" name="Client.php">/classes/components/autoupdate/Classes/UpdateServer/Client.php</file>
+    <file path="./classes/components/autoupdate/Classes/UpdateServer/iClient.php" size="5255" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvQ2xhc3Nlcy9VcGRhdGVTZXJ2ZXI" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvQ2xhc3Nlcy9VcGRhdGVTZXJ2ZXIvaUNsaWVudC5waHA" hash="c90084a4467e881c9b7e4389a7db79af" name="iClient.php">/classes/components/autoupdate/Classes/UpdateServer/iClient.php</file>
+    <file path="./classes/components/autoupdate/Classes/iRegistry.php" size="521" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvQ2xhc3Nlcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvQ2xhc3Nlcy9pUmVnaXN0cnkucGhw" hash="939874229d5a79854f93cb87c6a264aa" name="iRegistry.php">/classes/components/autoupdate/Classes/iRegistry.php</file>
+    <file path="./classes/components/autoupdate/customAdmin.php" size="214" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvY3VzdG9tQWRtaW4ucGhw" hash="3e5082b5633ad688efdacb8655f80526" name="customAdmin.php" only_install="true">/classes/components/autoupdate/customAdmin.php</file>
+    <file path="./classes/components/autoupdate/handlers.php" size="70" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvaGFuZGxlcnMucGhw" hash="43bd8b4ddc4564615fce3adee8c13105" name="handlers.php">/classes/components/autoupdate/handlers.php</file>
+    <file path="./classes/components/autoupdate/admin.php" size="5777" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvYWRtaW4ucGhw" hash="ca3ca988e930c064372943643b8f4489" name="admin.php">/classes/components/autoupdate/admin.php</file>
+    <file path="./classes/components/autoupdate/install.php" size="1305" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvaW5zdGFsbC5waHA" hash="f3097b7a60c1dc1a21fa07f91ecfb8ea" name="install.php">/classes/components/autoupdate/install.php</file>
+    <file path="./classes/components/autoupdate/includes.php" size="69" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvaW5jbHVkZXMucGhw" hash="d8390332e5eab88068b5d9fd59999fb5" name="includes.php">/classes/components/autoupdate/includes.php</file>
+    <file path="./classes/components/autoupdate/i18n.en.php" size="2861" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvaTE4bi5lbi5waHA" hash="174e48f79aced3e6c0c17e2b47428419" name="i18n.en.php" only_install="true">/classes/components/autoupdate/i18n.en.php</file>
+    <file path="./classes/components/autoupdate/class.php" size="13868" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvY2xhc3MucGhw" hash="0fed3cbd8779368d07bdfaacc004a3ad" name="class.php">/classes/components/autoupdate/class.php</file>
+    <file path="./classes/components/autoupdate/i18n.php" size="4203" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvaTE4bi5waHA" hash="a66aa6376caaa713b6a3600fbd6f6019" name="i18n.php">/classes/components/autoupdate/i18n.php</file>
+    <file path="./classes/components/autoupdate/lang.en.php" size="1534" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2F1dG91cGRhdGUvbGFuZy5lbi5waHA" hash="129cca29cf8d0ad48ef2676d579c6c30" name="lang.en.php">/classes/components/autoupdate/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/autoupdate/list.view.xsl" size="914" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZS9saXN0LnZpZXcueHNs" hash="4ff457e7e314703a0022f23ec664e51b" name="list.view.xsl">/styles/skins/modern/data/modules/autoupdate/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/autoupdate/man/ru/versions.html" size="2356" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZS9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZS9tYW4vcnUvdmVyc2lvbnMuaHRtbA" hash="50d7dd14ce153f700ac4bcb4367eef99" name="versions.html">/styles/skins/modern/data/modules/autoupdate/man/ru/versions.html</file>
+    <file path="./styles/skins/modern/data/modules/autoupdate/man/ru/config.html" size="752" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZS9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZS9tYW4vcnUvY29uZmlnLmh0bWw" hash="b8c60bb6dddceb53695a375ab462a9b4" name="config.html">/styles/skins/modern/data/modules/autoupdate/man/ru/config.html</file>
+    <file path="./styles/skins/modern/data/modules/autoupdate/man/ru/integrity.html" size="953" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZS9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZS9tYW4vcnUvaW50ZWdyaXR5Lmh0bWw" hash="08b6f61efb9b3ffe330721e860fdb8b1" name="integrity.html">/styles/skins/modern/data/modules/autoupdate/man/ru/integrity.html</file>
+    <file path="./styles/skins/modern/data/modules/autoupdate/man/ru/changes.html" size="489" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZS9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZS9tYW4vcnUvY2hhbmdlcy5odG1s" hash="2498be6c284e7f5278645d64cc9a1de1" name="changes.html">/styles/skins/modern/data/modules/autoupdate/man/ru/changes.html</file>
+    <file path="./styles/skins/modern/data/modules/autoupdate/settings.view.xsl" size="4835" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZS9zZXR0aW5ncy52aWV3LnhzbA" hash="7f68fd03c217524d362f36757a5f0b0f" name="settings.view.xsl">/styles/skins/modern/data/modules/autoupdate/settings.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/autoupdate/icon/autoupdate.png" size="1056" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZS9pY29u" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvYXV0b3VwZGF0ZS9pY29uL2F1dG91cGRhdGUucG5n" hash="379d36320f69d06dd20525f318116f27" name="autoupdate.png">/styles/skins/modern/data/modules/autoupdate/icon/autoupdate.png</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <entities/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

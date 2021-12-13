@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Utils\Api\Http\Json\Yandex\Client;use UmiCms\Classes\System\Utils\Api\Http\Exception;use UmiCms\Utils\Logger\iFactory as iLoggerFactory;interface iOAuth {public function __construct(iLoggerFactory $v7c04afd48a735990b1eb450ae0110c68, \iConfiguration $vccd1066343c95877b75b79d47c36bebe);public function setAuth($vd56b699830e77ba53855679cb1d252da, $v5f4dcc3b5aa765d61d8327deb882cf99);public function getTokenByUserCode($vc13367945d5d4c91047b3b50234aa7ab);}

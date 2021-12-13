@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Hierarchy\Template;class Factory implements iFactory {use \UmiCms\System\Service\Container\tInjector;public function createDummy() {return clone $this->getServiceContainer()    ->get('DummyTemplate');}}

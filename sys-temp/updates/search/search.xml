@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113682</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:42 +0300</rfc>
+      <utc>2021-08-16T14:34:42+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/search" val="search"/>
+    <key path="modules/search/name" val="search"/>
+    <key path="modules/search/filename" val="modules/search/class.php"/>
+    <key path="modules/search/default_method" val="search_do" update="1"/>
+    <key path="modules/search/default_method_admin" val="index_control" update="1"/>
+    <key path="modules/search/per_page" val="10"/>
+    <key path="modules/search/one_iteration_index" val="5"/>
+    <key path="modules/search/config" val="1" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/search" name="search">/classes/components/search</directory>
+    <directory path="./classes/components/search/manifest" name="manifest">/classes/components/search/manifest</directory>
+    <directory path="./classes/components/search/manifest/actions" name="actions">/classes/components/search/manifest/actions</directory>
+    <directory path="./styles/skins/modern/data/modules/search" name="search">/styles/skins/modern/data/modules/search</directory>
+    <directory path="./styles/skins/modern/data/modules/search/man" name="man">/styles/skins/modern/data/modules/search/man</directory>
+    <directory path="./styles/skins/modern/data/modules/search/man/ru" name="ru">/styles/skins/modern/data/modules/search/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/search/icon" name="icon">/styles/skins/modern/data/modules/search/icon</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/search/macros.php" size="11251" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9tYWNyb3MucGhw" hash="b80ac07207a5388cd059c5907ec549d2" name="macros.php">/classes/components/search/macros.php</file>
+    <file path="./classes/components/search/permissions.php" size="841" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9wZXJtaXNzaW9ucy5waHA" hash="66bc121baf207a8b86151140165fade9" name="permissions.php">/classes/components/search/permissions.php</file>
+    <file path="./classes/components/search/customMacros.php" size="200" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9jdXN0b21NYWNyb3MucGhw" hash="94e4b144931a9ca0fca32a980c1c2701" name="customMacros.php" only_install="true">/classes/components/search/customMacros.php</file>
+    <file path="./classes/components/search/lang.php" size="2138" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9sYW5nLnBocA" hash="7982b88c24dc857ffb221a51ab5a418a" name="lang.php">/classes/components/search/lang.php</file>
+    <file path="./classes/components/search/manifest/install.xml" size="314" ext="xml" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9tYW5pZmVzdA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9tYW5pZmVzdC9pbnN0YWxsLnhtbA" hash="470c4f6770f5ca5825b3caa13f96a697" name="install.xml">/classes/components/search/manifest/install.xml</file>
+    <file path="./classes/components/search/manifest/actions/DeleteIndex.php" size="866" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9tYW5pZmVzdC9hY3Rpb25z" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9tYW5pZmVzdC9hY3Rpb25zL0RlbGV0ZUluZGV4LnBocA" hash="ef3ccd3c15bd286f2f85ddd933c61a8f" name="DeleteIndex.php">/classes/components/search/manifest/actions/DeleteIndex.php</file>
+    <file path="./classes/components/search/manifest/actions/SearchIndexing.php" size="2151" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9tYW5pZmVzdC9hY3Rpb25z" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9tYW5pZmVzdC9hY3Rpb25zL1NlYXJjaEluZGV4aW5nLnBocA" hash="e16700669a07799850816e8b5d4ea8f9" name="SearchIndexing.php">/classes/components/search/manifest/actions/SearchIndexing.php</file>
+    <file path="./classes/components/search/manifest/update.xml" size="313" ext="xml" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9tYW5pZmVzdA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9tYW5pZmVzdC91cGRhdGUueG1s" hash="8b47bea5a03c3e650b1334a5634947ae" name="update.xml">/classes/components/search/manifest/update.xml</file>
+    <file path="./classes/components/search/customAdmin.php" size="208" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9jdXN0b21BZG1pbi5waHA" hash="94e767b27e7239fead96ef1a3910ed8a" name="customAdmin.php" only_install="true">/classes/components/search/customAdmin.php</file>
+    <file path="./classes/components/search/sphinx.php" size="8261" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9zcGhpbngucGhw" hash="62cac32d925f638051a5a8c0f0d9ea4e" name="sphinx.php">/classes/components/search/sphinx.php</file>
+    <file path="./classes/components/search/handlers.php" size="70" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9oYW5kbGVycy5waHA" hash="43bd8b4ddc4564615fce3adee8c13105" name="handlers.php">/classes/components/search/handlers.php</file>
+    <file path="./classes/components/search/admin.php" size="22495" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9hZG1pbi5waHA" hash="bb3f7892144c75e037dbd45d46a28837" name="admin.php">/classes/components/search/admin.php</file>
+    <file path="./classes/components/search/install.php" size="1243" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9pbnN0YWxsLnBocA" hash="ba185a9a709f6068cf66bc1adda439b7" name="install.php">/classes/components/search/install.php</file>
+    <file path="./classes/components/search/includes.php" size="69" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9pbmNsdWRlcy5waHA" hash="d8390332e5eab88068b5d9fd59999fb5" name="includes.php">/classes/components/search/includes.php</file>
+    <file path="./classes/components/search/i18n.en.php" size="4173" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9pMThuLmVuLnBocA" hash="80042832bc1740eddbc43dfa40774c7b" name="i18n.en.php" only_install="true">/classes/components/search/i18n.en.php</file>
+    <file path="./classes/components/search/class.php" size="9666" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9jbGFzcy5waHA" hash="47d51639d4d4969ed505d0b986641636" name="class.php">/classes/components/search/class.php</file>
+    <file path="./classes/components/search/i18n.php" size="6176" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9pMThuLnBocA" hash="3c70ddd797aa0885dc67512398b73149" name="i18n.php">/classes/components/search/i18n.php</file>
+    <file path="./classes/components/search/lang.en.php" size="1311" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaA" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NlYXJjaC9sYW5nLmVuLnBocA" hash="d755a604e83d8e6066c24296526ddf79" name="lang.en.php">/classes/components/search/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/search/list.view.xsl" size="11085" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNo" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNoL2xpc3Qudmlldy54c2w" hash="6adc933696f9542b060c8a10a6e76195" name="list.view.xsl">/styles/skins/modern/data/modules/search/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/search/man/ru/config.html" size="513" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNoL21hbi9ydQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNoL21hbi9ydS9jb25maWcuaHRtbA" hash="54d5f3f2e9def314661d5ab3f709cde3" name="config.html">/styles/skins/modern/data/modules/search/man/ru/config.html</file>
+    <file path="./styles/skins/modern/data/modules/search/man/ru/search_replace.html" size="2847" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNoL21hbi9ydQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNoL21hbi9ydS9zZWFyY2hfcmVwbGFjZS5odG1s" hash="992f78f11486718b6ab3e50cd3358e3f" name="search_replace.html">/styles/skins/modern/data/modules/search/man/ru/search_replace.html</file>
+    <file path="./styles/skins/modern/data/modules/search/man/ru/index_control.html" size="1857" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNoL21hbi9ydQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNoL21hbi9ydS9pbmRleF9jb250cm9sLmh0bWw" hash="aee2ea873e83aa00279958d6195a948a" name="index_control.html">/styles/skins/modern/data/modules/search/man/ru/index_control.html</file>
+    <file path="./styles/skins/modern/data/modules/search/settings.view.xsl" size="4934" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNo" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNoL3NldHRpbmdzLnZpZXcueHNs" hash="6c38e9c20be18530f0ecb01ce61226ab" name="settings.view.xsl">/styles/skins/modern/data/modules/search/settings.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/search/settings-sphinx.xsl" size="3848" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNo" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNoL3NldHRpbmdzLXNwaGlueC54c2w" hash="eaf9c244ae45899c3d1c62f60721fcd7" name="settings-sphinx.xsl">/styles/skins/modern/data/modules/search/settings-sphinx.xsl</file>
+    <file path="./styles/skins/modern/data/modules/search/icon/search.png" size="1732" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNoL2ljb24" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc2VhcmNoL2ljb24vc2VhcmNoLnBuZw" hash="ea55e9ed799b5459b4729ec36b330c23" name="search.png">/styles/skins/modern/data/modules/search/icon/search.png</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <entities/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

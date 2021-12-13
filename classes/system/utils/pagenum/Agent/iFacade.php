@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\PageNum\Agent;use \iConfiguration as iConfig;use UmiCms\Classes\System\PageNum\iAgent;use UmiCms\System\Request\iFacade as iRequest;interface iFacade {public function __construct(iConfig $v2245023265ae4cf87d02c8b6ba991139, iFactory $v9549dd6065d019211460c59a86dd6536);public function getAgent(iRequest $v10573b873d2fa5a365d558a45e328e47) : iAgent;}

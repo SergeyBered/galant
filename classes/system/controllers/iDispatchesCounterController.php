@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use UmiCms\Utils\Dispatches\iCounter;interface iDispatchesCounterController extends iController {public function setCounter(iCounter $v886bb73b3156b0aa24aac99d2de0b238);}

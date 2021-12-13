@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use UmiCms\Utils\Browser\iDetector;interface iGoOutController extends iController {public function setBrowserDetector(iDetector $v70fef00db84e5862fcedc2c32d20f98a);}

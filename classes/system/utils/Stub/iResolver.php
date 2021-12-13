@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Utils\Stub;use \iDomain as iDomain;use \iConfiguration as iConfig;use UmiCms\System\Selector\iFactory as iSelectorFactory;interface iResolver {public function __construct(iConfig $v2245023265ae4cf87d02c8b6ba991139, iSelectorFactory $vdff401a605e5f6984373466cddee7287);public function isEnabled($v957b527bcfbad2e80f58d20683931435);public function isEnabledForDomain($v957b527bcfbad2e80f58d20683931435, iDomain $vad5f82e879a9c5d6b5b442eb37e50551);}

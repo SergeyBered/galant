@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Service\Container;trait tInjector {private $v5f0b6ebc4bea10285ba2b8a6ce78b863;public function setServiceContainer(\iServiceContainer $v5f0b6ebc4bea10285ba2b8a6ce78b863) {$this->container = $v5f0b6ebc4bea10285ba2b8a6ce78b863;return $this;}public function getServiceContainer() {return $this->container;}}

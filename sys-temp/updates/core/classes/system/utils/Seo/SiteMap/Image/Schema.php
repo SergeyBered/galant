@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Utils\SiteMap\Image;use UmiCms\System\Orm\Entity\Schema as AbstractSchema;class Schema extends AbstractSchema implements iSchema {public function getContainerName() {return self::TABLE_CONTAINER_NAME;}protected function getNameSpaceRoot() {return 'UmiCms\Classes\System\Utils\SiteMap\\';}}

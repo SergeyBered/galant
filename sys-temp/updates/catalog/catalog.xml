@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113681</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:41 +0300</rfc>
+      <utc>2021-08-16T14:34:41+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/catalog" val="catalog"/>
+    <key path="modules/catalog/name" val="catalog"/>
+    <key path="modules/catalog/title" val="Каталог"/>
+    <key path="modules/catalog/filename" val="modules/catalog/class.php"/>
+    <key path="modules/catalog/config" val="1" update="1"/>
+    <key path="modules/catalog/default_method" val="category" update="1"/>
+    <key path="modules/catalog/default_method_admin" val="tree" update="1"/>
+    <key path="modules/catalog/per_page" val="25"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/catalog" name="catalog">/classes/components/catalog</directory>
+    <directory path="./classes/components/catalog/manifest" name="manifest">/classes/components/catalog/manifest</directory>
+    <directory path="./classes/components/catalog/manifest/actions" name="actions">/classes/components/catalog/manifest/actions</directory>
+    <directory path="./classes/components/catalog/Classes" name="Classes">/classes/components/catalog/Classes</directory>
+    <directory path="./classes/components/catalog/Classes/Trade" name="Trade">/classes/components/catalog/Classes/Trade</directory>
+    <directory path="./classes/components/catalog/Classes/Trade/Offer" name="Offer">/classes/components/catalog/Classes/Trade/Offer</directory>
+    <directory path="./classes/components/catalog/Classes/Trade/Offer/Price" name="Price">/classes/components/catalog/Classes/Trade/Offer/Price</directory>
+    <directory path="./classes/components/catalog/Classes/Trade/Offer/Price/Type" name="Type">/classes/components/catalog/Classes/Trade/Offer/Price/Type</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog" name="catalog">/styles/skins/modern/data/modules/catalog</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/man" name="man">/styles/skins/modern/data/modules/catalog/man</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/man/ru" name="ru">/styles/skins/modern/data/modules/catalog/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/icon" name="icon">/styles/skins/modern/data/modules/catalog/icon</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters" name="filters">/styles/skins/modern/data/modules/catalog/filters</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay" name="loadingoverlay">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img" name="img">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/js" name="js">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/js</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/bootstrap" name="bootstrap">/styles/skins/modern/data/modules/catalog/filters/bootstrap</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/css" name="css">/styles/skins/modern/data/modules/catalog/filters/bootstrap/css</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/js" name="js">/styles/skins/modern/data/modules/catalog/filters/bootstrap/js</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts" name="fonts">/styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/catalog/macros.php" size="34211" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvbWFjcm9zLnBocA" hash="bfadddcd7b913d41d6412111fb8007b4" name="macros.php">/classes/components/catalog/macros.php</file>
+    <file path="./classes/components/catalog/permissions.php" size="1724" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvcGVybWlzc2lvbnMucGhw" hash="4754674b14512ea33e9bb0be88023301" name="permissions.php">/classes/components/catalog/permissions.php</file>
+    <file path="./classes/components/catalog/customMacros.php" size="202" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvY3VzdG9tTWFjcm9zLnBocA" hash="8181616ca60daaa202afdf0bb3f4387e" name="customMacros.php" only_install="true">/classes/components/catalog/customMacros.php</file>
+    <file path="./classes/components/catalog/lang.php" size="2410" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvbGFuZy5waHA" hash="0f1623e8811fb67e277a0d3752d4335f" name="lang.php">/classes/components/catalog/lang.php</file>
+    <file path="./classes/components/catalog/manifest/install.xml" size="259" ext="xml" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvbWFuaWZlc3Q" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvbWFuaWZlc3QvaW5zdGFsbC54bWw" hash="e5b9a13081dee84c56e95b42b0e6e3e4" name="install.xml">/classes/components/catalog/manifest/install.xml</file>
+    <file path="./classes/components/catalog/manifest/actions/FilterIndexing.php" size="5962" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvbWFuaWZlc3QvYWN0aW9ucw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvbWFuaWZlc3QvYWN0aW9ucy9GaWx0ZXJJbmRleGluZy5waHA" hash="fcc4d1ba2c47b1b49a7535974e93014e" name="FilterIndexing.php">/classes/components/catalog/manifest/actions/FilterIndexing.php</file>
+    <file path="./classes/components/catalog/manifest/update.xml" size="257" ext="xml" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvbWFuaWZlc3Q" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvbWFuaWZlc3QvdXBkYXRlLnhtbA" hash="a4465a239123e18e6b6bc827fdb504de" name="update.xml">/classes/components/catalog/manifest/update.xml</file>
+    <file path="./classes/components/catalog/Classes/Trade/Offer/Price/Type/Admin.php" size="10849" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvQ2xhc3Nlcy9UcmFkZS9PZmZlci9QcmljZS9UeXBl" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvQ2xhc3Nlcy9UcmFkZS9PZmZlci9QcmljZS9UeXBlL0FkbWluLnBocA" hash="521da60d6d7d9f3a59d19a7e5aa6c414" name="Admin.php">/classes/components/catalog/Classes/Trade/Offer/Price/Type/Admin.php</file>
+    <file path="./classes/components/catalog/Classes/Trade/Offer/Admin.php" size="56881" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvQ2xhc3Nlcy9UcmFkZS9PZmZlcg" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvQ2xhc3Nlcy9UcmFkZS9PZmZlci9BZG1pbi5waHA" hash="a848bbcfd53fcf0e66d36b2d5e0a412d" name="Admin.php">/classes/components/catalog/Classes/Trade/Offer/Admin.php</file>
+    <file path="./classes/components/catalog/customAdmin.php" size="201" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvY3VzdG9tQWRtaW4ucGhw" hash="134b654f7033503bd493ac73d1d45567" name="customAdmin.php" only_install="true">/classes/components/catalog/customAdmin.php</file>
+    <file path="./classes/components/catalog/events.php" size="2135" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvZXZlbnRzLnBocA" hash="2726698cc41c1163a289bb287a35e971" name="events.php">/classes/components/catalog/events.php</file>
+    <file path="./classes/components/catalog/handlers.php" size="14817" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvaGFuZGxlcnMucGhw" hash="1982623a036d430322b82f0e11061d60" name="handlers.php">/classes/components/catalog/handlers.php</file>
+    <file path="./classes/components/catalog/admin.php" size="20136" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvYWRtaW4ucGhw" hash="724bbacfcbf5e9a8f58d1ef784f35f92" name="admin.php">/classes/components/catalog/admin.php</file>
+    <file path="./classes/components/catalog/install.php" size="1322" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvaW5zdGFsbC5waHA" hash="3e9a9cc13a67b31d3e65e70e4e8f36e8" name="install.php">/classes/components/catalog/install.php</file>
+    <file path="./classes/components/catalog/includes.php" size="69" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvaW5jbHVkZXMucGhw" hash="d8390332e5eab88068b5d9fd59999fb5" name="includes.php">/classes/components/catalog/includes.php</file>
+    <file path="./classes/components/catalog/i18n.en.php" size="4124" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvaTE4bi5lbi5waHA" hash="b94000f8abf7231c4e70e08862a2274c" name="i18n.en.php" only_install="true">/classes/components/catalog/i18n.en.php</file>
+    <file path="./classes/components/catalog/class.php" size="26395" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvY2xhc3MucGhw" hash="2a209e6856a8dc150b7b43f8a7fe9d75" name="class.php">/classes/components/catalog/class.php</file>
+    <file path="./classes/components/catalog/i18n.php" size="5988" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvaTE4bi5waHA" hash="fce5260585c89a966532d778642f9833" name="i18n.php">/classes/components/catalog/i18n.php</file>
+    <file path="./classes/components/catalog/lang.en.php" size="1890" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2c" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2NhdGFsb2cvbGFuZy5lbi5waHA" hash="a59dd45c4f3a04865579e541cc98ff2d" name="lang.en.php">/classes/components/catalog/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/catalog/list.view.xsl" size="5200" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9saXN0LnZpZXcueHNs" hash="5578b6c221474dc325d9f26ea65659de" name="list.view.xsl">/styles/skins/modern/data/modules/catalog/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/catalog/man/ru/config.html" size="1494" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnUvY29uZmlnLmh0bWw" hash="b4319ac7bc9ddc94ecbfb5a345684c25" name="config.html">/styles/skins/modern/data/modules/catalog/man/ru/config.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/man/ru/filters.html" size="1762" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnUvZmlsdGVycy5odG1s" hash="d5329278c529f57de4be52d9e2876796" name="filters.html">/styles/skins/modern/data/modules/catalog/man/ru/filters.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/man/ru/edit.object.html" size="3526" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnUvZWRpdC5vYmplY3QuaHRtbA" hash="71aadefa38746f1cea38b0f8d8e37195" name="edit.object.html">/styles/skins/modern/data/modules/catalog/man/ru/edit.object.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/man/ru/edit.category.html" size="1190" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnUvZWRpdC5jYXRlZ29yeS5odG1s" hash="1ac976d48baf12a463f332fbbd8878a9" name="edit.category.html">/styles/skins/modern/data/modules/catalog/man/ru/edit.category.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/man/ru/add.object.html" size="3300" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnUvYWRkLm9iamVjdC5odG1s" hash="12c200a0703661718b01d825e7c6008f" name="add.object.html">/styles/skins/modern/data/modules/catalog/man/ru/add.object.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/man/ru/add.category.html" size="1063" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnUvYWRkLmNhdGVnb3J5Lmh0bWw" hash="5706902de657a1c5b391b81059baa36e" name="add.category.html">/styles/skins/modern/data/modules/catalog/man/ru/add.category.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/man/ru/tree.html" size="4540" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9tYW4vcnUvdHJlZS5odG1s" hash="2578a9523c1763e949bc80a49bfac411" name="tree.html">/styles/skins/modern/data/modules/catalog/man/ru/tree.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/icon/catalog.png" size="1454" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9pY29u" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9pY29uL2NhdGFsb2cucG5n" hash="819355757ca95bdaef5187e03e0dcf4f" name="catalog.png">/styles/skins/modern/data/modules/catalog/icon/catalog.png</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/482.GIF" size="7681" ext="gif" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2ltZw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2ltZy80ODIuR0lG" hash="455519bd02f9c959009e2478ad4468ad" name="482.GIF">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/482.GIF</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/loading.gif" size="10741" ext="gif" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2ltZw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2ltZy9sb2FkaW5nLmdpZg" hash="1207fed98ccd3f68e93da78f27eff358" name="loading.gif">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/loading.gif</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/ajax_loader_blue_128.gif" size="10916" ext="gif" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2ltZw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2ltZy9hamF4X2xvYWRlcl9ibHVlXzEyOC5naWY" hash="8d55dcc7865fec93ec83de42163fd40f" name="ajax_loader_blue_128.gif">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/ajax_loader_blue_128.gif</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/giphy.gif" size="310431" ext="gif" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2ltZw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2ltZy9naXBoeS5naWY" hash="d554ff05c6f0fd9cead2c67731f14ac3" name="giphy.gif">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/giphy.gif</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/default.gif" size="72743" ext="gif" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2ltZw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2ltZy9kZWZhdWx0LmdpZg" hash="a2b84303c3acd86b2a56c91a71d94617" name="default.gif">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/default.gif</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/ajax_loader_gray_128.gif" size="9793" ext="gif" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2ltZw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2ltZy9hamF4X2xvYWRlcl9ncmF5XzEyOC5naWY" hash="5a2947183e2989a31c9a88d69892cab2" name="ajax_loader_gray_128.gif">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/ajax_loader_gray_128.gif</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/js/loadingoverlay.min.js" size="2354" ext="js" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2pz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xvYWRpbmdvdmVybGF5L2pzL2xvYWRpbmdvdmVybGF5Lm1pbi5qcw" hash="579bba6d50598ffa666d62824d822c6d" name="loadingoverlay.min.js">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/js/loadingoverlay.min.js</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/level.dialog.html" size="2602" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2xldmVsLmRpYWxvZy5odG1s" hash="6c01ca7deae1085adb16ecbb8787a25e" name="level.dialog.html">/styles/skins/modern/data/modules/catalog/filters/level.dialog.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/admin.indexing.js" size="22266" ext="js" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2FkbWluLmluZGV4aW5nLmpz" hash="049935a648a44d58db6cc06cfade0a4b" name="admin.indexing.js">/styles/skins/modern/data/modules/catalog/filters/admin.indexing.js</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/delete.button.html" size="99" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2RlbGV0ZS5idXR0b24uaHRtbA" hash="14de6b7cf93e551db896eed622fc7037" name="delete.button.html">/styles/skins/modern/data/modules/catalog/filters/delete.button.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/index.button.html" size="40" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2luZGV4LmJ1dHRvbi5odG1s" hash="756b51da37ee15ce8329b1eb5676e15c" name="index.button.html">/styles/skins/modern/data/modules/catalog/filters/index.button.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/tree.html" size="16661" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL3RyZWUuaHRtbA" hash="242e105a68f7b98fba2b6b11651bac4b" name="tree.html">/styles/skins/modern/data/modules/catalog/filters/tree.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/indexing.html" size="12034" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2luZGV4aW5nLmh0bWw" hash="cc05f5fcccfbc8dd8f07541198233808" name="indexing.html">/styles/skins/modern/data/modules/catalog/filters/indexing.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/css/bootstrap-theme.min.css" size="23357" ext="css" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9jc3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9jc3MvYm9vdHN0cmFwLXRoZW1lLm1pbi5jc3M" hash="bf3499da1c31113720e9e395691730ba" name="bootstrap-theme.min.css">/styles/skins/modern/data/modules/catalog/filters/bootstrap/css/bootstrap-theme.min.css</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/css/bootstrap.min.css" size="122540" ext="css" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9jc3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9jc3MvYm9vdHN0cmFwLm1pbi5jc3M" hash="5d5357cb3704e1f43a1f5bfed2aebf42" name="bootstrap.min.css">/styles/skins/modern/data/modules/catalog/filters/bootstrap/css/bootstrap.min.css</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/js/jquery-2.1.4.min.js" size="84345" ext="js" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9qcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9qcy9qcXVlcnktMi4xLjQubWluLmpz" hash="f9c7afd05729f10f55b689f36bb20172" name="jquery-2.1.4.min.js">/styles/skins/modern/data/modules/catalog/filters/bootstrap/js/jquery-2.1.4.min.js</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/js/bootstrap.min.js" size="36816" ext="js" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9qcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9qcy9ib290c3RyYXAubWluLmpz" hash="4becdc9104623e891fbb9d38bba01be4" name="bootstrap.min.js">/styles/skins/modern/data/modules/catalog/filters/bootstrap/js/bootstrap.min.js</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.ttf" size="45404" ext="ttf" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9mb250cw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9mb250cy9nbHlwaGljb25zLWhhbGZsaW5ncy1yZWd1bGFyLnR0Zg" hash="e18bbf611f2a2e43afc071aa2f4e1512" name="glyphicons-halflings-regular.ttf">/styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.ttf</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.woff" size="23424" ext="woff" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9mb250cw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9mb250cy9nbHlwaGljb25zLWhhbGZsaW5ncy1yZWd1bGFyLndvZmY" hash="fa2772327f55d8198301fdb8bcfc8158" name="glyphicons-halflings-regular.woff">/styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.woff</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.eot" size="20127" ext="eot" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9mb250cw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9mb250cy9nbHlwaGljb25zLWhhbGZsaW5ncy1yZWd1bGFyLmVvdA" hash="f4769f9bdb7466be65088239c12046d1" name="glyphicons-halflings-regular.eot">/styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.eot</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.woff2" size="18028" ext="woff2" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9mb250cw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9mb250cy9nbHlwaGljb25zLWhhbGZsaW5ncy1yZWd1bGFyLndvZmYy" hash="448c34a56d699c29117adc64c43affeb" name="glyphicons-halflings-regular.woff2">/styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.woff2</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.svg" size="108738" ext="svg" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9mb250cw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9maWx0ZXJzL2Jvb3RzdHJhcC9mb250cy9nbHlwaGljb25zLWhhbGZsaW5ncy1yZWd1bGFyLnN2Zw" hash="89889688147bd7575d6327160d64e760" name="glyphicons-halflings-regular.svg">/styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.svg</file>
+    <file path="./styles/skins/modern/data/modules/catalog/form.modify.xsl" size="2296" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvY2F0YWxvZy9mb3JtLm1vZGlmeS54c2w" hash="f5c14d0ee78ddd3b1ba4337fea1b19e2" name="form.modify.xsl">/styles/skins/modern/data/modules/catalog/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="i18n::object-type-spravochniki" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="745" guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" title="i18n::object-type-status_stranicy" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="svojstva_statusa_stranicy" title="i18n::fields-group-svojstva_statusa_stranicy" visible="visible" active="active">
+          <field id="9027" name="publish_status_id" title="i18n::field-publish_status_id" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="{root-pages-type}" guid="root-pages-type" title="i18n::object-type-razdel_sajta" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="i18n::field-title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="i18n::field-h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="i18n::field-content" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="i18n::field-meta_descriptions" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="i18n::field-meta_keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки страницы</tip>
+        </group>
+        <group name="more_params" title="i18n::fields-group-more_params" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="i18n::field-robots_deny" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="i18n::field-show_submenu" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="i18n::field-is_expanded" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="i18n::field-is_unindexed" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="rate_props" title="i18n::fields-group-rate_props" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="i18n::field-rate_voters" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="i18n::field-rate_sum" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="i18n::fields-group-svojstva_publikacii" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="i18n::field-expiration_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="i18n::field-notification_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="i18n::field-publish_comments" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="i18n::field-publish_status" visible="visible" locked="locked" guide-id="745">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="i18n::fields-group-locks" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="i18n::field-locktime" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="i18n::field-lockuser" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="9" guid="catalog-category" title="i18n::object-type-catalog-category" parent-id="{root-pages-type}" domain-id="0" locked="locked">
+      <base module="catalog" method="category" hide-pages="0">i18n::hierarchy-type-catalog-category</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="i18n::field-title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="i18n::field-h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="i18n::field-meta_keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="i18n::field-meta_descriptions" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки страницы и её расположения в структуре каталога</tip>
+        </group>
+        <group name="more_params" title="i18n::fields-group-more_params" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="i18n::field-robots_deny" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="i18n::field-show_submenu" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="i18n::field-is_expanded" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="i18n::field-is_unindexed" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="dopolnitelno" title="i18n::fields-group-dopolnitelno" visible="visible" active="active">
+          <field id="8900" name="descr" title="i18n::field-descr" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <tip>Управление описаниями раздела каталога</tip>
+        </group>
+        <group name="rate_voters" title="i18n::fields-group-rate_voters" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="i18n::field-rate_voters" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="i18n::field-rate_sum" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="i18n::fields-group-svojstva_publikacii" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="i18n::field-expiration_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="i18n::field-notification_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="i18n::field-publish_comments" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="i18n::field-publish_status" visible="visible" locked="locked" guide-id="745">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="i18n::fields-group-locks" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="i18n::field-locktime" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="i18n::field-lockuser" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="filter_index" title="i18n::fields-group-filter_index" locked="locked" active="active" visible="0">
+          <field id="9455" name="index_source" title="i18n::field-index_source" visible="visible" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9457" name="index_state" title="i18n::field-index_state" visible="visible" system="system">
+            <type name="i18n::field-type-float" data-type="float"/>
+          </field>
+          <field id="9458" name="index_date" title="i18n::field-index_date" visible="visible" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9459" name="index_choose" title="i18n::field-index_choose" visible="visible" system="system">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="9460" name="index_level" title="i18n::field-index_level" visible="visible" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="844" guid="tax-rate-guide" title="i18n::object-type-tax-rate" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common_group" visible="visible" locked="locked" active="active">
+          <field id="9510" name="yandex_id" title="i18n::field-id-for-yandex-kassa" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9523" name="payonline_id" title="i18n::field-id-for-payonline" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9513" name="robokassa_id" title="i18n::field-id-for-robokassa" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9520" name="payanyway_id" title="i18n::field-id-for-payanyway" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9527" name="sberbank_id" title="i18n::field-id-for-sberbank" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9528" name="tax" title="i18n::field-tax" visible="visible" locked="locked" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9579" name="dengionline_id" title="i18n::field-id-for-dengionline" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="847" guid="payment_mode" title="i18n::payment-mode-type" parent-id="7" domain-id="0" guide="guide">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="i18n::common" visible="visible" active="active">
+          <field id="9537" name="yandex_id" title="i18n::field-id-for-yandex-kassa" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9538" name="robokassa_id" title="i18n::field-id-for-robokassa" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9539" name="payanyway_id" title="i18n::field-id-for-payanyway" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9540" name="payonline_id" title="i18n::field-id-for-payonline" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9541" name="sberbank_id" title="i18n::field-id-for-sberbank" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9581" name="dengionline_id" title="i18n::field-id-for-dengionline" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="846" guid="payment_subject" title="i18n::payment-subject-type" parent-id="7" domain-id="0" guide="guide">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="i18n::common" visible="visible" active="active">
+          <field id="9532" name="yandex_id" title="i18n::field-id-for-yandex-kassa" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9533" name="robokassa_id" title="i18n::field-id-for-robokassa" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9534" name="payanyway_id" title="i18n::field-id-for-payanyway" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9535" name="payonline_id" title="i18n::field-id-for-payonline" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9536" name="sberbank_id" title="i18n::field-id-for-sberbank" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9580" name="dengionline_id" title="i18n::field-id-for-dengionline" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="754" guid="emarket-store" title="i18n::object-type-store" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="store" hide-pages="0">i18n::hierarchy-type-emarket-store</base>
+      <fieldgroups>
+        <group name="store_props" title="i18n::fields-group-store_props" visible="visible" active="active">
+          <field id="9194" name="primary" title="i18n::field-primary_store" visible="visible" important="important">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+            <tip>Основной склад, с которого будут списываться товары при покупке, и с которым будет синхронизироваться 1C</tip>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="11" guid="catalog-object" title="i18n::object-type-catalog-object" parent-id="{root-pages-type}" domain-id="0" locked="locked">
+      <base module="catalog" method="object" hide-pages="0">i18n::hierarchy-type-catalog-object</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="i18n::field-title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="i18n::field-h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="i18n::field-meta_keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="i18n::field-meta_descriptions" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <field id="9416" name="date_create_object" title="i18n::field-date_create_object" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <tip>Основные настройки товара</tip>
+        </group>
+        <group name="more_params" title="i18n::fields-group-more_params" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="i18n::field-robots_deny" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="i18n::field-is_unindexed" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="cenovye_svojstva" title="i18n::fields-group-cenovye_svojstva" visible="visible" active="active">
+          <field id="9511" name="tax_rate_id" title="i18n::field-tax-rate-id" visible="visible" locked="locked" guide-id="844" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="8918" name="price" title="i18n::field-price" visible="visible" locked="locked" filterable="filterable" important="important">
+            <type name="i18n::field-type-price" data-type="price"/>
+          </field>
+          <field id="9552" name="payment_mode" title="i18n::field-payment_mode" visible="visible" locked="locked" guide-id="847" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9553" name="payment_subject" title="i18n::field-payment_subject" visible="visible" locked="locked" guide-id="846" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Ценовые свойства товара</tip>
+        </group>
+        <group name="catalog_option_props" title="i18n::fields-group-option_props" visible="visible" active="active"/>
+        <group name="catalog_stores_props" title="i18n::fields-group-stores" visible="visible" active="active">
+          <field id="9095" name="stores_state" title="i18n::field-stores_state" visible="visible" guide-id="754" important="important">
+            <type name="i18n::field-type-optioned" data-type="optioned" multiple="multiple"/>
+          </field>
+          <field id="9196" name="reserved" title="i18n::field-reserved" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+            <tip>Количество зарезервированных товаров</tip>
+          </field>
+          <field id="9369" name="common_quantity" title="i18n::field-common-quantity" visible="visible" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <tip>Данные о наличии товара на складах</tip>
+        </group>
+        <group name="trade_offers" title="i18n::fields-group-trade-offers" visible="visible" active="active">
+          <field id="9529" name="trade_offer_image" title="i18n::field-trade-offer-image" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-img_file" data-type="img_file"/>
+          </field>
+          <field id="9530" name="trade_offer_list" title="i18n::field-trade-offer-list" locked="locked" important="important">
+            <type name="i18n::field-type-offer-id-list" data-type="offer_id_list" multiple="multiple"/>
+          </field>
+          <tip>Торговые предложения и их характеристики</tip>
+        </group>
+        <group name="rate_voters" title="i18n::fields-group-rate_voters" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="i18n::field-rate_voters" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="i18n::field-rate_sum" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="i18n::fields-group-svojstva_publikacii" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="i18n::field-expiration_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="i18n::field-notification_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="i18n::field-publish_comments" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="i18n::field-publish_status" visible="visible" locked="locked" guide-id="745">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="i18n::fields-group-locks" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="i18n::field-locktime" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="i18n::field-lockuser" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <entities/>
+  <relations>
+    <relation type-id="{root-pages-type}" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="9" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="11" field-name="tax_rate_id">
+      <guide id="844"/>
+    </relation>
+    <relation type-id="11" field-name="payment_mode">
+      <guide id="847"/>
+    </relation>
+    <relation type-id="11" field-name="payment_subject">
+      <guide id="846"/>
+    </relation>
+    <relation type-id="11" field-name="stores_state">
+      <guide id="754"/>
+    </relation>
+    <relation type-id="11" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

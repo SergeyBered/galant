@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Selector\Order\Attribute\Property;use UmiCms\System\Selector\Order\Attribute\iProperty;interface iGlobalOrd extends iProperty {const SERVICE_NAME = 'SelectorOrderPropertyGlobalOrd';public function setConnection(\IConnection $v4717d53ebfdfea8477f780ec66151dcb) : iGlobalOrd;}

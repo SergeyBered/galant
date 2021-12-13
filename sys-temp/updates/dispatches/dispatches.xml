@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113682</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:42 +0300</rfc>
+      <utc>2021-08-16T14:34:42+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/dispatches" val="dispatches"/>
+    <key path="modules/dispatches/name" val="dispatches"/>
+    <key path="modules/dispatches/filename" val="dispatches/class.php"/>
+    <key path="modules/dispatches/config" val="1" update="1"/>
+    <key path="modules/dispatches/default_method" val="subscribe" update="1"/>
+    <key path="modules/dispatches/default_method_admin" val="lists" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/dispatches" name="dispatches">/classes/components/dispatches</directory>
+    <directory path="./styles/skins/modern/data/modules/dispatches" name="dispatches">/styles/skins/modern/data/modules/dispatches</directory>
+    <directory path="./styles/skins/modern/data/modules/dispatches/man" name="man">/styles/skins/modern/data/modules/dispatches/man</directory>
+    <directory path="./styles/skins/modern/data/modules/dispatches/man/ru" name="ru">/styles/skins/modern/data/modules/dispatches/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/dispatches/icon" name="icon">/styles/skins/modern/data/modules/dispatches/icon</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/dispatches/macros.php" size="17042" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvbWFjcm9zLnBocA" hash="2ac3ac040cf237456fd3a1ff319b4cb5" name="macros.php">/classes/components/dispatches/macros.php</file>
+    <file path="./classes/components/dispatches/permissions.php" size="1041" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvcGVybWlzc2lvbnMucGhw" hash="607c205a6ab08885f54e5115be9ef82a" name="permissions.php">/classes/components/dispatches/permissions.php</file>
+    <file path="./classes/components/dispatches/customMacros.php" size="164" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvY3VzdG9tTWFjcm9zLnBocA" hash="cd1a7961fcfe33448051259e0c2e8760" name="customMacros.php" only_install="true">/classes/components/dispatches/customMacros.php</file>
+    <file path="./classes/components/dispatches/lang.php" size="2239" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvbGFuZy5waHA" hash="5905cdeee75579ef257ba40e9c090cae" name="lang.php">/classes/components/dispatches/lang.php</file>
+    <file path="./classes/components/dispatches/customAdmin.php" size="216" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvY3VzdG9tQWRtaW4ucGhw" hash="d731a943d1b1f018bc29bd2aa5d46d5a" name="customAdmin.php" only_install="true">/classes/components/dispatches/customAdmin.php</file>
+    <file path="./classes/components/dispatches/events.php" size="1325" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvZXZlbnRzLnBocA" hash="47cccfbbc06b51e1ac0f4aa3c0c46ff7" name="events.php">/classes/components/dispatches/events.php</file>
+    <file path="./classes/components/dispatches/handlers.php" size="7582" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvaGFuZGxlcnMucGhw" hash="45493f0fe82916d99b2de28dfd5b046c" name="handlers.php">/classes/components/dispatches/handlers.php</file>
+    <file path="./classes/components/dispatches/admin.php" size="20111" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvYWRtaW4ucGhw" hash="fa794a8669abdcf122c4a0a6e2834b71" name="admin.php">/classes/components/dispatches/admin.php</file>
+    <file path="./classes/components/dispatches/install.php" size="1252" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvaW5zdGFsbC5waHA" hash="7dcbb417600ed473e6ed9fb04e950f43" name="install.php">/classes/components/dispatches/install.php</file>
+    <file path="./classes/components/dispatches/includes.php" size="69" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvaW5jbHVkZXMucGhw" hash="d8390332e5eab88068b5d9fd59999fb5" name="includes.php">/classes/components/dispatches/includes.php</file>
+    <file path="./classes/components/dispatches/i18n.en.php" size="3810" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvaTE4bi5lbi5waHA" hash="190c3504d71bed0118fd23c7a84f93e5" name="i18n.en.php" only_install="true">/classes/components/dispatches/i18n.en.php</file>
+    <file path="./classes/components/dispatches/class.php" size="17969" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvY2xhc3MucGhw" hash="f19a310c6f9d47110d0a292aaf7168b4" name="class.php">/classes/components/dispatches/class.php</file>
+    <file path="./classes/components/dispatches/i18n.php" size="5345" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvaTE4bi5waHA" hash="4d4551f2d1df040d89c0cbb33a4c3132" name="i18n.php">/classes/components/dispatches/i18n.php</file>
+    <file path="./classes/components/dispatches/lang.en.php" size="1745" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXM" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL2Rpc3BhdGNoZXMvbGFuZy5lbi5waHA" hash="ac998e76866d8d880381aa75c9d3d558" name="lang.en.php">/classes/components/dispatches/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/list.view.xsl" size="1992" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9saXN0LnZpZXcueHNs" hash="66d2e0605dbe1926c3eae17cbbcf4d37" name="list.view.xsl">/styles/skins/modern/data/modules/dispatches/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/man/ru/edit.message.html" size="1106" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnUvZWRpdC5tZXNzYWdlLmh0bWw" hash="0a97a5de06330c8f67a7b9eabb6dc277" name="edit.message.html">/styles/skins/modern/data/modules/dispatches/man/ru/edit.message.html</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/man/ru/config.html" size="884" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnUvY29uZmlnLmh0bWw" hash="a0e4c31a79829ffc4798db0642d0d900" name="config.html">/styles/skins/modern/data/modules/dispatches/man/ru/config.html</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/man/ru/subscribers.html" size="1819" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnUvc3Vic2NyaWJlcnMuaHRtbA" hash="5a33ada1107545e8185e57b0eac89777" name="subscribers.html">/styles/skins/modern/data/modules/dispatches/man/ru/subscribers.html</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/man/ru/add.subscriber.html" size="630" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnUvYWRkLnN1YnNjcmliZXIuaHRtbA" hash="f2d19a2dac695f82d1eeef00e6426d03" name="add.subscriber.html">/styles/skins/modern/data/modules/dispatches/man/ru/add.subscriber.html</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/man/ru/lists.html" size="2018" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnUvbGlzdHMuaHRtbA" hash="f9570c0aca902d956e71c444388a80d8" name="lists.html">/styles/skins/modern/data/modules/dispatches/man/ru/lists.html</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/man/ru/releases.html" size="1230" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnUvcmVsZWFzZXMuaHRtbA" hash="19bc94e6b1e457dc0181a45c08d7a1a4" name="releases.html">/styles/skins/modern/data/modules/dispatches/man/ru/releases.html</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/man/ru/edit.subscriber.html" size="843" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnUvZWRpdC5zdWJzY3JpYmVyLmh0bWw" hash="6c6c9205befe7a48454e249bd94ff8f5" name="edit.subscriber.html">/styles/skins/modern/data/modules/dispatches/man/ru/edit.subscriber.html</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/man/ru/add.dispatch.html" size="1047" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnUvYWRkLmRpc3BhdGNoLmh0bWw" hash="8be1cf949bb3c9195398f03522512e70" name="add.dispatch.html">/styles/skins/modern/data/modules/dispatches/man/ru/add.dispatch.html</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/man/ru/messages.html" size="1694" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnUvbWVzc2FnZXMuaHRtbA" hash="bdffe5f9499343d8504b33cd241a37f3" name="messages.html">/styles/skins/modern/data/modules/dispatches/man/ru/messages.html</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/man/ru/add_message.html" size="851" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnUvYWRkX21lc3NhZ2UuaHRtbA" hash="e2f5b39eac144cc38631f6e46a428f62" name="add_message.html">/styles/skins/modern/data/modules/dispatches/man/ru/add_message.html</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/man/ru/edit.dispatch.html" size="2147" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9tYW4vcnUvZWRpdC5kaXNwYXRjaC5odG1s" hash="5b31591d7907b9b1008e8ee2d748f10c" name="edit.dispatch.html">/styles/skins/modern/data/modules/dispatches/man/ru/edit.dispatch.html</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/icon/dispatches.png" size="1273" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9pY29u" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9pY29uL2Rpc3BhdGNoZXMucG5n" hash="c8e7d4c5fa6103dea3ff44219000f835" name="dispatches.png">/styles/skins/modern/data/modules/dispatches/icon/dispatches.png</file>
+    <file path="./styles/skins/modern/data/modules/dispatches/form.modify.xsl" size="19952" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvZGlzcGF0Y2hlcy9mb3JtLm1vZGlmeS54c2w" hash="8f53e0ade98d51141a219e5b91c46faf" name="form.modify.xsl">/styles/skins/modern/data/modules/dispatches/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="i18n::object-type-spravochniki" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="745" guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" title="i18n::object-type-status_stranicy" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="svojstva_statusa_stranicy" title="i18n::fields-group-svojstva_statusa_stranicy" visible="visible" active="active">
+          <field id="9027" name="publish_status_id" title="i18n::field-publish_status_id" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="{root-pages-type}" guid="root-pages-type" title="i18n::object-type-razdel_sajta" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="i18n::field-title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="i18n::field-h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="i18n::field-content" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="i18n::field-meta_descriptions" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="i18n::field-meta_keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки страницы</tip>
+        </group>
+        <group name="more_params" title="i18n::fields-group-more_params" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="i18n::field-robots_deny" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="i18n::field-show_submenu" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="i18n::field-is_expanded" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="i18n::field-is_unindexed" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="rate_props" title="i18n::fields-group-rate_props" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="i18n::field-rate_voters" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="i18n::field-rate_sum" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="i18n::fields-group-svojstva_publikacii" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="i18n::field-expiration_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="i18n::field-notification_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="i18n::field-publish_comments" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="i18n::field-publish_status" visible="visible" locked="locked" guide-id="745">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="i18n::fields-group-locks" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="i18n::field-locktime" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="i18n::field-lockuser" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="18" guid="news-rubric" title="i18n::object-type-news-rubric" parent-id="{root-pages-type}" domain-id="0" guide="guide" locked="locked">
+      <base module="news" method="rubric" hide-pages="0">i18n::hierarchy-type-news-rubric</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" active="active" visible="0">
+          <field id="22" name="title" title="i18n::field-title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="i18n::field-h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="i18n::field-meta_keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="i18n::field-meta_descriptions" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <field id="67" name="readme" title="i18n::field-readme" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <tip>Основные настройки ленты новостей</tip>
+        </group>
+        <group name="more_params" title="i18n::fields-group-more_params" active="active" visible="0">
+          <field id="30" name="robots_deny" title="i18n::field-robots_deny" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="i18n::field-show_submenu" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="i18n::field-is_expanded" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="i18n::field-is_unindexed" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="rate_voters" title="i18n::fields-group-rate_voters" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="i18n::field-rate_voters" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="i18n::field-rate_sum" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="i18n::fields-group-svojstva_publikacii" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="i18n::field-expiration_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="i18n::field-notification_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="i18n::field-publish_comments" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="i18n::field-publish_status" visible="visible" locked="locked" guide-id="745">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="i18n::fields-group-locks" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="i18n::field-locktime" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="i18n::field-lockuser" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="815" guid="d528edaa45e66e08a9ece98272130b42e77cef55" title="i18n::object-type-days" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="additional" title="i18n::fields-group-grp_disp_msg_extended" visible="visible" active="active">
+          <field id="9208" name="number" title="i18n::field-index_number">
+            <type name="i18n::field-type-int" data-type="int"/>
+            <tip>Порядковый номер дня недели (1 (Понедельник) - 7 (Воскресение))</tip>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="814" guid="c9264fc806cdb67dc2080db570871067a6134c2d" title="i18n::object-type-hours" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="additional" title="i18n::fields-group-grp_disp_msg_extended" visible="visible" active="active">
+          <field id="9208" name="number" title="i18n::field-index_number">
+            <type name="i18n::field-type-int" data-type="int"/>
+            <tip>Порядковый номер дня недели (1 (Понедельник) - 7 (Воскресение))</tip>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="680" guid="dispatches-dispatch" title="i18n::object-type-dispatches-dispatch" parent-id="0" domain-id="0" guide="guide" locked="locked">
+      <base module="dispatches" method="dispatch" hide-pages="0">i18n::hierarchy-type-dispatches-dispatch</base>
+      <fieldgroups>
+        <group name="grp_disp_props" title="i18n::fields-group-grp_disp_props" visible="visible" active="active">
+          <field id="8841" name="disp_last_release" title="i18n::field-disp_last_release" visible="visible" locked="locked" filterable="filterable" important="important">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="8842" name="disp_description" title="i18n::field-disp_description" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9006" name="forced_subscribers" title="i18n::field-forced_subscribers" visible="visible" locked="locked" filterable="filterable" important="important">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="9007" name="news_relation" title="i18n::field-news_relation" visible="visible" locked="locked" filterable="filterable" guide-id="18">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9011" name="is_active" title="i18n::field-is_active" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="9461" name="load_from_forum" title="i18n::field-load_from_forum" visible="visible">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+            <tip>Может быть установлено только для одной рассылки одновременно</tip>
+          </field>
+          <tip>Основные настройки рассылки</tip>
+        </group>
+        <group name="auto_settings" title="i18n::fields-group-auto_mailout_settings" visible="visible" active="active">
+          <field id="9209" name="days" title="i18n::field-days" guide-id="815">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+            <tip>Дни недели, в которые будет происходить автоматическая рассылка</tip>
+          </field>
+          <field id="9210" name="hours" title="i18n::field-hours" guide-id="814">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+            <tip>Часы, в которые будет происходить автоматическая рассылка</tip>
+          </field>
+          <tip>Настройка графика автоматической рассылки писем</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="681" guid="dispatches-release" title="i18n::object-type-dispatches-release" parent-id="0" domain-id="0" guide="guide" locked="locked">
+      <base module="dispatches" method="release" hide-pages="0">i18n::hierarchy-type-dispatches-release</base>
+      <fieldgroups>
+        <group name="grp_disp_release_props" title="i18n::fields-group-grp_disp_release_props" visible="visible" active="active">
+          <field id="8843" name="status" title="i18n::field-status" visible="visible" locked="locked" filterable="filterable" important="important">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="8844" name="date" title="i18n::field-date" visible="visible" locked="locked" filterable="filterable" important="important">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="8845" name="disp_reference" title="i18n::field-disp_reference" locked="locked" filterable="filterable">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <tip>Основные настройки выпуска рассылки</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="682" guid="dispatches-message" title="i18n::object-type-dispatches-message" parent-id="0" domain-id="0" guide="guide" locked="locked">
+      <base module="dispatches" method="message" hide-pages="0">i18n::hierarchy-type-dispatches-message</base>
+      <fieldgroups>
+        <group name="grp_disp_msg_props" title="i18n::fields-group-grp_disp_msg_props" active="active" visible="0">
+          <field id="8846" name="header" title="i18n::field-header" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8847" name="body" title="i18n::field-body" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <field id="8849" name="release_reference" title="i18n::field-release_reference" locked="locked" filterable="filterable">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <tip>Основные настройки сообщения рассылки</tip>
+        </group>
+        <group name="grp_disp_msg_extended" title="i18n::fields-group-grp_disp_msg_extended" visible="visible" active="active">
+          <field id="8848" name="attach_file" title="i18n::field-attach_file" visible="visible" locked="locked">
+            <type name="i18n::field-type-file" data-type="file"/>
+          </field>
+          <field id="9008" name="msg_date" title="i18n::field-msg_date" visible="visible" locked="locked" filterable="filterable">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9009" name="short_body" title="i18n::field-short_body" visible="visible" locked="locked" filterable="filterable" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <field id="9010" name="new_relation" title="i18n::field-new_relation" locked="locked" filterable="filterable">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+          </field>
+          <tip>Дополнительные настройки сообщения рассылки</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="8" guid="fe5dbbcea5ce7e2988b8c69bcfdfde8904aabc1f" title="i18n::object-type-pol" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="6" guid="users-users" title="i18n::object-type-users-users" parent-id="0" domain-id="0" guide="guide" locked="locked">
+      <base module="users" method="users" hide-pages="0">i18n::hierarchy-type-users-users</base>
+      <fieldgroups>
+        <group name="svojstva_gruppy_polzovatelej" title="i18n::fields-group-svojstva_gruppy_polzovatelej" locked="locked" active="active" visible="0">
+          <field id="8896" name="nazvanie" title="i18n::field-nazvanie" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <tip>Общие настройки группы пользователей</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="693" guid="d69b923df6140a16aefc89546a384e0493641fbe" title="i18n::object-type-strany" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="params_more" title="i18n::fields-group-dopolnitelno" visible="visible" active="active">
+          <field id="9342" name="country_iso_code" title="i18n::field-country_code" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <tip>Страна в формате ISO 3166-1 alpha-2</tip>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="803" guid="emarket-deliveryaddress" title="i18n::object-type-eshop-address" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="delivery_address" hide-pages="0">i18n::hierarchy-type-eshop-address</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-osnovnoe" visible="visible" active="active">
+          <field id="9160" name="country" title="i18n::field-country" visible="visible" guide-id="693" required="required">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9161" name="index" title="i18n::field-post_index" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9162" name="region" title="i18n::field-geographic_area" visible="visible">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9163" name="city" title="i18n::field-city" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9164" name="street" title="i18n::field-street" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9165" name="house" title="i18n::field-house" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9166" name="flat" title="i18n::field-appartment" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="780" guid="emarket-currency" title="i18n::object-type-valyuta" parent-id="0" domain-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="currency" hide-pages="0">i18n::hierarchy-type-emarket-currency</base>
+      <fieldgroups>
+        <group name="props_currency" title="i18n::fields-group-currency_props" visible="visible" active="active">
+          <field id="9116" name="codename" title="i18n::field-currency_id" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9117" name="nominal" title="i18n::field-nominal" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9118" name="rate" title="i18n::field-rate" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-float" data-type="float"/>
+          </field>
+          <field id="9119" name="prefix" title="i18n::field-prefix_n" visible="visible">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9120" name="suffix" title="i18n::field-suffix" visible="visible">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <tip>Общие настройки валюты</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="779" guid="emarket-itemtype" title="i18n::object-type-itemtype" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="item_type" hide-pages="0">i18n::hierarchy-type-emarket-item_type</base>
+      <fieldgroups>
+        <group name="item_type_props" title="i18n::fields-group-item_type_props" visible="visible" active="active">
+          <field id="9101" name="class_name" title="i18n::field-item_type_id" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="762" guid="emarket-discounttype" title="i18n::object-type-discounttype" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="discount_type" hide-pages="0">i18n::hierarchy-type-emarket-discount_type</base>
+      <fieldgroups>
+        <group name="discount_type_props" title="i18n::fields-group-discount_type_props" visible="visible" active="active">
+          <field id="9075" name="codename" title="i18n::field-string_id" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9076" name="description" title="i18n::field-description" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="792" guid="96e388c0b3b7fd874b48621e850335a8f06ca58d" title="i18n::object-type-price_modifier" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="793" guid="6fe3dfe314684a658c1b19ca7a8e3abd29afe23e" title="i18n::object-type-validation_rule" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="765" guid="emarket-discount" title="i18n::object-type-discount" parent-id="0" domain-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="discount" hide-pages="0">i18n::hierarchy-type-emarket-discount</base>
+      <fieldgroups>
+        <group name="discount_props" title="i18n::fields-group-discount_props" visible="visible" active="active">
+          <field id="9079" name="discount_type_id" title="i18n::field-discount_type" visible="visible" guide-id="762" required="required" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+            <tip>Определяет область применения скидки</tip>
+          </field>
+          <field id="9080" name="discount_modificator_id" title="i18n::field-price_modificator" visible="visible" guide-id="792" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+            <tip>Определяет, по какому принципу будет пересчитываться цена</tip>
+          </field>
+          <field id="9081" name="discount_rules_id" title="i18n::field-validation_rules" visible="visible" guide-id="793" important="important">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+            <tip>Определяют ограничения по применению скидки</tip>
+          </field>
+          <field id="8796" name="is_active" title="i18n::field-is_active" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="9097" name="description" title="i18n::field-description" visible="visible" important="important">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <tip>Управление скидками на товары</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="844" guid="tax-rate-guide" title="i18n::object-type-tax-rate" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common_group" visible="visible" locked="locked" active="active">
+          <field id="9510" name="yandex_id" title="i18n::field-id-for-yandex-kassa" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9523" name="payonline_id" title="i18n::field-id-for-payonline" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9513" name="robokassa_id" title="i18n::field-id-for-robokassa" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9520" name="payanyway_id" title="i18n::field-id-for-payanyway" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9527" name="sberbank_id" title="i18n::field-id-for-sberbank" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9528" name="tax" title="i18n::field-tax" visible="visible" locked="locked" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9579" name="dengionline_id" title="i18n::field-id-for-dengionline" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="847" guid="payment_mode" title="i18n::payment-mode-type" parent-id="7" domain-id="0" guide="guide">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="i18n::common" visible="visible" active="active">
+          <field id="9537" name="yandex_id" title="i18n::field-id-for-yandex-kassa" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9538" name="robokassa_id" title="i18n::field-id-for-robokassa" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9539" name="payanyway_id" title="i18n::field-id-for-payanyway" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9540" name="payonline_id" title="i18n::field-id-for-payonline" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9541" name="sberbank_id" title="i18n::field-id-for-sberbank" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9581" name="dengionline_id" title="i18n::field-id-for-dengionline" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="846" guid="payment_subject" title="i18n::payment-subject-type" parent-id="7" domain-id="0" guide="guide">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="i18n::common" visible="visible" active="active">
+          <field id="9532" name="yandex_id" title="i18n::field-id-for-yandex-kassa" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9533" name="robokassa_id" title="i18n::field-id-for-robokassa" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9534" name="payanyway_id" title="i18n::field-id-for-payanyway" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9535" name="payonline_id" title="i18n::field-id-for-payonline" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9536" name="sberbank_id" title="i18n::field-id-for-sberbank" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9580" name="dengionline_id" title="i18n::field-id-for-dengionline" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="757" guid="emarket-itemoption" title="i18n::object-type-itemoption" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="item_option" hide-pages="0">i18n::hierarchy-type-emarket-item_option</base>
+      <fieldgroups/>
+    </type>
+    <type id="756" guid="emarket-orderitem" title="i18n::object-type-eshop-order_item" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="order_item" hide-pages="0">i18n::hierarchy-type-emarket-order_item</base>
+      <fieldgroups>
+        <group name="item_props" title="i18n::fields-group-order_item_props" visible="visible" active="active">
+          <field id="9072" name="item_amount" title="i18n::field-item_amount" visible="visible" important="important">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9071" name="item_price" title="i18n::field-item_price" visible="visible" important="important">
+            <type name="i18n::field-type-float" data-type="float"/>
+          </field>
+          <field id="9109" name="item_total_original_price" title="i18n::field-item_total_original_price" visible="visible" important="important">
+            <type name="i18n::field-type-price" data-type="price"/>
+          </field>
+          <field id="9515" name="item_actual_price" title="i18n::field-item_actual_price" visible="visible" important="important">
+            <type name="i18n::field-type-float" data-type="float"/>
+          </field>
+          <field id="9073" name="item_total_price" title="i18n::field-item_total_price" visible="visible" important="important">
+            <type name="i18n::field-type-price" data-type="price"/>
+          </field>
+          <field id="9103" name="item_type_id" title="i18n::field-item_type" visible="visible" guide-id="779" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9104" name="item_link" title="i18n::field-item_link" visible="visible" important="important">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="9105" name="item_discount_id" title="i18n::field-catalog_object_discount" visible="visible" guide-id="765" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9468" name="item_discount_value" title="i18n::field-order-item-discount-value" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-price" data-type="price"/>
+            <tip>i18n::field-order-item-discount-value</tip>
+          </field>
+          <field id="9491" name="weight" title="i18n::field-order-item-weight" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-float" data-type="float"/>
+          </field>
+          <field id="9492" name="width" title="i18n::field-order-item-width" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-float" data-type="float"/>
+          </field>
+          <field id="9493" name="height" title="i18n::field-order-item-height" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-float" data-type="float"/>
+          </field>
+          <field id="9494" name="length" title="i18n::field-order-item-length" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-float" data-type="float"/>
+          </field>
+          <field id="9511" name="tax_rate_id" title="i18n::field-tax-rate-id" visible="visible" locked="locked" guide-id="844" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9554" name="payment_mode" title="i18n::field-payment_mode" visible="visible" locked="locked" guide-id="847" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9555" name="payment_subject" title="i18n::field-payment_subject" visible="visible" locked="locked" guide-id="846" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9584" name="price_type_id" title="i18n::field-price-type" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-price-type-id" data-type="price_type_id"/>
+          </field>
+        </group>
+        <group name="item_optioned_props" title="i18n::fields-group-item_optioned_props" visible="visible" active="active">
+          <field id="9070" name="options" title="i18n::field-item_options" visible="visible" guide-id="757" important="important">
+            <type name="i18n::field-type-optioned" data-type="optioned" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="trade_offers" title="i18n::fields-group-trade-offers" visible="visible" active="active">
+          <field id="9531" name="trade_offer" title="i18n::field-trade-offer" locked="locked" important="important">
+            <type name="i18n::field-type-offer-id" data-type="offer_id"/>
+          </field>
+          <tip>Торговое предложение товарного наименования</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="751" guid="emarket-orderstatus" title="i18n::object-type-eshop-order_status" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="order_status" hide-pages="0">i18n::hierarchy-type-emarket-order_status</base>
+      <fieldgroups>
+        <group name="order_status_props" title="i18n::fields-group-order_status_props" visible="visible" active="active">
+          <field id="9114" name="codename" title="i18n::field-status_code" visible="visible" guide-id="780" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9393" name="priority" title="i18n::field-order-status-priority">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="787" guid="emarket-paymenttype" title="i18n::object-type-paymenttype" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="payment_type" hide-pages="0">i18n::hierarchy-type-emarket-payment_type</base>
+      <fieldgroups>
+        <group name="payment_type_props" title="i18n::fields-group-payment_type_props" visible="visible" active="active">
+          <field id="9130" name="class_name" title="i18n::field-payment_type_id" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9131" name="payment_type_id" title="i18n::field-payment_datatype_id" visible="visible" important="important">
+            <type name="i18n::field-type-link-to-object-type" data-type="link_to_object_type"/>
+          </field>
+          <field id="9238" name="payment_type_guid" title="i18n::field-payment_type_guid" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="788" guid="emarket-payment" title="i18n::object-type-payment" parent-id="0" domain-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="payment" hide-pages="0">i18n::hierarchy-type-emarket-payment</base>
+      <fieldgroups>
+        <group name="payment_props" title="i18n::fields-group-payment_props" visible="visible" active="active">
+          <field id="9132" name="payment_type_id" title="i18n::field-payment_type" visible="visible" guide-id="787" required="required" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9516" name="disabled" title="i18n::field-disabled" locked="locked" important="important">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+            <tip>Если установлено - не будет отображаться на сайте</tip>
+          </field>
+          <field id="9519" name="domain_id_list" title="i18n::field-valid-domain-list" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-domain-id-list" data-type="domain_id_list" multiple="multiple"/>
+            <tip>Если применимо для всех доменов - оставьте список пустым</tip>
+          </field>
+          <tip>Общие настройки способа оплаты</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="753" guid="emarket-orderpaymentstatus" title="i18n::object-type-orderpaymentstatus" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="order_payment_status" hide-pages="0">i18n::hierarchy-type-emarket-payment_status</base>
+      <fieldgroups>
+        <group name="order_status_props" title="i18n::fields-group-payment_status_props" visible="visible" active="active">
+          <field id="9114" name="codename" title="i18n::field-status_code" visible="visible" guide-id="780" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9398" name="priority" title="i18n::field-order-payment-priority">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="817" guid="emarket-legalperson" title="i18n::object-type-legalperson" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="legal_person" hide-pages="0">i18n::hierarchy-type-emarket-legal_person</base>
+      <fieldgroups>
+        <group name="general" title="i18n::fields-group-osnovnoe" visible="visible" active="active">
+          <field id="9250" name="contact_person" title="i18n::field-contact_person" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9251" name="phone_number" title="i18n::field-phone_number" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9252" name="fax" title="i18n::field-fax" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9134" name="email" title="i18n::field-e-mail" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <restriction id="2" name="email">E-mail</restriction>
+          </field>
+          <field id="9253" name="name" title="i18n::field-organisation_name" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+        <group name="addresses" title="i18n::fields-group-addresses" visible="visible" active="active">
+          <field id="9254" name="legal_address" title="i18n::field-legal_address" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9255" name="defacto_address" title="i18n::field-defacto_address" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9256" name="post_address" title="i18n::field-post_address" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+        <group name="payment" title="i18n::fields-group-payment_info" visible="visible" active="active">
+          <field id="9257" name="inn" title="i18n::field-TIN" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9258" name="account" title="i18n::field-account" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9259" name="bank" title="i18n::field-bank" visible="visible">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9260" name="bank_account" title="i18n::field-bank_account" visible="visible">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9261" name="bik" title="i18n::field-bik" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9262" name="ogrn" title="i18n::field-ogrn" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9337" name="kpp" title="i18n::field-RRC" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="782" guid="emarket-deliverytype" title="i18n::object-type-deliverytype" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="delivery_type" hide-pages="0">i18n::hierarchy-type-emarket-delivery_type</base>
+      <fieldgroups>
+        <group name="delivery_type_props" title="i18n::fields-group-delivery_type_props" visible="visible" active="active">
+          <field id="9122" name="class_name" title="i18n::field-delivery_type_id" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9126" name="delivery_type_id" title="i18n::field-delivery_datatype_id" visible="visible" important="important">
+            <type name="i18n::field-type-link-to-object-type" data-type="link_to_object_type"/>
+          </field>
+          <field id="9237" name="delivery_type_guid" title="i18n::field-delivery_type_guid" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="781" guid="emarket-delivery" title="i18n::object-type-delivery" parent-id="0" domain-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="delivery" hide-pages="0">i18n::hierarchy-type-emarket-delivery</base>
+      <fieldgroups>
+        <group name="delivery_description_props" title="i18n::fields-group-delivery_description" visible="visible" active="active">
+          <field id="9121" name="description" title="i18n::field-delivery_description" visible="visible" important="important">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9125" name="delivery_type_id" title="i18n::field-delivery_type" guide-id="782" required="required" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9127" name="price" title="i18n::field-delivery_price" visible="visible" important="important">
+            <type name="i18n::field-type-price" data-type="price"/>
+          </field>
+          <field id="9511" name="tax_rate_id" title="i18n::field-tax-rate-id" visible="visible" locked="locked" guide-id="844" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9516" name="disabled" title="i18n::field-disabled" locked="locked" important="important">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+            <tip>Если установлено - не будет отображаться на сайте</tip>
+          </field>
+          <field id="9519" name="domain_id_list" title="i18n::field-valid-domain-list" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-domain-id-list" data-type="domain_id_list" multiple="multiple"/>
+            <tip>Если применимо для всех доменов - оставьте список пустым</tip>
+          </field>
+          <field id="9542" name="payment_mode" title="i18n::field-payment_mode" visible="visible" locked="locked" guide-id="847" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9543" name="payment_subject" title="i18n::field-payment_subject" visible="visible" locked="locked" guide-id="846" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9558" name="disabled_types_of_payment" title="i18n::field-disabled_types_of_payment" visible="visible" locked="locked" guide-id="788" important="important">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="752" guid="emarket-orderdeliverystatus" title="i18n::object-type-orderdeliverystatus" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="order_delivery_status" hide-pages="0">i18n::hierarchy-type-emarket-delivery_status</base>
+      <fieldgroups>
+        <group name="order_status_props" title="i18n::fields-group-delivery_status_props" visible="visible" active="active">
+          <field id="9142" name="codename" title="i18n::field-status_code" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9399" name="priority" title="i18n::field-order-delivery-priority">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="838" guid="emarket-purchase-oneclick" title="i18n::object-type-emarket-purchase-oneclick" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="personal" title="i18n::fields-group-personal_info" visible="visible" locked="locked" active="active">
+          <field id="9442" name="lname" title="i18n::field-lname_oneclick" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9443" name="fname" title="i18n::field-fname_oneclick" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9444" name="father_name" title="i18n::field-father_name_oneclick" visible="visible">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9445" name="email" title="i18n::field-email_oneclick" visible="visible" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <restriction id="2" name="email">E-mail</restriction>
+          </field>
+          <field id="9446" name="phone" title="i18n::field-phone_number_oneclick" visible="visible" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="755" guid="emarket-order" title="i18n::object-type-order" parent-id="0" domain-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="order" hide-pages="0">i18n::hierarchy-type-emarket-order</base>
+      <fieldgroups>
+        <group name="order_props" title="i18n::fields-group-order_props" visible="visible" active="active">
+          <field id="9064" name="order_items" title="i18n::field-order_items" visible="visible" guide-id="756" important="important">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9133" name="number" title="i18n::field-order_number" visible="visible" important="important">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9344" name="social_order_id" title="i18n::field-social_order_id" locked="locked">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9074" name="customer_id" title="i18n::field-customer" guide-id="4" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9065" name="domain_id" title="i18n::field-domain_name" visible="visible">
+            <type name="i18n::field-type-domain-id" data-type="domain_id"/>
+          </field>
+          <field id="9066" name="manager_id" title="i18n::field-manager" visible="visible" guide-id="4" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9067" name="status_id" title="i18n::field-order_status" visible="visible" guide-id="751" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9108" name="total_original_price" title="i18n::field-order_original_price" visible="visible" important="important">
+            <type name="i18n::field-type-price" data-type="price"/>
+          </field>
+          <field id="9106" name="total_price" title="i18n::field-total_price" visible="visible" important="important">
+            <type name="i18n::field-type-price" data-type="price"/>
+          </field>
+          <field id="9107" name="total_amount" title="i18n::field-total_amount" visible="visible" important="important">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9169" name="status_change_date" title="i18n::field-status_change_date" visible="visible">
+            <type name="i18n::field-type-date" data-type="date"/>
+            <tip>Выставляется автоматически, когда происходит изменение статуса заказа</tip>
+          </field>
+          <field id="9177" name="order_date" title="i18n::field-order_date" visible="visible" important="important">
+            <type name="i18n::field-type-date" data-type="date"/>
+            <tip>Дата, когда заказ был оформлен покупателем</tip>
+          </field>
+          <field id="9469" name="order_discount_value" title="i18n::field-order-discount-value" locked="locked" important="important">
+            <type name="i18n::field-type-price" data-type="price"/>
+            <tip>i18n::field-order-discount-value</tip>
+          </field>
+          <field id="9195" name="is_reserved" title="i18n::field-is_reserved" system="system">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="9526" name="service_info" title="i18n::field-order_service_info">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9559" name="order_comment" title="i18n::field-order-comment" visible="visible" important="important">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <tip>Основная информация о заказе</tip>
+        </group>
+        <group name="order_credit_props" title="i18n::fields-group-credit" visible="visible" active="active"/>
+        <group name="statistic_info" title="i18n::fields-group-statistic_data" visible="visible" active="active">
+          <field id="9359" name="http_referer" title="i18n::field-referer" visible="visible">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9373" name="http_target" title="i18n::field-target" visible="visible">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9410" name="source_domain" title="i18n::field-source_domain" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9411" name="utm_medium" title="i18n::field-utm_medium" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9412" name="utm_term" title="i18n::field-utm_term" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9413" name="utm_campaign" title="i18n::field-utm_campaign" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9414" name="utm_content" title="i18n::field-utm_content" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9415" name="order_create_date" title="i18n::field-order_create_date" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <tip>Поведенческие данные о покупателе. Используются для анализа эффективности различных каналов продвижения. Получить общую статистику по всем заказам или сделать выборку можно в модуле «Интернет-магазин» —&gt; вкладка «Статистика»</tip>
+        </group>
+        <group name="order_payment_props" title="i18n::fields-group-order_payment_props" visible="visible" active="active">
+          <field id="9129" name="payment_id" title="i18n::field-payment_id" visible="visible" guide-id="788" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9518" name="payment_name" title="i18n::field-payment-name" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9068" name="payment_status_id" title="i18n::field-payment_status" guide-id="753" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9191" name="payment_date" title="i18n::field-payment_date" visible="visible">
+            <type name="i18n::field-type-date" data-type="date"/>
+            <tip>Дата успешной оплаты заказа</tip>
+          </field>
+          <field id="9192" name="payment_document_num" title="i18n::field-payment_document_number" visible="visible">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <tip>Заполняется системой автоматически</tip>
+          </field>
+          <field id="9299" name="legal_person" title="i18n::field-legal_person" visible="visible" locked="locked" guide-id="817" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Данные об оплате заказа</tip>
+        </group>
+        <group name="order_delivery_props" title="i18n::fields-group-order_delivery_props" visible="visible" active="active">
+          <field id="9128" name="delivery_id" title="i18n::field-delivery_id" visible="visible" guide-id="781" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9517" name="delivery_name" title="i18n::field-delivery-name" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9069" name="delivery_status_id" title="i18n::field-delivery_status" guide-id="752" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9186" name="delivery_address" title="i18n::field-destination_address" guide-id="803" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9496" name="delivery_date" title="i18n::field-delivery-date" locked="locked" important="important">
+            <type name="i18n::field-type-date" data-type="date"/>
+            <tip>Дата, когда товар будет доставлен клиенту или на пункт выдачи</tip>
+          </field>
+          <field id="9497" name="pickup_date" title="i18n::field-pickup-date" locked="locked" important="important">
+            <type name="i18n::field-type-date" data-type="date"/>
+            <tip>Даpickup_typeта, когда товар будет доставлен на пункт приема или когда нужно его забрать со склада</tip>
+          </field>
+          <field id="9498" name="delivery_provider" title="i18n::field-delivery-provider" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <tip>Оператор доставки</tip>
+          </field>
+          <field id="9499" name="delivery_tariff" title="i18n::field-delivery-tariff" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <tip>Тариф доставки</tip>
+          </field>
+          <field id="9500" name="delivery_type" title="i18n::field-delivery-type" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <tip>Тип доставки товара клиенту</tip>
+          </field>
+          <field id="9501" name="pickup_type" title="i18n::field-pickup-type" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <tip>Тип доставки товара поставщику</tip>
+          </field>
+          <field id="9197" name="delivery_price" title="i18n::field-del_price" visible="visible" important="important">
+            <type name="i18n::field-type-price" data-type="price"/>
+          </field>
+          <field id="9502" name="delivery_point_in" title="i18n::field-delivery-point-in-id" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <tip>Точка приема товара</tip>
+          </field>
+          <field id="9503" name="delivery_point_out" title="i18n::field-delivery-point-out-id" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <tip>Точка выдачи товара</tip>
+          </field>
+          <field id="9487" name="total_weight" title="i18n::field-order-total-weight" locked="locked" important="important">
+            <type name="i18n::field-type-float" data-type="float"/>
+            <tip>i18n::field-order-total-weight-tip</tip>
+          </field>
+          <field id="9488" name="total_width" title="i18n::field-order-book-total-width" locked="locked">
+            <type name="i18n::field-type-float" data-type="float"/>
+            <tip>i18n::field-order-book-total-width-tip</tip>
+          </field>
+          <field id="9489" name="total_height" title="i18n::field-order-total-height" locked="locked">
+            <type name="i18n::field-type-float" data-type="float"/>
+            <tip>i18n::field-order-total-height-tip</tip>
+          </field>
+          <field id="9490" name="total_length" title="i18n::field-order-total-length" locked="locked">
+            <type name="i18n::field-type-float" data-type="float"/>
+            <tip>i18n::field-ordelivery_providerder-total-length-tip</tip>
+          </field>
+          <field id="9193" name="delivery_allow_date" title="i18n::field-delivery_allow_date">
+            <type name="i18n::field-type-date" data-type="date"/>
+            <tip>Заполняется системой автоматически, когда возможна доставка и заказ успешно оплачен</tip>
+          </field>
+          <tip>i18n::fields-group-order_delivery_props-tip</tip>
+        </group>
+        <group name="order_discount_props" title="i18n::fields-group-order_discount_props" visible="visible" active="active">
+          <field id="9110" name="order_discount_id" title="i18n::field-order_discount" guide-id="765" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9377" name="bonus" title="i18n::field-spent_bonus" locked="locked">
+            <type name="i18n::field-type-price" data-type="price"/>
+          </field>
+        </group>
+        <group name="integration_date" title="i18n::fields-group-intergation_props" visible="visible" active="active">
+          <field id="9168" name="need_export" title="i18n::field-export_1C">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+            <tip>Выставляется системой автоматически, когда заказ необходимо выгрузить в 1С</tip>
+          </field>
+        </group>
+        <group name="purchase_one_click" title="i18n::fields-group-purchase_one_click" visible="visible" active="active">
+          <field id="9447" name="purchaser_one_click" title="i18n::field-customer" locked="locked" guide-id="838" important="important">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="4" guid="users-user" title="i18n::object-type-users-user" parent-id="0" domain-id="0" guide="guide" locked="locked">
+      <base module="users" method="user" hide-pages="0">i18n::hierarchy-type-users-user</base>
+      <fieldgroups>
+        <group name="idetntify_data" title="i18n::fields-group-idetntify_data" locked="locked" active="active" visible="0">
+          <field id="45" name="login" title="i18n::field-login" visible="visible" locked="locked" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="46" name="password" title="i18n::field-password" visible="visible" locked="locked">
+            <type name="i18n::field-type-password" data-type="password"/>
+          </field>
+          <field id="12" name="e-mail" title="i18n::field-e-mail" visible="visible" locked="locked" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="53" name="groups" title="i18n::field-groups" locked="locked" guide-id="6" important="important">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8734" name="activate_code" title="i18n::field-activate_code" locked="locked" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9360" name="loginza" title="i18n::field-loginza" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <tip>Адрес сервиса</tip>
+          </field>
+          <field id="8735" name="is_activated" title="i18n::field-is_activated" locked="locked" important="important">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="8967" name="last_request_time" title="i18n::field-last_request_time" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8950" name="subscribed_pages" title="i18n::field-subscribed_pages" locked="locked" system="system">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8968" name="rated_pages" title="i18n::field-rated_pages" locked="locked" system="system">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8951" name="is_online" title="i18n::field-is_online" locked="locked" system="system">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="8969" name="messages_count" title="i18n::field-messages_count" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9576" name="auth_token" title="i18n::field-auth-token" locked="locked" system="system">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9577" name="social_uid" title="i18n::field-social_uid" locked="locked" system="system">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9585" name="is_deactivated_by_manager" title="i18n::field-is_deactivated_by_manager" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Основная информация о пользователе</tip>
+        </group>
+        <group name="more_info" title="i18n::fields-group-more_info" visible="visible" active="active">
+          <field id="5569" name="orders_refs" title="i18n::field-orders_refs" locked="locked" system="system">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8720" name="delivery_addresses" title="i18n::field-delivery_addresses" locked="locked" guide-id="803" system="system">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8901" name="user_dock" title="i18n::field-user_dock" locked="locked" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9049" name="preffered_currency" title="i18n::field-preffered_currency" locked="locked" guide-id="780">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="9050" name="user_settings_data" title="i18n::field-user_settings_data" locked="locked" system="system">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9374" name="last_order" title="i18n::field-last_order" locked="locked" guide-id="755" system="system">
+            <type name="i18n::field-type-optioned" data-type="optioned" multiple="multiple"/>
+          </field>
+          <field id="9375" name="bonus" title="i18n::field-bonus" locked="locked">
+            <type name="i18n::field-type-price" data-type="price"/>
+          </field>
+          <field id="9300" name="legal_persons" title="i18n::field-legal_persons" locked="locked" guide-id="817" important="important" system="system">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9376" name="spent_bonus" title="i18n::field-spent_bonus" locked="locked">
+            <type name="i18n::field-type-price" data-type="price"/>
+          </field>
+          <field id="9368" name="filemanager_directory" title="i18n::field-filemanager-directory" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <tip>Список доступных пользователю директорий. В качестве разделителя используется запятая - например: /image/cms, /files.</tip>
+          </field>
+          <field id="9379" name="appended_file_extensions" title="i18n::field-appended-file-extensions" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <tip>Список дополнительных расширений файлов, которые пользователь может загружать на сервер. В качестве разделителя используется запятая - например: cdr, mid, midi.</tip>
+          </field>
+          <field id="9372" name="register_date" title="i18n::field-register_date">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9466" name="tickets_color" title="i18n::field-tickets_color">
+            <type name="i18n::field-type-color" data-type="color"/>
+            <tip>Фоновый цвет заметок</tip>
+          </field>
+          <field id="9524" name="favorite_domain_list" title="i18n::field-favorite_domain_list">
+            <type name="i18n::field-type-domain-id-list" data-type="domain_id_list" multiple="multiple"/>
+            <tip>Если заполнено - для пользователя будут выводиться только эти домены в административной панели во вкладке "Структура сайта".</tip>
+          </field>
+          <tip>Дополнительные настройки пользователя</tip>
+        </group>
+        <group name="short_info" title="i18n::fields-group-short_info" visible="visible" active="active">
+          <field id="11" name="lname" title="i18n::field-lname" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9" name="fname" title="i18n::field-fname" visible="visible" locked="locked" required="required" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+            <tip>Это поле содержит Имя пользователя. Оно отображается в характеристиках пользователя и может быть изменено самим пользователем.</tip>
+          </field>
+          <field id="10" name="father_name" title="i18n::field-father_name" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9504" name="phone" title="i18n::field-phone_n" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <tip>Личные данные пользователя</tip>
+        </group>
+        <group name="delivery" title="i18n::fields-group-trans_deliver" visible="visible" active="active"/>
+        <group name="statistic_info" title="i18n::fields-group-statistic_data" visible="visible" active="active">
+          <field id="9370" name="referer" title="i18n::field-referer">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9371" name="target" title="i18n::field-target">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <tip>Статистические данные о поведении пользователя на сайте</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="683" guid="dispatches-subscriber" title="i18n::object-type-dispatches-subscriber" parent-id="0" domain-id="0" guide="guide" locked="locked">
+      <base module="dispatches" method="subscriber" hide-pages="0">i18n::hierarchy-type-dispatches-subscriber</base>
+      <fieldgroups>
+        <group name="grp_sbs_props" title="i18n::fields-group-grp_sbs_props" active="active" visible="0">
+          <field id="8852" name="lname" title="i18n::field-lname" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8853" name="fname" title="i18n::field-fname" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8854" name="father_name" title="i18n::field-father_name" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8855" name="gender" title="i18n::field-gender" visible="visible" locked="locked" guide-id="8">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <field id="8850" name="uid" title="i18n::field-uid" locked="locked" filterable="filterable" guide-id="4">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Основные данные подписчика</tip>
+        </group>
+        <group name="grp_sbs_extended" title="i18n::fields-group-grp_sbs_extended" visible="visible" active="active">
+          <field id="8857" name="subscriber_dispatches" title="i18n::field-subscriber_dispatches" visible="visible" locked="locked" filterable="filterable" guide-id="680" important="important">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9557" name="sent_release_list" title="i18n::field-sent_release_list" locked="locked" guide-id="681" important="important">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8858" name="subscribe_date" title="i18n::field-subscribe_date" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <tip>Информация о подписках пользователя</tip>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <entities/>
+  <relations>
+    <relation type-id="{root-pages-type}" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="18" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="680" field-name="news_relation">
+      <guide id="18"/>
+    </relation>
+    <relation type-id="680" field-name="days">
+      <guide id="815"/>
+    </relation>
+    <relation type-id="680" field-name="hours">
+      <guide id="814"/>
+    </relation>
+    <relation type-id="803" field-name="country">
+      <guide id="693"/>
+    </relation>
+    <relation type-id="765" field-name="discount_type_id">
+      <guide id="762"/>
+    </relation>
+    <relation type-id="765" field-name="discount_modificator_id">
+      <guide id="792"/>
+    </relation>
+    <relation type-id="765" field-name="discount_rules_id">
+      <guide id="793"/>
+    </relation>
+    <relation type-id="756" field-name="item_type_id">
+      <guide id="779"/>
+    </relation>
+    <relation type-id="756" field-name="item_discount_id">
+      <guide id="765"/>
+    </relation>
+    <relation type-id="756" field-name="tax_rate_id">
+      <guide id="844"/>
+    </relation>
+    <relation type-id="756" field-name="payment_mode">
+      <guide id="847"/>
+    </relation>
+    <relation type-id="756" field-name="payment_subject">
+      <guide id="846"/>
+    </relation>
+    <relation type-id="756" field-name="options">
+      <guide id="757"/>
+    </relation>
+    <relation type-id="751" field-name="codename">
+      <guide id="780"/>
+    </relation>
+    <relation type-id="788" field-name="payment_type_id">
+      <guide id="787"/>
+    </relation>
+    <relation type-id="753" field-name="codename">
+      <guide id="780"/>
+    </relation>
+    <relation type-id="781" field-name="delivery_type_id">
+      <guide id="782"/>
+    </relation>
+    <relation type-id="781" field-name="tax_rate_id">
+      <guide id="844"/>
+    </relation>
+    <relation type-id="781" field-name="payment_mode">
+      <guide id="847"/>
+    </relation>
+    <relation type-id="781" field-name="payment_subject">
+      <guide id="846"/>
+    </relation>
+    <relation type-id="781" field-name="disabled_types_of_payment">
+      <guide id="788"/>
+    </relation>
+    <relation type-id="755" field-name="order_items">
+      <guide id="756"/>
+    </relation>
+    <relation type-id="755" field-name="customer_id">
+      <guide id="4"/>
+    </relation>
+    <relation type-id="755" field-name="manager_id">
+      <guide id="4"/>
+    </relation>
+    <relation type-id="755" field-name="status_id">
+      <guide id="751"/>
+    </relation>
+    <relation type-id="755" field-name="payment_id">
+      <guide id="788"/>
+    </relation>
+    <relation type-id="755" field-name="payment_status_id">
+      <guide id="753"/>
+    </relation>
+    <relation type-id="755" field-name="legal_person">
+      <guide id="817"/>
+    </relation>
+    <relation type-id="755" field-name="delivery_id">
+      <guide id="781"/>
+    </relation>
+    <relation type-id="755" field-name="delivery_status_id">
+      <guide id="752"/>
+    </relation>
+    <relation type-id="755" field-name="delivery_address">
+      <guide id="803"/>
+    </relation>
+    <relation type-id="755" field-name="order_discount_id">
+      <guide id="765"/>
+    </relation>
+    <relation type-id="755" field-name="purchaser_one_click">
+      <guide id="838"/>
+    </relation>
+    <relation type-id="4" field-name="groups">
+      <guide id="6"/>
+    </relation>
+    <relation type-id="4" field-name="delivery_addresses">
+      <guide id="803"/>
+    </relation>
+    <relation type-id="4" field-name="preffered_currency">
+      <guide id="780"/>
+    </relation>
+    <relation type-id="4" field-name="last_order">
+      <guide id="755"/>
+    </relation>
+    <relation type-id="4" field-name="legal_persons">
+      <guide id="817"/>
+    </relation>
+    <relation type-id="683" field-name="gender">
+      <guide id="8"/>
+    </relation>
+    <relation type-id="683" field-name="uid">
+      <guide id="4"/>
+    </relation>
+    <relation type-id="683" field-name="subscriber_dispatches">
+      <guide id="680"/>
+    </relation>
+    <relation type-id="683" field-name="sent_release_list">
+      <guide id="681"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions>
+    <restriction id="2" prefix="email" title="E-mail" field-type="string" is-multiple="">
+      <field field-name="email" type-id="817"/>
+      <field field-name="email" type-id="838"/>
+    </restriction>
+  </restrictions>
+  <permissions/>
+  <hierarchy/>
+</umidump>

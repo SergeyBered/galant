@@ -1,0 +1,50 @@
+#u-quickpanel , #u-quickpanel-meta {
+	background-color: #2D3645;
+	color: rgba(255,255,255,0.8);
+}
+#u-quickpanel div#butterfly,
+#u-quickpanel div#save_edit,
+#u-quickpanel div#edit,
+#u-quickpanel div#edit_menu,
+#u-quickpanel div#last_doc,
+#u-quickpanel div#changelog_dd,
+#u-quickpanel div#meta,
+#u-quickpanel div#note,
+#u-quickpanel div#seo,
+#u-quickpanel div#ieditor-switcher{
+	border-right-color: #383f4a;
+	border-left-color: #383f4a;
+}
+#u-quickpanel div#edit div,
+#u-quickpanel div#last_doc div,
+#u-quickpanel div#edit_menu div,
+#u-quickpanel div#changelog_dd div,
+#u-quickpanel div#butterfly div.bg {
+	background-color: #2d3645;
+	border: 1px solid #383f4a;
+	color: white;
+	padding: 10px 0;
+}
+#u-quickpanel div#butterfly div ul#u-mods-cont-left,
+#u-quickpanel div#butterfly div ul#u-mods-utils {
+	border-right-color: gray;
+	padding-left: 20px;
+}
+#u-quickpanel div#butterfly div ul#u-mods-cont-left li,
+#u-quickpanel div#butterfly div ul#u-mods-utils li,
+#u-quickpanel div#butterfly div ul#u-mods-cont-right li,
+#u-quickpanel div#butterfly div ul#u-mods-admin li{
+	margin: 5px 0;
+}
+#u-quickpanel a {
+	color: rgba(255,255,255,0.8);
+}
+#u-quickpanel a:hover {
+	background-color: #474F5C;
+}
+#u-quickpanel div#butterfly div ul {
+	padding: 20px 0;
+}
+#u-quickpanel div#butterfly div.bg {
+	padding: 0;
+}

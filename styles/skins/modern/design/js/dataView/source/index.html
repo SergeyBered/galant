@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css" crossorigin="anonymous">
+    <style>
+        .container{
+            margin-top: 50px;
+        }
+
+        td > .table{
+            margin: 0 !important;
+            border-radius: 0 !important;
+        }
+
+        .ch_wrapper{
+            padding: 0 !important;
+        }
+
+        .spacer{
+            display: inline-block;
+        }
+
+        .selected{
+            background-color: #bbbbbb;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+</div>
+<script src="http://c-spell.sych.umisoft.ru/js/jquery/jquery.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="/styles/common/js/node_modules/underscore/underscore-min.js"></script>
+<script src="/styles/common/js/backbone.compiled.min.js"></script>
+<script src="/styles/skins/modern/design/js/dataView/app.min.js"></script>
+<script>
+    (function(){
+        new umiDataController({
+            container:'div.container',
+            head:'js/templates/umiTableHeader.twig',
+            row:'js/templates/umiDataTableRow.twig',
+            prefix:'/../../admin/redirect',
+            module:'redirect',
+            controlParam:'',
+            dataProtocol: 'json',
+            saveFunction:'edit',
+            domain:1,
+            lang:1,
+            debug:true
+        }).start();
+    })()
+</script>
+</body>
+</html>

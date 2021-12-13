@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Utils\SiteMap\Image;use UmiCms\System\Orm\Entity\iMapper as iAbstractMapper;interface iMapper extends iAbstractMapper {const LOCATION_ID = 'location_id';const DOMAIN_ID = 'domain_id';const LINK = 'link';const ALT = 'alt';const TITLE = 'title';}

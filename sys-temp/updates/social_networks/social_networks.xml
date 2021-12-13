@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113685</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:45 +0300</rfc>
+      <utc>2021-08-16T14:34:45+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/social_networks" val="social_networks"/>
+    <key path="modules/social_networks/version" val="1"/>
+    <key path="modules/social_networks/name" val="social_networks"/>
+    <key path="modules/social_networks/title" val="Интеграция с социальными сетями"/>
+    <key path="modules/social_networks/filename" val="modules/social_networks/class.php"/>
+    <key path="modules/social_networks/config" val="0" update="1"/>
+    <key path="modules/social_networks/ico" val="ico_social_networks"/>
+    <key path="modules/social_networks/default_method" val="vkontakte" update="1"/>
+    <key path="modules/social_networks/default_method_admin" val="vkontakte" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/social_networks" name="social_networks">/classes/components/social_networks</directory>
+    <directory path="./classes/components/social_networks/classes" name="classes">/classes/components/social_networks/classes</directory>
+    <directory path="./classes/components/social_networks/classes/networks" name="networks">/classes/components/social_networks/classes/networks</directory>
+    <directory path="./styles/skins/modern/data/modules/social_networks" name="social_networks">/styles/skins/modern/data/modules/social_networks</directory>
+    <directory path="./styles/skins/modern/data/modules/social_networks/man" name="man">/styles/skins/modern/data/modules/social_networks/man</directory>
+    <directory path="./styles/skins/modern/data/modules/social_networks/man/ru" name="ru">/styles/skins/modern/data/modules/social_networks/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/social_networks/icon" name="icon">/styles/skins/modern/data/modules/social_networks/icon</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/social_networks/autoload.php" size="99" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9hdXRvbG9hZC5waHA" hash="e70e9409bc36038b122d86030e7d2fc2" name="autoload.php">/classes/components/social_networks/autoload.php</file>
+    <file path="./classes/components/social_networks/permissions.php" size="388" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9wZXJtaXNzaW9ucy5waHA" hash="a8e8edcdce4f28134c1bae2444d67a74" name="permissions.php">/classes/components/social_networks/permissions.php</file>
+    <file path="./classes/components/social_networks/customMacros.php" size="170" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9jdXN0b21NYWNyb3MucGhw" hash="cc2e695a53ea2ced5bc0ee2a3755a299" name="customMacros.php" only_install="true">/classes/components/social_networks/customMacros.php</file>
+    <file path="./classes/components/social_networks/lang.php" size="498" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9sYW5nLnBocA" hash="d92d9420c8fdc4ffab61fc0205ee86e1" name="lang.php">/classes/components/social_networks/lang.php</file>
+    <file path="./classes/components/social_networks/customAdmin.php" size="223" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9jdXN0b21BZG1pbi5waHA" hash="aa37e7a74b69d963b6df953f72c0b12b" name="customAdmin.php" only_install="true">/classes/components/social_networks/customAdmin.php</file>
+    <file path="./classes/components/social_networks/classes/network.php" size="5552" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9jbGFzc2Vz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9jbGFzc2VzL25ldHdvcmsucGhw" hash="8276019e1631009d04b79bec52356b45" name="network.php">/classes/components/social_networks/classes/network.php</file>
+    <file path="./classes/components/social_networks/classes/networks/vkontakte.php" size="1102" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9jbGFzc2VzL25ldHdvcmtz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9jbGFzc2VzL25ldHdvcmtzL3Zrb250YWt0ZS5waHA" hash="1f887af27dff4e90d35340ef9370b9f9" name="vkontakte.php">/classes/components/social_networks/classes/networks/vkontakte.php</file>
+    <file path="./classes/components/social_networks/handlers.php" size="70" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9oYW5kbGVycy5waHA" hash="43bd8b4ddc4564615fce3adee8c13105" name="handlers.php">/classes/components/social_networks/handlers.php</file>
+    <file path="./classes/components/social_networks/admin.php" size="1973" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9hZG1pbi5waHA" hash="169ccc433cd69b4166b959c73af00ccc" name="admin.php">/classes/components/social_networks/admin.php</file>
+    <file path="./classes/components/social_networks/install.php" size="1213" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9pbnN0YWxsLnBocA" hash="d5d159a77475df71e55dfe0da250f47b" name="install.php">/classes/components/social_networks/install.php</file>
+    <file path="./classes/components/social_networks/includes.php" size="73" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9pbmNsdWRlcy5waHA" hash="f0228d7892d162545902bc293e45e61e" name="includes.php">/classes/components/social_networks/includes.php</file>
+    <file path="./classes/components/social_networks/i18n.en.php" size="581" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9pMThuLmVuLnBocA" hash="cc032315a2090ad80c72c3348f8e48a2" name="i18n.en.php" only_install="true">/classes/components/social_networks/i18n.en.php</file>
+    <file path="./classes/components/social_networks/class.php" size="6964" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9jbGFzcy5waHA" hash="ab8be88bf3d8cc7cfb4e98fab72150c9" name="class.php">/classes/components/social_networks/class.php</file>
+    <file path="./classes/components/social_networks/i18n.php" size="762" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9pMThuLnBocA" hash="a3315c9b70053859d864b4bd6841ea69" name="i18n.php">/classes/components/social_networks/i18n.php</file>
+    <file path="./classes/components/social_networks/lang.en.php" size="376" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3NvY2lhbF9uZXR3b3Jrcy9sYW5nLmVuLnBocA" hash="8e118a1e5b6bf1ff634266ae76ae645d" name="lang.en.php">/classes/components/social_networks/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/social_networks/man/ru/vkontakte.html" size="1896" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc29jaWFsX25ldHdvcmtzL21hbi9ydQ" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc29jaWFsX25ldHdvcmtzL21hbi9ydS92a29udGFrdGUuaHRtbA" hash="6dbb5e649687bbd0cf1ae6e40cc27853" name="vkontakte.html">/styles/skins/modern/data/modules/social_networks/man/ru/vkontakte.html</file>
+    <file path="./styles/skins/modern/data/modules/social_networks/icon/social_networks.png" size="1158" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc29jaWFsX25ldHdvcmtzL2ljb24" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc29jaWFsX25ldHdvcmtzL2ljb24vc29jaWFsX25ldHdvcmtzLnBuZw" hash="b35a95b0aee518ac64588d03850db46e" name="social_networks.png">/styles/skins/modern/data/modules/social_networks/icon/social_networks.png</file>
+    <file path="./styles/skins/modern/data/modules/social_networks/form.modify.xsl" size="4406" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc29jaWFsX25ldHdvcmtz" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvc29jaWFsX25ldHdvcmtzL2Zvcm0ubW9kaWZ5LnhzbA" hash="349fca880892db895dd250c154ae55e1" name="form.modify.xsl">/styles/skins/modern/data/modules/social_networks/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="i18n::object-type-spravochniki" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="745" guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" title="i18n::object-type-status_stranicy" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="svojstva_statusa_stranicy" title="i18n::fields-group-svojstva_statusa_stranicy" visible="visible" active="active">
+          <field id="9027" name="publish_status_id" title="i18n::field-publish_status_id" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="{root-pages-type}" guid="root-pages-type" title="i18n::object-type-razdel_sajta" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="i18n::field-title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="i18n::field-h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="i18n::field-content" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="i18n::field-meta_descriptions" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="i18n::field-meta_keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки страницы</tip>
+        </group>
+        <group name="more_params" title="i18n::fields-group-more_params" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="i18n::field-robots_deny" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="i18n::field-show_submenu" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="i18n::field-is_expanded" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="i18n::field-is_unindexed" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="rate_props" title="i18n::fields-group-rate_props" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="i18n::field-rate_voters" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="i18n::field-rate_sum" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="i18n::fields-group-svojstva_publikacii" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="i18n::field-expiration_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="i18n::field-notification_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="i18n::field-publish_comments" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="i18n::field-publish_status" visible="visible" locked="locked" guide-id="745">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="i18n::fields-group-locks" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="i18n::field-locktime" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="i18n::field-lockuser" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="822" guid="social_networks-network" title="i18n::object-type-network" parent-id="{root-pages-type}" domain-id="0" guide="guide" public="public" locked="locked">
+      <base module="social_networks" method="network" hide-pages="0">i18n::hierarchy-type-social_networks-networks</base>
+      <fieldgroups>
+        <group name="network_system_props" title="i18n::fields-group-service_props" visible="visible" active="active">
+          <field id="9350" name="social_id" title="i18n::field-social_network_id" visible="visible" required="required" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9380" name="template_id" title="i18n::field-template_id" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9381" name="domain_id" title="i18n::field-domain_id" locked="locked" system="system">
+            <type name="i18n::field-type-domain-id" data-type="domain_id"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="823" guid="social_networks-network-vkontakte" title="i18n::object-type-vkontakte" parent-id="822" domain-id="0" locked="locked">
+      <base module="social_networks" method="vkontakte" hide-pages="0">i18n::hierarchy-type-social_networks-vkontakte</base>
+      <fieldgroups>
+        <group name="props" title="i18n::fields-group-props" visible="visible" locked="locked" active="active">
+          <field id="9351" name="nazvanie_sajta" title="i18n::field-site_name" visible="visible" required="required">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9349" name="is_iframe_enabled" title="i18n::field-is_iframe_enabled" visible="visible" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="9347" name="iframe_pages" title="i18n::field-iframe_pages" locked="locked">
+            <type name="i18n::field-type-symlink-multiple" data-type="symlink" multiple="multiple"/>
+            <tip>Здесь в дополнение к разделам каталога, можно выбрать, какие страницы нужно показывать в социальной сети</tip>
+          </field>
+        </group>
+        <group name="pages" title="i18n::fields-group-site_parts" visible="visible" locked="locked" active="active"/>
+        <group name="network_system_props" title="i18n::fields-group-service_props" visible="visible" active="active">
+          <field id="9350" name="social_id" title="i18n::field-social_network_id" visible="visible" required="required" system="system">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="9380" name="template_id" title="i18n::field-template_id" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="9381" name="domain_id" title="i18n::field-domain_id" locked="locked" system="system">
+            <type name="i18n::field-type-domain-id" data-type="domain_id"/>
+          </field>
+          <tip>Настройки интеграции интернет-магазина с социальными сетями</tip>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects>
+    <object id="27915" guid="social_networks-network-27915" name="i18n::object-vkontakte" type-id="823" type-guid="social_networks-network-vkontakte" ownerId="14" locked="1" xlink:href="uobject://27915" install-only="1">
+      <properties>
+        <group name="props">
+          <title>i18n::fields-group-props</title>
+          <tip/>
+          <property id="9351" object-id="27915" name="nazvanie_sajta" type="string" is-important="0">
+            <title>i18n::field-site_name</title>
+            <value>Демонстрационный магазин UMI.CMS</value>
+          </property>
+          <property id="9349" object-id="27915" name="is_iframe_enabled" type="boolean" is-important="0">
+            <title>i18n::field-is_iframe_enabled</title>
+            <value>1</value>
+          </property>
+        </group>
+        <group name="network_system_props">
+          <title>i18n::fields-group-service_props</title>
+          <tip>Настройки интеграции интернет-магазина с социальными сетями</tip>
+          <property id="9350" object-id="27915" name="social_id" type="string" is-important="0">
+            <title>i18n::field-social_network_id</title>
+            <value>vkontakte</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27085" guid="25ec3f9da5444fe6a125910137ec28200d4eaaa8" name="i18n::object-status-publish" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14" locked="0" xlink:href="uobject://27085" install-only="1">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>i18n::fields-group-svojstva_statusa_stranicy</title>
+          <tip/>
+          <property id="9027" object-id="27085" name="publish_status_id" type="string" is-important="0">
+            <title>i18n::field-publish_status_id</title>
+            <value>page_status_publish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27086" guid="8a6f804b3690f0592a3f17ed980a9df5f16bacd8" name="i18n::object-status-unpublish" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14" locked="0" xlink:href="uobject://27086" install-only="1">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>i18n::fields-group-svojstva_statusa_stranicy</title>
+          <tip/>
+          <property id="9027" object-id="27086" name="publish_status_id" type="string" is-important="0">
+            <title>i18n::field-publish_status_id</title>
+            <value>page_status_unpublish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27087" guid="f4df5d14f5a1aeeebfe3db75b73e57fef8bcc4f2" name="i18n::object-status-preunpublish" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14" locked="0" xlink:href="uobject://27087" install-only="1">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>i18n::fields-group-svojstva_statusa_stranicy</title>
+          <tip/>
+          <property id="9027" object-id="27087" name="publish_status_id" type="string" is-important="0">
+            <title>i18n::field-publish_status_id</title>
+            <value>page_status_preunpublish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+  </objects>
+  <pages/>
+  <entities/>
+  <relations>
+    <relation type-id="{root-pages-type}" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

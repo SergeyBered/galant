@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113686</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:46 +0300</rfc>
+      <utc>2021-08-16T14:34:46+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/trash" val="trash"/>
+    <key path="modules/trash/config" val="0" update="1"/>
+    <key path="modules/trash/default_method" val="empty" update="1"/>
+    <key path="modules/trash/default_method_admin" val="trash" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/trash" name="trash">/classes/components/trash</directory>
+    <directory path="./styles/skins/modern/data/modules/trash" name="trash">/styles/skins/modern/data/modules/trash</directory>
+    <directory path="./styles/skins/modern/data/modules/trash/man" name="man">/styles/skins/modern/data/modules/trash/man</directory>
+    <directory path="./styles/skins/modern/data/modules/trash/man/ru" name="ru">/styles/skins/modern/data/modules/trash/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/trash/icon" name="icon">/styles/skins/modern/data/modules/trash/icon</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/trash/permissions.php" size="558" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNo" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNoL3Blcm1pc3Npb25zLnBocA" hash="20c5255914706075eebc6a313e0f8db8" name="permissions.php">/classes/components/trash/permissions.php</file>
+    <file path="./classes/components/trash/lang.php" size="158" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNo" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNoL2xhbmcucGhw" hash="b3198acd060353bd134d49855f947284" name="lang.php">/classes/components/trash/lang.php</file>
+    <file path="./classes/components/trash/customAdmin.php" size="196" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNo" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNoL2N1c3RvbUFkbWluLnBocA" hash="7233c2e4e1a35f431649025d5e7a5d9b" name="customAdmin.php" only_install="true">/classes/components/trash/customAdmin.php</file>
+    <file path="./classes/components/trash/admin.php" size="4305" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNo" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNoL2FkbWluLnBocA" hash="7b421bc5027b7d5036b23f14f2899edd" name="admin.php">/classes/components/trash/admin.php</file>
+    <file path="./classes/components/trash/install.php" size="918" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNo" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNoL2luc3RhbGwucGhw" hash="5248a5b71ef7fbd4388375f4828e3de7" name="install.php">/classes/components/trash/install.php</file>
+    <file path="./classes/components/trash/i18n.en.php" size="999" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNo" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNoL2kxOG4uZW4ucGhw" hash="6f4cdddf5212824a8f63390547c90697" name="i18n.en.php" only_install="true">/classes/components/trash/i18n.en.php</file>
+    <file path="./classes/components/trash/class.php" size="1014" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNo" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNoL2NsYXNzLnBocA" hash="2de3b999ba2b616d08f94ead8c9d3d08" name="class.php">/classes/components/trash/class.php</file>
+    <file path="./classes/components/trash/i18n.php" size="1367" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNo" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNoL2kxOG4ucGhw" hash="ab26baa9c4e0b8451393ed46fed074bd" name="i18n.php">/classes/components/trash/i18n.php</file>
+    <file path="./classes/components/trash/lang.en.php" size="159" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNo" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL3RyYXNoL2xhbmcuZW4ucGhw" hash="10da30da376015afc3cda0885b86d104" name="lang.en.php">/classes/components/trash/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/trash/list.view.xsl" size="6549" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdHJhc2g" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdHJhc2gvbGlzdC52aWV3LnhzbA" hash="dcc9813dbcfbb24c19c780f58f12ac6d" name="list.view.xsl">/styles/skins/modern/data/modules/trash/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/trash/man/ru/trash.html" size="1646" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdHJhc2gvbWFuL3J1" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdHJhc2gvbWFuL3J1L3RyYXNoLmh0bWw" hash="8562771fe6aa6ea05bd380cca1653875" name="trash.html">/styles/skins/modern/data/modules/trash/man/ru/trash.html</file>
+    <file path="./styles/skins/modern/data/modules/trash/icon/trash.png" size="1764" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdHJhc2gvaWNvbg" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvdHJhc2gvaWNvbi90cmFzaC5wbmc" hash="1edf4ba4c75383095ad5aae9723526cc" name="trash.png">/styles/skins/modern/data/modules/trash/icon/trash.png</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <entities/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

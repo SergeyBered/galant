@@ -1,0 +1,33 @@
+{
+  "config": {
+    "platform": {
+      "php": "7.2.5"
+    },
+    "vendor-dir": "./vendor"
+  },
+
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "phpmailer/phpmailer": "~6.1.6",
+    "studio-42/elfinder": "~2.1.46",
+    "emojione/emojione": "~4.0",
+    "phpunit/phpunit": "~8.3",
+    "symfony/routing": "~5.0",
+    "symfony/config": "~5.0",
+    "ext-openssl": "*",
+    "ext-simplexml": "*",
+    "ext-zlib": "*",
+    "ext-xsl": "*",
+    "ext-xml": "*",
+    "ext-dom": "*",
+    "ext-mysqli": "*",
+    "ext-mbstring": "*",
+    "ext-libxml": "*",
+    "ext-xmlreader": "*",
+    "ext-json": "*",
+    "ext-iconv": "*",
+    "ext-gd": "*",
+    "ext-curl": "*",
+    "ext-phar": "*"
+  }
+}

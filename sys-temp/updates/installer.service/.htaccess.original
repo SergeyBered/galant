@@ -1,0 +1,101 @@
+####################### UMI_CMS_HTACCESS_BEGIN ###########################
+<IfModule mod_negotiation.c>
+    Options All -Indexes
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?path=$1&%{QUERY_STRING}&umi_authorization=%{HTTP:Authorization} [L]
+
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^(developerTools|errors|libs|smt|cache|xmldb|static|packages)\/.*$ / [L,R] #legacy directories
+</IfModule>
+
+<IfModule mod_php8.c>
+    php_flag engine off
+</IfModule>
+
+<IfModule mod_php7.c>
+    php_flag engine off
+</IfModule>
+
+<IfModule mod_php5.c>
+    php_flag engine off
+</IfModule>
+
+<IfModule mod_version.c>
+    <IfVersion >= 2.4>
+        <FilesMatch "(?i)\.(php[2-5]?|cgi|pl|fcgi|fpl|phtm|phtml|shtml|asp|jsp|twig|tpl|xslt?|git|svn|htaccess|htaccess_old|htpasswd|gitignore|gitkeep|ini|log|conf|md|sql|lock|umi\.json)$">
+            Require all denied
+        </FilesMatch>
+
+        <FilesMatch "^(?i)(index|install|umi_smt|installer|dummy|smu/installer|autothumbs|captcha|counter|cron|go-out|license_restore|save_domain_keycode|session|static_banner|updater)\.php$">
+            Require all granted
+        </FilesMatch>
+
+        <FilesMatch "^(?i)(index|install|umi_smt|installer|dummy|smu/installer)\.php$">
+            <IfModule mod_php8.c>
+                php_flag engine on
+            </IfModule>
+
+            <IfModule mod_php7.c>
+                php_flag engine on
+            </IfModule>
+
+            <IfModule mod_php5.c>
+                php_flag engine on
+            </IfModule>
+        </FilesMatch>
+    </IfVersion>
+
+    <IfVersion < 2.4>
+        <FilesMatch "(?i)\.(php[2-5]?|cgi|pl|fcgi|fpl|phtm|phtml|shtml|asp|jsp|twig|tpl|xslt?|git|svn|htaccess|htaccess_old|htpasswd|gitignore|gitkeep|ini|log|conf|md|sql|lock|umi\.json)$">
+            Deny from all
+        </FilesMatch>
+
+        <FilesMatch "^(?i)(index|install|umi_smt|installer|dummy|smu/installer|autothumbs|captcha|counter|cron|go-out|license_restore|save_domain_keycode|session|static_banner|updater)\.php$">
+            Allow from all
+        </FilesMatch>
+
+        <FilesMatch "^(?i)(index|install|umi_smt|installer|dummy|smu/installer)\.php$">
+            <IfModule mod_php8.c>
+                php_flag engine on
+            </IfModule>
+
+            <IfModule mod_php7.c>
+                php_flag engine on
+            </IfModule>
+
+            <IfModule mod_php5.c>
+                php_flag engine on
+            </IfModule>
+        </FilesMatch>
+    </IfVersion>
+</IfModule>
+
+<IfModule !mod_version.c>
+    <FilesMatch "(?i)\.(php[2-5]?|cgi|pl|fcgi|fpl|phtm|phtml|shtml|asp|jsp|twig|tpl|xslt?|git|svn|htaccess|htaccess_old|htpasswd|gitignore|gitkeep|ini|log|conf|md|sql|lock|umi\.json)$">
+        Deny from all
+    </FilesMatch>
+
+    <FilesMatch "^(?i)(index|install|umi_smt|installer|dummy|smu/installer|autothumbs|captcha|counter|cron|go-out|license_restore|save_domain_keycode|session|static_banner|updater)\.php$">
+        Allow from all
+    </FilesMatch>
+
+    <FilesMatch "^(?i)(index|install|umi_smt|installer|dummy|smu/installer)\.php$">
+        <IfModule mod_php8.c>
+            php_flag engine on
+        </IfModule>
+
+        <IfModule mod_php7.c>
+            php_flag engine on
+        </IfModule>
+
+        <IfModule mod_php5.c>
+            php_flag engine on
+        </IfModule>
+    </FilesMatch>
+</IfModule>
+######################## UMI_CMS_HTACCESS_END ############################

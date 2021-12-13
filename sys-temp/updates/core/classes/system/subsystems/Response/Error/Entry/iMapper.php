@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Response\Error\Entry;use UmiCms\System\Orm\Entity\iMapper as iAbstractMapper;interface iMapper extends iAbstractMapper {const URL = 'url';const CODE = 'code';const HITS_COUNT = 'hits_count';const DOMAIN_ID = 'domain_id';const UPDATE_TIME = 'update_time';}

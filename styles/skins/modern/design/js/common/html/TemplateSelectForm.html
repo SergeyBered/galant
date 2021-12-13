@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<div class="group-block"></div>
+		<script id="template-option" type="text/template">
+			<div class="title-edit"><%= label %></div>
+			<select class="default newselect" name="id">
+				<% _.each(templateList, function(template) { %>
+					<option value="<%= template.id %>"><%= template.name %></option>
+				<% }); %>
+			</select>
+		</script>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<route>
+		<transaction name="make_templates_backup">
+			<action name="CreateDirectory">
+				<param name="targets">
+					<param name="backup-directory" value="./sys-temp/manifest/backup/templates"/>
+					<param name="temporary-directory" value="./sys-temp/manifest/backup/templates/temp/"/>
+				</param>
+			</action>
+			<action name="CheckPermissions">
+				<param name="target" value="." />
+				<param name="mode" value="write" />
+			</action>
+			<action name="MakeFilesBackup">
+				<param name="temporary-directory" value="./sys-temp/manifest/backup/templates/temp/"/>
+				<param name="targets">
+					<param name="templates" value="templates" />
+				</param>
+			</action>
+			<action name="CompressDirectory">
+				<param name="target-directory" value="./sys-temp/manifest/backup/templates/temp/" />
+				<param name="output-file-name" value="./sys-temp/manifest/backup/templates/{Y.m.d-H:i:s}.zip" />
+			</action>
+			<action name="RemoveDirectory">
+				<param name="target-directory" value="./sys-temp/manifest/backup/templates/temp/" />
+			</action>
+		</transaction>
+	</route>
+</manifest>

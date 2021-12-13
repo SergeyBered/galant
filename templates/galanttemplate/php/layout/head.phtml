@@ -1,0 +1,53 @@
+<?php
+/**
+ * Содержимое html-тега <head>.
+ *
+ * @var umiTemplaterPHP|ViewPhpExtension|DemomarketPhpExtension $this
+ * @var array $variables
+ */
+$description = $this->escape($this->getMetaDescription($variables));
+$title = $this->escape($this->getMetaTitle($variables));
+?>
+
+<base href="<?= $this->macros('umiTemplates', 'getResourceDirectory') ?>">
+<title><?= $title ?></title>
+<meta property="og:title" content="<?= $title ?>">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="<?= $description ?>">
+<meta property="og:description" content="<?= $description ?>">
+<meta name="keywords" content="<?= $this->escape($this->getMetaKeywords($variables)) ?>">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:type" content="website">
+<meta property="og:url" content="<?= $this->escape($variables['request-url']) ?>">
+
+<meta name="author" content="Umisoft">
+<?= $this->getCanonicalLinkTag($variables) ?>
+<?= $this->getMetaRobots($variables) ?>
+<link rel="shortcut icon" href="<?= $this->escape($this->getFaviconPath()) ?>" />
+
+<?= $this->macros('content', 'includeFrontendResources') ?>
+
+<link rel="stylesheet" href="<?= $this->macros('umiTemplates', 'getResourceDirectory') ?>css/main.css">
+<!-- <link rel="stylesheet" href="compiled/demomarket.min.css"> -->
+
+<script type="text/javascript" src="<?= $this->macros('umiTemplates', 'getResourceDirectory') ?>js/main.js" charset="utf-8"></script>
+
+
+<?php if ($this->isRecaptchaEnabled()): ?>
+	<script src="<?= $this->getRecaptchaUrl($variables) ?>" async defer></script>
+
+	<!--suppress JSUnusedLocalSymbols -->
+	<script>
+		var CaptchaCallback = function() {
+			$('.g-recaptcha').each(function(index, el) {
+				grecaptcha.render(el, {'sitekey': '<?= $this->getRecaptchaSiteKey() ?>'});
+			});
+		};
+	</script>
+<?php endif; ?>
+
+<style>
+	<?= $this->getUserCss() ?>
+</style>

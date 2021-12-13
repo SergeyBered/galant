@@ -1,0 +1,285 @@
+html, body {
+	margin: 0;
+	padding: 5px;
+	font-family: Tahoma;
+	color: #707070;
+	font-size: 12px;
+	background: #f9f9f9;
+}
+
+h3 {
+	margin: 10px 0 20px 10px;
+	font-size: 12px;
+}
+
+img {
+	border: none;
+}
+
+form {
+	margin: 0;
+}
+
+fieldset {
+	border: none;
+}
+
+fieldset a {
+	color: gray;
+}
+
+fieldset ul li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+fieldset ul li label {
+	margin-bottom: 0;
+}
+
+fieldset label.boolean {
+	display: inline-block;
+	position: relative;
+	bottom: 1px;
+	margin-left: 3px;
+}
+
+fieldset div.cifi {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+fieldset div.cifi select {
+	width: 80%;
+	margin-right: 5px;
+}
+
+fieldset label input,
+fieldset label textarea,
+fieldset label select,
+fieldset label table {
+	width: 80%;
+	display: block;
+}
+
+fieldset label table.mceLayout {
+	width: 80% !important;
+}
+
+fieldset label select.fileControlSelect {
+	display: inline-block;
+}
+
+fieldset label input.relation-search {
+	display: inline-block;
+}
+
+fieldset label input.relation-add {
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	width: auto;
+	background: url("/styles/skins/modern/design/img/tree/ico_add.png") no-repeat;
+	border: 0;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	margin-left: 5px;
+}
+
+fieldset ul li .pick-element {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+fieldset ul li .pick-element img {
+	cursor: pointer;
+}
+
+fieldset ul li .pick-element input {
+	margin-right: 5px;
+}
+
+.clear {
+	clear: both;
+	height: 10px;
+}
+
+.eip_page_type_choice {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 116px;
+	width: calc( 100% / 4 - 20px );
+	background: url(/styles/skins/_eip/images/add_page_bg.png) no-repeat;
+	margin: 0 10px 20px 10px;
+	float: left;
+	cursor: pointer;
+}
+
+.eip_page_type_choice img {
+	margin: 5px 0;
+}
+
+.eip_page_type_choice .eip_page_type_choice_title {
+	padding: 0 10px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+.eip_buttons {
+	padding: 20px 0 0;
+}
+
+.eip_buttons input {
+	float: right;
+	height: auto;
+	display: inline-block;
+	margin-left: 5px;
+	color: #fff;
+	line-height: 23px;
+	border-radius: 3px;
+	cursor: pointer;
+	background: #2ba0d9;
+	border: none;
+	outline: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 25px;
+	padding: 10px 25px;
+	min-width: 96px;
+	box-sizing: border-box;
+	height: 44px;
+}
+
+.eip_buttons input:hover {
+	background: #0887B7;
+}
+
+.eip_buttons input.back {
+	border: 1px solid #2ba0d9;
+	color: #2ba0d9;
+	background: #fff;
+}
+
+div.div_domain_select {
+	position: fixed;
+	right: 0;
+	text-align: right;
+	top: 0;
+	width: 50%;
+	z-index: 100;
+}
+
+.collapsible ul {
+	padding-left: 0;
+}
+
+.collapsible legend a[href] {
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.collapsible legend a[href].eip_disable_link {
+	pointer-events: none;
+	color: #ccc;
+	font-weight: inherit;
+}
+
+acronym.eip_field_tip_title {
+	border-bottom: 1px dotted black;
+	cursor: help;
+	text-decoration: none;
+}
+
+p.eip_field_title_container {
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+textarea.eipPopupText {
+	height: 150px;
+	border-color: #ccc;
+	resize: vertical;
+}
+
+.collapsible {
+	max-width: 100%;
+	padding: 0;
+}
+
+#eip_page .mce-container, #eip_page .mce-container *, #eip_page .mce-widget, #eip_page .mce-widget *, #eip_page .mce-reset {
+	white-space: normal;
+}
+
+#eip_page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin: 0;
+	height: 100%;
+	min-height: fit-content;
+}
+
+#eip_page > form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	padding: 0 10px;
+}
+
+@media all and (-ms-high-contrast: none) {
+
+	#eip_page > form {
+		display: block;
+	}
+
+}
+
+#eip_page > form .eip_buttons {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	min-height: fit-content;
+}
+
+.mce-btn-group div.mce-menubtn.mce-opened {
+	z-index: 65534;
+}
+
+.eip_page_radio:not(:first-of-type) {
+	margin-top: 15px;
+}
+
+.eip_page_radio > label {
+	display: inline-flex;
+	align-items: center;
+}
+
+.eip_page_radio > label > input[type='radio'] {
+	margin: 0 5px 0 0;
+}

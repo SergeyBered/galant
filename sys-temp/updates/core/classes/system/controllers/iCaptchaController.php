@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use \iUmiCaptcha as iCaptchaFacade;use \UmiCms\System\Session\iSession;interface iCaptchaController extends iController {public function setSession(iSession $v21d6f40cfb511982e4424e0e250a9557);public function setGenerator(iCaptchaFacade $ve462b360d52bb9a4d99282975b8f9e1b);}

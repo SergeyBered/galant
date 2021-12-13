@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\PageNum;interface iAgent {public function resolve(string $v572d4e421e5e6b9bc11d815e8a027112) : int;public function issetPageNumber(string $v572d4e421e5e6b9bc11d815e8a027112) : bool;public function cleanUrl(string $v572d4e421e5e6b9bc11d815e8a027112) : string;public function generateUri(string $v572d4e421e5e6b9bc11d815e8a027112, int $vb1bc248a7ff2b2e95569f56de68615df) : string;}

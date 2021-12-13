@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Events\Handler;use UmiCms\System\Events\iHandler;interface iCustom extends iHandler {public function __construct(string $v53cc4db543d7a569e51c1d76ac6f278e, callable $v924a8ceeac17f54d3be3f8cdf1c04eb2);public function getCallback() : callable;public function setCallback(callable $v924a8ceeac17f54d3be3f8cdf1c04eb2) : iCustom;}

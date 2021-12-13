@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Response\Error\Entry;use UmiCms\System\Response\Error\iEntry;use UmiCms\System\Orm\Entity\iRepository as iAbstractRepository;interface iRepository extends iAbstractRepository {public function getSliceByDomain($v72ee76c5c29383b7c9f9225c1fa4d10b, $v7a86c157ee9713c34fbd7a1ee40f0c5a, $vaa9f73eea60a006820d0f8768bc8a3fc, array $v0aab302bca118b077623619774e51433 = []);public function getCountByDomain($v72ee76c5c29383b7c9f9225c1fa4d10b);}

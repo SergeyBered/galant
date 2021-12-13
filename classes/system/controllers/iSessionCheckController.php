@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use UmiCms\System\Session\iSession;use UmiCms\System\Auth\iAuth as iFacade;interface iSessionCheckController extends iController {public function setSession(iSession $v21d6f40cfb511982e4424e0e250a9557);public function setAuth(iFacade $vfa53b91ccc1b78668d5af58e1ed3a485);}

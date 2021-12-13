@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Utils\SiteMap\Image;use UmiCms\System\Orm\Entity\iSchema as iAbstractSchema;interface iSchema extends iAbstractSchema {const TABLE_CONTAINER_NAME = 'cms_sitemap_images';}

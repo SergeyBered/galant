@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Utils\Stub;use \iConfiguration as iConfig;use UmiCms\Classes\System\Utils\Stub\Settings\iFactory as iSettingFactory;use UmiCms\Classes\System\Utils\DOM\Document\iFactory as iDomDocumentFactory;interface iContent {public function __construct(iConfig $v2245023265ae4cf87d02c8b6ba991139, iSettingFactory $v02a9df299a9e4e5b9f2723ea5b941e35, iDomDocumentFactory $vfc9e2d0d5c0256454b185d0788b6ca5a);public function getCustom();public function getDefault();}

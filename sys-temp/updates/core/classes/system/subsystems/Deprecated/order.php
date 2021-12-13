@@ -1,0 +1,2 @@
+<?php
+ use UmiCms\System\Selector\Order;abstract class selectorOrderField extends Order\Attribute {}class selectorOrderFieldProp extends Order\Attribute\Field {}class selectorOrderSysProp extends Order\Attribute\Property {}

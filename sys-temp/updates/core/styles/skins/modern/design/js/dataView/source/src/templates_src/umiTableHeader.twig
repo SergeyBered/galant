@@ -1,0 +1,49 @@
+<tr class="table-row title">
+    {% for field in fields %}
+        <th {{  field.size ? 'style="width:'~ field.size ~';"':'' }} class="table-cell" umi-field="{{ field.field }}">
+            <span></span>
+            {% if field.sortable != 'false' %}
+                <div class="table-title disabled" umi-field="{{ field.field }}" title="{{ field.title }}">{{ field.title }}</div>
+            {% else %}
+                <div class="table-title-no-order disabled" umi-field="{{ field.field }}" title="{{ field.title }}">{{ field.title }}</div>
+            {% endif %}
+            {% if field.filterable != 'false' %}
+                <div class="input-search" style="overflow: visible;">
+                    {% if field.type == 'bool' %}
+                        <select class="default t-filter-select" umi-field="{{ field.field }}">
+                            <option value="-1">{{ trans('js-all') }}</option>
+                            <option value="1">{{ trans('js-value-yes') }}</option>
+                            <option value="0">{{ trans('js-value-no') }}</option>
+                        </select>
+                    {% elseif field.type in ['image', 'photo', 'file', 'multiple_image', 'multiple_file']  %}
+                        <select class="default t-filter-select" umi-field="{{ field.field }}">
+                            <option value="-1">{{ trans('js-all') }}</option>
+                            <option value="1">{{ trans('js-value-file-yes') }}</option>
+                            <option value="0">{{ trans('js-value-no') }}</option>
+                        </select>
+                    {% elseif  field.type  == 'date' %}
+                        <input type="text" class="fcStringInput default" placeholder="{{ trans('js-date-placeholder') }}" umi-field="{{ field.field }}" umi-type="{{ field.type }}"/>
+                    {% elseif  field.type  == 'time' %}
+                        <input type="text" class="fcStringInput default" placeholder="{{ trans('js-time-placeholder') }}" umi-field="{{ field.field }}" umi-type="{{ field.type }}"/>
+                    {% elseif  field.type  == 'datetime' %}
+                        <input type="text" class="fcStringInput default" placeholder="{{ trans('js-date-time-placeholder') }}" umi-field="{{ field.field }}" umi-type="{{ field.type }}"/>
+                    {% elseif field.type == 'relation' and field.options %}
+                        <select class="default t-filter-select" umi-field="{{ field.field }}">
+                            <option value="-1" selected>{{ trans('js-all') }}</option>
+                            {% for item in field.options %}
+                                <option value="{{ item }}">{{ item }}</option>
+                            {% endfor %}
+                        </select>
+                    {% else %}
+                    <input type="text" placeholder="{{ trans('js-field-search') }}" class="fcStringInput default" umi-field="{{ field.field }}"/>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </th>
+    {% endfor %}
+    <th class="table-cell plus" style="width: 100%; text-align: left; vertical-align: middle;" title="{{ trans('js-add-column') }}">
+        {% if countFields > 1 %}
+            <i class="small-ico i-add pointer cols_controler" ></i>
+        {% endif %}
+    </th>
+</tr>

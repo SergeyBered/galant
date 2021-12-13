@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1629113682</timestamp>
+      <rfc>Mon, 16 Aug 2021 14:34:42 +0300</rfc>
+      <utc>2021-08-16T14:34:42+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/news" val="news"/>
+    <key path="modules/news/name" val="news"/>
+    <key path="modules/news/filename" val="modules/news/class.php"/>
+    <key path="modules/news/config" val="1" update="1"/>
+    <key path="modules/news/default_method" val="archive" update="1"/>
+    <key path="modules/news/default_method_admin" val="lists" update="1"/>
+    <key path="modules/news/per_page" val="10"/>
+  </registry>
+  <directories>
+    <directory path="./classes/components/news" name="news">/classes/components/news</directory>
+    <directory path="./styles/skins/modern/data/modules/news" name="news">/styles/skins/modern/data/modules/news</directory>
+    <directory path="./styles/skins/modern/data/modules/news/man" name="man">/styles/skins/modern/data/modules/news/man</directory>
+    <directory path="./styles/skins/modern/data/modules/news/man/ru" name="ru">/styles/skins/modern/data/modules/news/man/ru</directory>
+    <directory path="./styles/skins/modern/data/modules/news/icon" name="icon">/styles/skins/modern/data/modules/news/icon</directory>
+  </directories>
+  <files>
+    <file path="./classes/components/news/macros.php" size="19303" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvbWFjcm9zLnBocA" hash="c96da2ce9f7dc0d5bd4c55895f5aa5fa" name="macros.php">/classes/components/news/macros.php</file>
+    <file path="./classes/components/news/permissions.php" size="1070" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvcGVybWlzc2lvbnMucGhw" hash="7c3fa21ed09adeba73a4b8f5c9aa9c9b" name="permissions.php">/classes/components/news/permissions.php</file>
+    <file path="./classes/components/news/customMacros.php" size="151" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvY3VzdG9tTWFjcm9zLnBocA" hash="6df39f2b9fe1d08577efa516c6583547" name="customMacros.php" only_install="true">/classes/components/news/customMacros.php</file>
+    <file path="./classes/components/news/lang.php" size="1837" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvbGFuZy5waHA" hash="8e770c60c43bed47eeeddb6e52affa39" name="lang.php">/classes/components/news/lang.php</file>
+    <file path="./classes/components/news/customAdmin.php" size="194" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvY3VzdG9tQWRtaW4ucGhw" hash="8e767012d18bc11aac1b7a45a7ba83aa" name="customAdmin.php" only_install="true">/classes/components/news/customAdmin.php</file>
+    <file path="./classes/components/news/events.php" size="1353" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvZXZlbnRzLnBocA" hash="8e5555f3daa7d97f54aada7f185b9ee5" name="events.php">/classes/components/news/events.php</file>
+    <file path="./classes/components/news/handlers.php" size="4140" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvaGFuZGxlcnMucGhw" hash="0e268100dc179b9d33160cd5c49a105e" name="handlers.php">/classes/components/news/handlers.php</file>
+    <file path="./classes/components/news/admin.php" size="10298" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvYWRtaW4ucGhw" hash="9bc315899389385396e09f963f7ff995" name="admin.php">/classes/components/news/admin.php</file>
+    <file path="./classes/components/news/install.php" size="1038" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvaW5zdGFsbC5waHA" hash="6a21faa584cc13a6c042e492910eac78" name="install.php">/classes/components/news/install.php</file>
+    <file path="./classes/components/news/feeds.php" size="4527" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvZmVlZHMucGhw" hash="a5cce724a5e3dc088dd35f9a0417e2f7" name="feeds.php">/classes/components/news/feeds.php</file>
+    <file path="./classes/components/news/includes.php" size="69" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvaW5jbHVkZXMucGhw" hash="d8390332e5eab88068b5d9fd59999fb5" name="includes.php">/classes/components/news/includes.php</file>
+    <file path="./classes/components/news/i18n.en.php" size="1411" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvaTE4bi5lbi5waHA" hash="d99b95c2b45642871c0a1929db1e6d02" name="i18n.en.php" only_install="true">/classes/components/news/i18n.en.php</file>
+    <file path="./classes/components/news/class.php" size="3400" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvY2xhc3MucGhw" hash="5ba585fcfbbd9ee89d85814a6f0b30ad" name="class.php">/classes/components/news/class.php</file>
+    <file path="./classes/components/news/i18n.php" size="2059" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvaTE4bi5waHA" hash="92b253c2882605af7175236e7183dfc3" name="i18n.php">/classes/components/news/i18n.php</file>
+    <file path="./classes/components/news/calendar.php" size="13460" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvY2FsZW5kYXIucGhw" hash="b4ce6f92014d3b65a1cc3ab899e83045" name="calendar.php">/classes/components/news/calendar.php</file>
+    <file path="./classes/components/news/lang.en.php" size="1278" ext="php" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3M" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvY2xhc3Nlcy9jb21wb25lbnRzL25ld3MvbGFuZy5lbi5waHA" hash="af9d0191a9003dc79bb2b691f9445f9a" name="lang.en.php">/classes/components/news/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/news/list.view.xsl" size="1427" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9saXN0LnZpZXcueHNs" hash="a268023623f4a269dfcf68fb1f8013be" name="list.view.xsl">/styles/skins/modern/data/modules/news/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/news/man/ru/config.html" size="847" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnUvY29uZmlnLmh0bWw" hash="f09f35ec90cf364730c5f441329f2f7f" name="config.html">/styles/skins/modern/data/modules/news/man/ru/config.html</file>
+    <file path="./styles/skins/modern/data/modules/news/man/ru/edit.item.html" size="2730" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnUvZWRpdC5pdGVtLmh0bWw" hash="fb0e09bdc610e465c3f24771bd36d35a" name="edit.item.html">/styles/skins/modern/data/modules/news/man/ru/edit.item.html</file>
+    <file path="./styles/skins/modern/data/modules/news/man/ru/lists.html" size="2706" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnUvbGlzdHMuaHRtbA" hash="1c4f535a2148d75055511b6721a8af75" name="lists.html">/styles/skins/modern/data/modules/news/man/ru/lists.html</file>
+    <file path="./styles/skins/modern/data/modules/news/man/ru/edit.rubric.html" size="994" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnUvZWRpdC5ydWJyaWMuaHRtbA" hash="d1bc49a0bbd172c2bc167f1909fbb539" name="edit.rubric.html">/styles/skins/modern/data/modules/news/man/ru/edit.rubric.html</file>
+    <file path="./styles/skins/modern/data/modules/news/man/ru/subjects.html" size="1615" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnUvc3ViamVjdHMuaHRtbA" hash="8607bb67097a64cae8f2a1af2e684558" name="subjects.html">/styles/skins/modern/data/modules/news/man/ru/subjects.html</file>
+    <file path="./styles/skins/modern/data/modules/news/man/ru/rss_list.html" size="1212" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnUvcnNzX2xpc3QuaHRtbA" hash="bbe20ceb6aa67c61b085d910e44bced6" name="rss_list.html">/styles/skins/modern/data/modules/news/man/ru/rss_list.html</file>
+    <file path="./styles/skins/modern/data/modules/news/man/ru/add.item.html" size="2644" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnUvYWRkLml0ZW0uaHRtbA" hash="311793a3d9095b10c442115d9bf02c5f" name="add.item.html">/styles/skins/modern/data/modules/news/man/ru/add.item.html</file>
+    <file path="./styles/skins/modern/data/modules/news/man/ru/add.rubric.html" size="970" ext="html" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnU" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9tYW4vcnUvYWRkLnJ1YnJpYy5odG1s" hash="51c247496a08393ec8fb132bdb62d5b9" name="add.rubric.html">/styles/skins/modern/data/modules/news/man/ru/add.rubric.html</file>
+    <file path="./styles/skins/modern/data/modules/news/icon/news.png" size="1500" ext="png" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9pY29u" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9pY29uL25ld3MucG5n" hash="9a4444cfd63196f979cc1acc18128d95" name="news.png">/styles/skins/modern/data/modules/news/icon/news.png</file>
+    <file path="./styles/skins/modern/data/modules/news/list.modify.xsl" size="6282" ext="xsl" folder_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cw" file_hash="umiimages_d3d3L3VwZGF0ZXNlcnZlci9leHBvcnQvc3R5bGVzL3NraW5zL21vZGVybi9kYXRhL21vZHVsZXMvbmV3cy9saXN0Lm1vZGlmeS54c2w" hash="e81f47fccbf27f528e8aa573f116c014" name="list.modify.xsl">/styles/skins/modern/data/modules/news/list.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="i18n::object-type-spravochniki" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="745" guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" title="i18n::object-type-status_stranicy" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="svojstva_statusa_stranicy" title="i18n::fields-group-svojstva_statusa_stranicy" visible="visible" active="active">
+          <field id="9027" name="publish_status_id" title="i18n::field-publish_status_id" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="{root-pages-type}" guid="root-pages-type" title="i18n::object-type-razdel_sajta" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="i18n::field-title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="i18n::field-h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="i18n::field-content" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="i18n::field-meta_descriptions" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="i18n::field-meta_keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки страницы</tip>
+        </group>
+        <group name="more_params" title="i18n::fields-group-more_params" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="i18n::field-robots_deny" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="i18n::field-show_submenu" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="i18n::field-is_expanded" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="i18n::field-is_unindexed" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="rate_props" title="i18n::fields-group-rate_props" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="i18n::field-rate_voters" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="i18n::field-rate_sum" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="i18n::fields-group-svojstva_publikacii" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="i18n::field-expiration_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="i18n::field-notification_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="i18n::field-publish_comments" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="i18n::field-publish_status" visible="visible" locked="locked" guide-id="745">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="i18n::fields-group-locks" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="i18n::field-locktime" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="i18n::field-lockuser" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="18" guid="news-rubric" title="i18n::object-type-news-rubric" parent-id="{root-pages-type}" domain-id="0" guide="guide" locked="locked">
+      <base module="news" method="rubric" hide-pages="0">i18n::hierarchy-type-news-rubric</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" active="active" visible="0">
+          <field id="22" name="title" title="i18n::field-title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="i18n::field-h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="i18n::field-meta_keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="i18n::field-meta_descriptions" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <field id="67" name="readme" title="i18n::field-readme" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <tip>Основные настройки ленты новостей</tip>
+        </group>
+        <group name="more_params" title="i18n::fields-group-more_params" active="active" visible="0">
+          <field id="30" name="robots_deny" title="i18n::field-robots_deny" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="i18n::field-show_submenu" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="i18n::field-is_expanded" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="i18n::field-is_unindexed" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="rate_voters" title="i18n::fields-group-rate_voters" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="i18n::field-rate_voters" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="i18n::field-rate_sum" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="i18n::fields-group-svojstva_publikacii" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="i18n::field-expiration_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="i18n::field-notification_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="i18n::field-publish_comments" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="i18n::field-publish_status" visible="visible" locked="locked" guide-id="745">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="i18n::fields-group-locks" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="i18n::field-locktime" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="i18n::field-lockuser" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="34" guid="news-subject" title="i18n::object-type-news-subject" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base module="news" method="subject" hide-pages="0">i18n::hierarchy-type-news-subject</base>
+      <fieldgroups/>
+    </type>
+    <type id="23" guid="news-item" title="i18n::object-type-news-item" parent-id="{root-pages-type}" domain-id="0" locked="locked">
+      <base module="news" method="item" hide-pages="0">i18n::hierarchy-type-news-item</base>
+      <fieldgroups>
+        <group name="common" title="i18n::fields-group-common" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="i18n::field-title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="i18n::field-h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="i18n::field-meta_keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="i18n::field-meta_descriptions" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="i18n::field-tags" visible="visible" locked="locked">
+            <type name="i18n::field-type-tags-multiple" data-type="tags" multiple="multiple"/>
+          </field>
+          <field id="71" name="anons" title="i18n::field-anons" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <field id="26" name="content" title="i18n::field-content" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="i18n::field-type-wysiwyg" data-type="wysiwyg"/>
+          </field>
+          <tip>Основные настройки новости</tip>
+        </group>
+        <group name="item_props" title="i18n::fields-group-item_props" locked="locked" active="active" visible="0">
+          <field id="72" name="source" title="i18n::field-source" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="73" name="source_url" title="i18n::field-source_url" visible="visible" locked="locked">
+            <type name="i18n::field-type-string" data-type="string"/>
+          </field>
+          <field id="74" name="publish_time" title="i18n::field-publish_time" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="75" name="begin_time" title="i18n::field-begin_time" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="76" name="end_time" title="i18n::field-end_time" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <tip>Основные свойства публикации новости</tip>
+        </group>
+        <group name="more_params" title="i18n::fields-group-more_params" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="i18n::field-robots_deny" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="i18n::field-show_submenu" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="i18n::field-is_expanded" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="i18n::field-is_unindexed" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="i18n::field-type-boolean" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="news_images" title="i18n::fields-group-news_images" visible="visible" active="active">
+          <field id="77" name="anons_pic" title="i18n::field-anons_pic" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-img_file" data-type="img_file"/>
+          </field>
+          <field id="78" name="publish_pic" title="i18n::field-publish_pic" visible="visible" locked="locked" important="important">
+            <type name="i18n::field-type-img_file" data-type="img_file"/>
+          </field>
+          <tip>Управление изображениями новости</tip>
+        </group>
+        <group name="subjects_block" title="i18n::fields-group-subjects_block" visible="visible" locked="locked" active="active">
+          <field id="79" name="subjects" title="i18n::field-subjects" visible="visible" locked="locked" guide-id="34">
+            <type name="i18n::field-type-relation-multiple" data-type="relation" multiple="multiple"/>
+          </field>
+          <tip>Сюжеты служат для группировки новостей по тематикам. Список последних новостей, связанных с данной по сюжету, можно вывести при помощи макроса &lt;a target="_blank" href="http://dev.docs.umi-cms.ru/spravochnik_makrosov_umicms/novosti/news_related_links/"&gt;news related_links()&lt;/a&gt;</tip>
+        </group>
+        <group name="rate_voters" title="i18n::fields-group-rate_voters" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="i18n::field-rate_voters" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="i18n::field-rate_sum" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="i18n::fields-group-svojstva_publikacii" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="i18n::field-expiration_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="i18n::field-notification_date" visible="visible" locked="locked">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="i18n::field-publish_comments" visible="visible" locked="locked">
+            <type name="i18n::field-type-text" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="i18n::field-publish_status" visible="visible" locked="locked" guide-id="745">
+            <type name="i18n::field-type-relation" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="i18n::fields-group-locks" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="i18n::field-locktime" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-date" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="i18n::field-lockuser" visible="visible" locked="locked" system="system">
+            <type name="i18n::field-type-int" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <entities/>
+  <relations>
+    <relation type-id="{root-pages-type}" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="18" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="23" field-name="subjects">
+      <guide id="34"/>
+    </relation>
+    <relation type-id="23" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

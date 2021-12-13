@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<body>
+		<script id="error-message" type="text/template">
+			<div class="title-edit">В процессе обновления произошла ошибка.</div>
+			<% if (showScroll) { %>
+				<div class="title-edit">
+					<div class="scroll"><%= message %></div>
+				</div>
+			<% } else { %>
+				<div class="title-edit"><%= message %></div>
+			<% } %>
+			<div class="to-right">
+				<a class="btn color-blue btn-small close-dialog" title="Остановить обновление">Закрыть</a>
+				<a class="btn color-blue btn-small retry-button" title="Попробовать продолжить обновление">Повторить попытку</a>
+			</div>
+		</script>
+	</body>
+</html>

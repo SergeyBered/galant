@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\Controllers;use \iUmiCron as iExecutor;use UmiCms\Classes\System\MiddleWares\iAuth;use \iPermissionsCollection as iPermissions;interface iCronController extends iController, iAuth{public function setExecutor(iExecutor $vb1925939f66c2e4625aadb18cabf1cea);public function setPermissions(iPermissions $permissions);}

@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\Classes\System\MiddleWares;use UmiCms\Classes\System\MobileApp\UmiManager\iChecker;interface iUmiManager {public function setChecker(iChecker $v9bcf0edc75944b260de8279d7a6d8174);public function validateUmiManagerRequest();}

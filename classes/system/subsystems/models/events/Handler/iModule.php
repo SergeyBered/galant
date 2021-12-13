@@ -1,0 +1,2 @@
+<?php
+ namespace UmiCms\System\Events\Handler;use UmiCms\System\Events\iHandler;interface iModule extends iHandler {public function __construct($v53cc4db543d7a569e51c1d76ac6f278e, $v3bbcfa413b8a5c88250b9fbd41da2fcb, $v9d39b057bcc1e761e1d8b96b2e062561);public function setCallbackModule(string $v22884db148f0ffb0d830ba431102b0b5) : iModule;public function getCallbackModule() : ?string;public function setCallbackMethod(string $vea9f6aca279138c58f705c8d4cb4b8ce) : iModule;public function getCallbackMethod() : ?string;}
